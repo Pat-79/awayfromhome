@@ -9,10 +9,10 @@
 
 <channel>
 	<title>island &#8211; awayfromhome.nl</title>
-	<atom:link href="http://172.28.14.89/index.php/tag/island/feed/?simply_static_page=554" rel="self" type="application/rss+xml" />
+	<atom:link href="http://172.28.14.89/index.php/tag/island/feed/?simply_static_page=649" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>your getaway at home</description>
-	<lastBuildDate>Tue, 14 May 2024 22:49:47 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 14 May 2024 23:39:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Diving in Bonaire</title>
 		<link>/index.php/2020/12/10/diving-in-bonaire/</link>
-					<comments>/index.php/2020/12/10/diving-in-bonaire/#respond</comments>
 		
 		<dc:creator><![CDATA[patrick]]></dc:creator>
 		<pubDate>Thu, 10 Dec 2020 22:42:00 +0000</pubDate>
@@ -50,8 +49,6 @@
 </div><figcaption class="wp-element-caption">Turtle at Tolo Divesite (Ol&#8217; Blue, 13), Bonaire</figcaption></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/index.php/2020/12/10/diving-in-bonaire/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
