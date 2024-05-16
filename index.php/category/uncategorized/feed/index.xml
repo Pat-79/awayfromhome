@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>vacation &#8211; awayfromhome.nl</title>
-	<atom:link href="/index.php/tag/vacation/feed/" rel="self" type="application/rss+xml" />
+	<title>Uncategorized &#8211; awayfromhome.nl</title>
+	<atom:link href="/index.php/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>your getaway at home</description>
 	<lastBuildDate>Thu, 16 May 2024 15:24:14 +0000</lastBuildDate>
@@ -22,7 +22,7 @@
 
 <image>
 	<url>/wp-content/uploads/2024/05/cropped-cropped-map_track_blue-e1715771708103-1-32x32.png</url>
-	<title>vacation &#8211; awayfromhome.nl</title>
+	<title>Uncategorized &#8211; awayfromhome.nl</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
