@@ -30,7 +30,7 @@
 
 @font-face {
     font-family: Academicons;
-    src: url(../font/academicons.woff2?v=1.8.7) format('woff2');
+    src: url(/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/academicons.woff2?v=1.8.7) format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: block;

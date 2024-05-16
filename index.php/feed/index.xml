@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>awayfromhome.nl</title>
+	<atom:link href="/index.php/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>your getaway at home</description>
+	<lastBuildDate>Thu, 16 May 2024 12:17:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2024/05/cropped-cropped-map_track_blue-e1715771708103-1-32x32.png</url>
+	<title>awayfromhome.nl</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Sunset in the Dolimites (Italy)</title>
+		<link>/index.php/2024/05/sunset-in-the-dolimites-italy/</link>
+		
+		<dc:creator><![CDATA[patrick]]></dc:creator>
+		<pubDate>Wed, 15 May 2024 21:36:59 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[alps]]></category>
+		<category><![CDATA[dolomites]]></category>
+		<category><![CDATA[italy]]></category>
+		<category><![CDATA[mountain]]></category>
+		<category><![CDATA[relaxing]]></category>
+		<category><![CDATA[snow]]></category>
+		<category><![CDATA[vacation]]></category>
+		<category><![CDATA[winter]]></category>
+		<guid isPermaLink="false">/?p=120</guid>
+
+					<description><![CDATA[The Dolomites are one of the most beautiful areas of the Alps in Europe. They are located (mostly) in North-East Italy, in the provinces of South-Tirol, Trentino and Veneto and are nowadays part of the UNESCO World Heritage Site. The Dolomites have many rugged peaks, up to a height of 3343 meters and are known &#8230; <p class="link-more"><a href="/index.php/2024/05/sunset-in-the-dolimites-italy/" class="more-link">Read more<span class="screen-reader-text"> "Sunset in the Dolimites (Italy)"</span></a></p>]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex" style="border-style:none;border-width:0px;border-radius:0px">
+<div class="wp-block-column is-vertically-aligned-top is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
+<p>The Dolomites are one of the most beautiful areas of the Alps in Europe. They are located (mostly) in North-East Italy, in the provinces of South-Tirol, Trentino and Veneto and are nowadays part of the UNESCO World Heritage Site.</p>
+
+
+
+<p>The Dolomites have many rugged peaks, up to a height of 3343 meters and are known for their breathtaking vistas from the tops and beautiful valleys. What better then end a day of skiing in December on top of a hill overlooking the beautiful Fassa Valley, together with a beautiful sunshine and music in the background!</p>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="border-style:none;border-width:0px;flex-basis:33.33%"><div id="wpgmza_map" class="wpgmza_map" data-settings='{"id":"1","map_title":"Rifugio Friedrich August","map_width":"100","map_height":"100","map_start_lat":"46.50046789999999","map_start_lng":"11.74456529999979","map_start_location":"45.950464398418106,-109.81550500000003","map_start_zoom":"12","default_marker":"","type":"0","alignment":"4","directions_enabled":"0","styling_enabled":"0","styling_json":"","active":"0","kml":"","bicycle":"0","traffic":"0","dbox":"0","dbox_width":"","listmarkers":"0","listmarkers_advanced":"0","filterbycat":"0","ugm_enabled":"0","ugm_category_enabled":"0","fusion":"","map_width_type":"%","map_height_type":"%","mass_marker_support":"0","ugm_access":"0","order_markers_by":"0","order_markers_choice":"0","show_user_location":"0","default_to":"","other_settings":{"map_type":1,"sl_stroke_color":"","sl_fill_color":"","sl_stroke_opacity":"","sl_fill_opacity":"","transport_layer":false,"action":"wpgmza_save_map","redirect_to":"\/wp-admin\/admin-post.php","map_id":"1","http_referer":"\/wp-admin\/admin.php?page=wp-google-maps-menu&amp;amp;action=edit&amp;amp;map_id=1","wpgmza_id":"1","wpgmza_start_location":"46.50046789999999,11.74456529999979","wpgmza_start_zoom":"12","store_locator_enabled":false,"store_locator_search_area":"radial","wpgmza_store_locator_radius_style":"legacy","wpgmza_store_locator_default_radius":"10","store_locator_auto_area_max_zoom":"","store_locator_distance":false,"wpgmza_store_locator_position":false,"store_locator_show_distance":false,"store_locator_category":false,"wpgmza_store_locator_use_their_location":false,"wpgmza_store_locator_bounce":false,"wpgmza_sl_animation":null,"wpgmza_store_locator_hide_before_search":false,"store_locator_query_string":"","store_locator_location_placeholder":"","store_locator_default_address":"","store_locator_name_search":false,"store_locator_name_string":"","store_locator_not_found_message":"","wpgmza_map_align":"1","jump_to_nearest_marker_on_initialization":false,"automatically_pan_to_users_location":false,"override_users_location_zoom_level":false,"override_users_location_zoom_levels":"","show_distance_from_location":false,"map_max_zoom":"21","map_min_zoom":"0","click_open_link":false,"fit_maps_bounds_to_markers":false,"fit_maps_bounds_to_markers_after_filtering":false,"hide_point_of_interest":false,"wpgmza_zoom_on_marker_click":false,"wpgmza_zoom_on_marker_click_slider":"","close_infowindow_on_map_click":false,"disable_lightbox_images":false,"use_Raw_Jpeg_Coordinates":false,"disable_polygon_info_windows":false,"enable_marker_ratings":false,"only_load_markers_within_viewport":false,"zoom_level_mobile_override_enabled":false,"zoom_level_mobile_override":"","iw_primary_color":"#000000","iw_accent_color":"#000000","iw_text_color":"#000000","wpgmza_listmarkers_by":"0","wpgmza_marker_listing_position":false,"zoom_level_on_marker_listing_override":false,"zoom_level_on_marker_listing_click":"","marker_listing_disable_zoom":false,"datatable_no_result_message":"","remove_search_box_datables":false,"dataTable_pagination_style":null,"datatable_search_string":"","datatable_result_start":"","datatable_result_of":"","datatable_result_to":"","datatable_result_total":"","datatable_result_show":"","datatable_result_entries":"","wpgmza_savemap":"Save Map \u00bb"}}' data-map-id='1' Data-maps-engine='open-layers' data-shortcode-attributes='{"id":"1"}' style="display:block; overflow:auto; width:100%; height:100%; float:left;"></div>
+</div>
+</div>
+
+
+
+<div style="height:var(--wp--preset--spacing--small)" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-embed aligncenter is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Val di Fassa   Rifugio Friedrich August   Take me home" width="950" height="534" src="https://www.youtube.com/embed/SOvwLxGRib8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<h2 class="wp-block-heading">Some other photos from the Dolomites</h2>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="461" data-id="163" src="/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1024x461.jpeg" alt="" class="wp-image-163" srcset="/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1024x461.jpeg 1024w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-300x135.jpeg 300w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4.jpeg 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="1024" data-id="166" src="/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-3-1024x1024.jpeg" alt="" class="wp-image-166" srcset="/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-3-1024x1024.jpeg 1024w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-3-300x300.jpeg 300w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-3-150x150.jpeg 150w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-3.jpeg 1512w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="1024" data-id="167" src="/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-1-1024x1024.jpeg" alt="" class="wp-image-167" srcset="/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-1-1024x1024.jpeg 1024w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-1-300x300.jpeg 300w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-1-150x150.jpeg 150w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-1.jpeg 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="1024" data-id="164" src="/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.30-2-1024x1024.jpeg" alt="" class="wp-image-164" srcset="/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.30-2-1024x1024.jpeg 1024w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.30-2-300x300.jpeg 300w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.30-2-150x150.jpeg 150w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.30-2.jpeg 1512w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" data-id="165" src="/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.30-1-1024x768.jpeg" alt="" class="wp-image-165" srcset="/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.30-1-1024x768.jpeg 1024w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.30-1-300x225.jpeg 300w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.30-1.jpeg 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Diving in Bonaire</title>
+		<link>/index.php/2020/12/diving-in-bonaire/</link>
+		
+		<dc:creator><![CDATA[patrick]]></dc:creator>
+		<pubDate>Thu, 10 Dec 2020 22:42:00 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[bonaire]]></category>
+		<category><![CDATA[carribean]]></category>
+		<category><![CDATA[diving]]></category>
+		<category><![CDATA[island]]></category>
+		<category><![CDATA[scuba]]></category>
+		<category><![CDATA[summer]]></category>
+		<category><![CDATA[tropical]]></category>
+		<category><![CDATA[vacation]]></category>
+		<guid isPermaLink="false">http://172.28.14.89:81/?p=62</guid>
+
+					<description><![CDATA[During covid, when traveling was something that needed quite a bit of extra planning, I managed to book myself on a trip to the tropical Carribean island of Bonaire. Located about 40km north of Venazuela, Bonaire is part of the ABC islands (Aruba (most westwards), Bonaire (most eastwards) and Curacao (the middle island). Compared to &#8230; <p class="link-more"><a href="/index.php/2020/12/diving-in-bonaire/" class="more-link">Read more<span class="screen-reader-text"> "Diving in Bonaire"</span></a></p>]]></description>
+										<content:encoded><![CDATA[
+<p>During covid, when traveling was something that needed quite a bit of extra planning, I managed to book myself on a trip to the tropical Carribean island of Bonaire. Located about 40km north of Venazuela, Bonaire is part of the ABC islands (Aruba (most westwards), Bonaire (most eastwards) and Curacao (the middle island).</p>
+
+
+
+<p>Compared to their perhaps more known sisters, Bonaire feels more relaxed and it is well known for their dive sites all around the island. They call it a Diver&#8217;s Paradise!</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Turtle at Tolo Divesite Ol&#039; Blue, 13, Bonaire color corrected" width="950" height="534" src="https://www.youtube.com/embed/8HGgdL56jrU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><figcaption class="wp-element-caption">Turtle at Tolo Divesite (Ol&#8217; Blue, 13), Bonaire</figcaption></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

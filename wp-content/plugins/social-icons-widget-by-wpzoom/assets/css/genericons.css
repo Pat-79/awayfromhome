@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Genericons";
-  src: url("../font/Genericons.woff") format("woff");
+  src: url("/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/Genericons.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: block;
