@@ -12,7 +12,7 @@
 	<atom:link href="/index.php/tag/bonaire/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>your getaway at home</description>
-	<lastBuildDate>Thu, 16 May 2024 10:23:48 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 16 May 2024 21:58:20 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -51,6 +51,14 @@
 
 
 <p>Compared to their perhaps more known sisters, Bonaire feels more relaxed and it is well known for their dive sites all around the island. They call it a Diver&#8217;s Paradise!</p>
+
+
+<div id="wp_osm_2" class="wp_osm" style="width: 100%; height: 500px" data-lon="1364670" data-lat="-7602900" data-zoom="11">
+	<div class="ol-popup">
+	    <a href="#" class="ol-popup-closer"></a>
+	    <div class="popup-content"></div>
+	</div>
+	<div class="marker" data-icon="/wp-content/plugins/wp-open-street-map/images/markers/marker.png" data-lon="-7607260" data-lat="1370240" data-name="Tolo Divesite, Bonaire" data-description=""></div></div>
 
 
 
