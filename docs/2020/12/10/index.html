@@ -47,6 +47,9 @@
   <STYLE id="wp-block-library-theme-inline-css">
   .wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:#ffffffa6}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:#ffffffa6}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
   </STYLE>
+  <STYLE id="safe-svg-svg-icon-style-inline-css">
+  .safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
+  </STYLE>
   <LINK href=
   "/wp-content/plugins/social-icons-widget-by-wpzoom/block/dist/style-wpzoom-social-icons.css?ver=4.2.18"
         id="wpzoom-social-icons-block-style-css"
@@ -292,23 +295,50 @@
     visibility: hidden;
     display: none;
   }
+
   .entry-summary{
         text-align:justify;
   }
+
   .entry-content{
         text-align: justify;
+  }
+
+  .header-logo-wrapper{
+        text-shadow:0px 0px 6px black, 0px 0px 20px black, 3px 3px 5px black, 3px 3px 5px black;
+        
+  }
+
+  .header-logo-wrapper:before{
+        content:'';
+        background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');
+  background-size: 35px;
+  background-repeat: no-repeat;
+        width: 35px;
+        height: 35px;
+        margin-right: 15px;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25), 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+        border-radius: 100%;
+  }
+  .site-title{
+                text-shadow: 5px 5px 15px black, 0px 0px 5px black;
+  }
+  .site-description{
+                text-shadow:4px 4px 15px black, 0px 0px 7px black;      
+  }
+  .entry-title{
+                text-shadow: 0px 0px 6px black, 0px 0px 20px black, 3px 3px 5px black, 3px 3px 5px black;               
   }
   </STYLE>
   <STYLE id="core-block-supports-inline-css">
   .wp-container-core-social-links-is-layout-1.wp-container-core-social-links-is-layout-1{justify-content:center;}.wp-container-core-social-links-is-layout-2.wp-container-core-social-links-is-layout-2{justify-content:center;}
   </STYLE>
   <STYLE type="text/css">
-  div.c8 {--wpz-social-icons-block-item-font-size:18px;--wpz-social-icons-block-item-padding-horizontal:6px;--wpz-social-icons-block-item-padding-vertical:6px;--wpz-social-icons-block-item-margin-horizontal:5px;--wpz-social-icons-block-item-margin-vertical:5px;--wpz-social-icons-block-item-border-radius:50px;--wpz-social-icons-block-label-font-size:16px;--wpz-social-icons-block-label-color:#2e3131;--wpz-social-icons-block-label-color-hover:#2e3131;--wpz-social-icons-alignment:flex-end}
-  a.c7 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#34efdf}
-  a.c6 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#44f3e7}
-  p.c5 {font-style:normal;font-weight:700;letter-spacing:4px;line-height:1}
-  div.c4 {display: none;}
-  img.c3 {width:30px;height:auto}
+  div.c7 {--wpz-social-icons-block-item-font-size:18px;--wpz-social-icons-block-item-padding-horizontal:6px;--wpz-social-icons-block-item-padding-vertical:6px;--wpz-social-icons-block-item-margin-horizontal:5px;--wpz-social-icons-block-item-margin-vertical:5px;--wpz-social-icons-block-item-border-radius:50px;--wpz-social-icons-block-label-font-size:16px;--wpz-social-icons-block-label-color:#2e3131;--wpz-social-icons-block-label-color-hover:#2e3131;--wpz-social-icons-alignment:flex-end}
+  a.c6 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#34efdf}
+  a.c5 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#44f3e7}
+  p.c4 {font-style:normal;font-weight:700;letter-spacing:4px;line-height:1}
+  div.c3 {display: none;}
   a.c2 {font-size: 22pt;}
   a.c1 {font-size: 8pt;}
   </STYLE>
@@ -340,17 +370,22 @@
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page menu-item-18"
                 id="menu-item-18">
-              <A href="/about/">About</A>
+              <A href="/sitemap/about/">About</A>
             </LI>
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-19"
                 id="menu-item-19">
-              <A href="/blog/">Blog</A>
+              <A href="/sitemap/blog/">Blog</A>
             </LI>
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page menu-item-20"
                 id="menu-item-20">
-              <A href="/social-media/">Social Media</A>
+              <A href="/sitemap/social-media/">Social Media</A>
+            </LI>
+            <LI class=
+            "menu-item menu-item-type-custom menu-item-object-custom menu-item-333"
+                id="menu-item-333">
+              <A> </A>
             </LI>
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page menu-item-302"
@@ -511,25 +546,7 @@
                  title="your getaway at home">awayfromhome.nl</A>
           </DIV>
           <DIV class="header-widgets-wrapper">
-            <DIV class=
-            "header_social widget widget_block widget_media_image"
-                 id="block-98">
-              <FIGURE class=
-              "wp-block-image aligncenter size-full is-resized">
-                <IMG alt=""
-                        class="wp-image-69 c3"
-                        decoding="async"
-                        fetchpriority="high"
-                        height="512"
-                        sizes="(max-width: 512px) 100vw, 512px"
-                        src=
-                        "/wp-content/uploads/2024/05/globe_filled_bl_blue_green.png"
-                        srcset=
-                        "/wp-content/uploads/2024/05/globe_filled_bl_blue_green.png 512w, /wp-content/uploads/2024/05/globe_filled_bl_blue_green-300x300.png 300w, /wp-content/uploads/2024/05/globe_filled_bl_blue_green-150x150.png 150w"
-                        width="512">
-              </FIGURE>
-            </DIV>
-            <DIV class="sb-search c4"
+            <DIV class="sb-search c3"
                  id="sb-search">
               <FORM action="/"
                     id="searchform"
@@ -661,7 +678,7 @@
             <DIV class="widget-column footer-widget-1">
               <SECTION class="widget widget_block widget_text"
                        id="block-103">
-                <P class="has-medium-font-size c5">
+                <P class="has-medium-font-size c4">
                 <STRONG>awayfromhome.nl</STRONG></P>
               </SECTION>
             </DIV>
@@ -677,16 +694,16 @@
               <SECTION class="widget widget_block"
                        id="block-50">
                 <DIV class=
-                "wp-block-wpzoom-blocks-social-icons is-style-with-canvas-round c8">
-                  <A class="social-icon-link c6"
+                "wp-block-wpzoom-blocks-social-icons is-style-with-canvas-round c7">
+                  <A class="social-icon-link c5"
                        href=
                        "https://www.instagram.com/awayfromhome_nl/"
                        title="Instagram"><SPAN class=
-                       "social-icon socicon socicon-instagram"></SPAN></A><A class="social-icon-link c7"
+                       "social-icon socicon socicon-instagram"></SPAN></A><A class="social-icon-link c6"
                        href=
                        "https://www.youtube.com/channel/UCLY15iYLm65hrgkSAywRNXw"
                        title="Youtube"><SPAN class=
-                       "social-icon socicon socicon-youtube"></SPAN></A><A class="social-icon-link c6"
+                       "social-icon socicon socicon-youtube"></SPAN></A><A class="social-icon-link c5"
                        href="/feed"
                        title="Rss"><SPAN class=
                        "social-icon socicon socicon-rss"></SPAN></A>
@@ -709,7 +726,7 @@
     </DIV><!-- .site-content-contain -->
   </DIV><!-- #page -->
   <!-- YouTube Feeds JS -->
-  <SCRIPT type="text/javascript"></SCRIPT> 
+  <SCRIPT type="text/javascript"></SCRIPT>
   <SCRIPT id="inspiro-lite-js-plugins-js"
         src=
         "/wp-content/themes/inspiro/assets/js/minified/plugins.min.js?ver=1.8.7"></SCRIPT>
