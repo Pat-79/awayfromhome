@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments for awayfromhome.nl	</title>
-	<atom:link href="/index.php/comments/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>your getaway at home</description>
 	<lastBuildDate>Thu, 16 May 2024 21:58:20 +0000</lastBuildDate>
