@@ -13,6 +13,8 @@
   <TITLE>snow - awayfromhome.nl</TITLE>
   <META content="max-image-preview:large"
         name="robots">
+  <LINK href="//static.addtoany.com"
+        rel="dns-prefetch">
   <LINK href="/feed/"
         rel="alternate"
         title="awayfromhome.nl » Feed"
@@ -89,6 +91,11 @@
   <LINK href=
   "/wp-content/plugins/simply-gallery-block/plugins/pgc_sgb_lightbox.min.style.css?ver=3.2.1"
         id="pgc-simply-gallery-plugin-lightbox-style-css"
+        media="all"
+        rel="stylesheet">
+  <LINK href=
+  "/wp-content/plugins/gallery-block-lightbox/dist/baguetteBox.min.css?ver=1.11.1"
+        id="baguettebox-css-css"
         media="all"
         rel="stylesheet">
   <LINK href=
@@ -204,6 +211,11 @@
         id="wpzoom-social-icons-styles-css"
         media="all"
         rel="stylesheet">
+  <LINK href=
+  "/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16"
+        id="addtoany-css"
+        media="all"
+        rel="stylesheet">
   <LINK as="font"
         crossorigin=""
         href=
@@ -232,12 +244,22 @@
         id="wpzoom-social-icons-font-socicon-woff2-css"
         rel="preload"
         type="font/woff2">
+  <SCRIPT id="addtoany-core-js-before">
+  window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+  </SCRIPT>
+  <SCRIPT async
+        id="addtoany-core-js"
+        src="https://static.addtoany.com/menu/page.js"></SCRIPT>
   <SCRIPT id="jquery-core-js"
         src=
         "/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></SCRIPT>
   <SCRIPT id="jquery-migrate-js"
         src=
         "/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></SCRIPT>
+  <SCRIPT async
+        id="addtoany-jquery-js"
+        src=
+        "/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1"></SCRIPT>
   <LINK href="/wp-json/"
         rel="https://api.w.org/">
   <LINK href="/wp-json/wp/v2/tags/15"
@@ -341,7 +363,7 @@
         height: 35px;
         margin-right: 15px;
         box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25), 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
-        border-radius: 100%;
+        border-radius: 50%;
   }
   .site-title{
                 text-shadow: 5px 5px 15px black, 0px 0px 5px black;
@@ -701,6 +723,33 @@
                      "/2024/05/sunset-in-the-dolimites-italy/">Read
                      more <SPAN class="screen-reader-text">"Sunset
                      in the Dolomites (Italy)"</SPAN></A></P>
+                  <DIV class=
+                  "addtoany_share_save_container addtoany_content addtoany_content_bottom a2a_kit a2a_kit_size_32 addtoany_list"
+                       data-a2a-title=
+                       "Sunset in the Dolomites (Italy)"
+                       data-a2a-url=
+                       "/2024/05/sunset-in-the-dolimites-italy/">
+                    <A class="a2a_button_facebook"
+                         href=
+                         "https://www.addtoany.com/add_to/facebook?linkurl=%2F2024%2F05%2Fsunset-in-the-dolimites-italy%2F&amp;linkname=Sunset%20in%20the%20Dolomites%20%28Italy%29"
+                         rel="nofollow noopener"
+                         target="_blank"
+                         title="Facebook"></A><A class=
+                         "a2a_button_mastodon"
+                         href=
+                         "https://www.addtoany.com/add_to/mastodon?linkurl=%2F2024%2F05%2Fsunset-in-the-dolimites-italy%2F&amp;linkname=Sunset%20in%20the%20Dolomites%20%28Italy%29"
+                         rel="nofollow noopener"
+                         target="_blank"
+                         title="Mastodon"></A><A class=
+                         "a2a_button_email"
+                         href=
+                         "https://www.addtoany.com/add_to/email?linkurl=%2F2024%2F05%2Fsunset-in-the-dolimites-italy%2F&amp;linkname=Sunset%20in%20the%20Dolomites%20%28Italy%29"
+                         rel="nofollow noopener"
+                         target="_blank"
+                         title="Email"></A><A class=
+                         "a2a_dd addtoany_share_save addtoany_share"
+                         href="https://www.addtoany.com/share"></A>
+                  </DIV>
                 </DIV><!-- .entry-summary -->
               </ARTICLE><!-- #post-120 -->
             </MAIN><!-- #main -->
@@ -773,6 +822,13 @@
         src=
         "/wp-content/plugins/simply-gallery-block/plugins/pgc_sgb_lightbox.min.js?ver=3.2.1"></SCRIPT>
         
+  <SCRIPT id="baguettebox-js"
+        src=
+        "/wp-content/plugins/gallery-block-lightbox/dist/baguetteBox.min.js?ver=1.11.1"></SCRIPT>
+        
+  <SCRIPT id="baguettebox-js-after">
+  window.addEventListener("load", function() {baguetteBox.run(".wp-block-gallery,:not(.wp-block-gallery)>.wp-block-image,.wp-block-media-text__media,.gallery,.wp-block-coblocks-gallery-masonry,.wp-block-coblocks-gallery-stacked,.wp-block-coblocks-gallery-collage,.wp-block-coblocks-gallery-offset,.wp-block-coblocks-gallery-stacked,.mgl-gallery,.gb-block-image",{captions:function(t){var e=t.parentElement.classList.contains("wp-block-image")||t.parentElement.classList.contains("wp-block-media-text__media")?t.parentElement.querySelector("figcaption"):t.parentElement.parentElement.querySelector("figcaption,dd");return!!e&&e.innerHTML},filter:/.+\.(gif|jpe?g|png|webp|svg|avif|heif|heic|tif?f|)($|\?)/i});});
+  </SCRIPT> 
   <SCRIPT id="inspiro-lite-js-plugins-js"
         src=
         "/wp-content/themes/inspiro/assets/js/minified/plugins.min.js?ver=1.8.7"></SCRIPT>
