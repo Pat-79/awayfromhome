@@ -21,24 +21,6 @@
         rel="alternate"
         title="awayfromhome.nl » Comments Feed"
         type="application/rss+xml">
-  <SCRIPT>
-  window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.3"}};
-  /*! This file is auto-generated */
-  !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
-  </SCRIPT>
-  <STYLE id="wp-emoji-styles-inline-css">
-  img.wp-smiley, img.emoji {
-                display: inline !important;
-                border: none !important;
-                box-shadow: none !important;
-                height: 1em !important;
-                width: 1em !important;
-                margin: 0 0.07em !important;
-                vertical-align: -0.1em !important;
-                background: none !important;
-                padding: 0 !important;
-        }
-  </STYLE>
   <LINK href=
   "/wp-includes/css/dist/block-library/style.min.css?ver=6.5.3"
         id="wp-block-library-css"
@@ -279,6 +261,24 @@
   "/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fsocial-media%2F#038;format=xml"
         rel="alternate"
         type="text/xml+oembed">
+  <LINK as="font"
+        crossorigin=""
+        href=
+        "/wp-content/fonts/notocoloremoji/NotoColorEmoji-Regular.woff"
+        id="emoji-font-font"
+        rel="preload"
+        type="font/woff">
+  <LINK href="/wp-includes/css/emoji-font.css"
+        id="emoji-font-css"
+        media="all"
+        rel="stylesheet">
+  <SCRIPT id="emoji-font-js"
+        src="/wp-includes/js/emoji-font.js"
+        type="text/javascript"></SCRIPT>
+  <META content=""
+        name="description">
+  <META content=""
+        name="og:description">
   <STYLE id="inspiro-custom-header-styles"
          type="text/css">
   .site-title a,
@@ -752,146 +752,7 @@
                 </DIV>
               </DIV>
               <DIV aria-hidden="true"
-                   class="wp-block-spacer c8"></DIV>
-              <DIV class=
-              "zoom-instagram feed-96 aligncenter layout-fullwidth columns-3 with-lightbox spacing-10 perpage-3">
-                <HEADER class="zoom-instagram-widget__header">
-                  <DIV class=
-                  "zoom-instagram-widget__header-column-left">
-                  <IMG alt="@awayfromhome_nl"
-                       decoding="async"
-                       src=
-                       "/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png"
-                       width="70"></DIV>
-                  <DIV class=
-                  "zoom-instagram-widget__header-column-right">
-                    <H5 class="zoom-instagram-widget__header-name">
-                    </H5>
-                    <P class="zoom-instagram-widget__header-user">
-                    <A href=
-                    "https://www.instagram.com/awayfromhome_nl"
-                       rel="nofollow"
-                       target="_blank">@awayfromhome_nl</A></P>
-                    <DIV class="zoom-instagram-widget__header-bio">
-                    </DIV>
-                  </DIV>
-                </HEADER>
-                <DIV class="zoom-instagram-widget__items-wrapper">
-                  <UL class=
-                  "zoom-instagram-widget__items zoom-instagram-widget__items--no-js layout-fullwidth"
-                      data-layout="fullwidth"
-                      data-lightbox="1"
-                      data-perpage="3"
-                      data-spacing="10">
-                    <LI class=
-                    "zoom-instagram-widget__item media-icons-normal media-icons-hover"
-                        data-media-type="image">
-                      <DIV class=
-                      "zoom-instagram-widget__item-inner-wrap">
-                        <IMG alt=""
-                             class=
-                             "zoom-instagram-link zoom-instagram-link-new"
-                             data-mfp-src="17888874107966301"
-                             data-src=
-                             "/wp-content/uploads/2024/05/443265604_1103225014238531_581942213932632904_n.jpg"
-                             height="320"
-                             width="320">
-                        <DIV class=
-                        "hover-layout zoom-instagram-widget__overlay zoom-instagram-widget__black small">
-                          <DIV class="zoom-instagram-icon-wrap">
-                            <A class="zoom-svg-instagram-stroke"
-                                 href=
-                                 "https://www.instagram.com/p/C6-_0wqIRP9/"
-                                 rel="noopener nofollow"
-                                 target="_blank"
-                                 title=""></A>
-                          </DIV><A class="zoom-instagram-link"
-                               data-mfp-src="17888874107966301"
-                               data-src=
-                               "/wp-content/uploads/2024/05/443265604_1103225014238531_581942213932632904_n.jpg"
-                               href=
-                               "https://www.instagram.com/p/C6-_0wqIRP9/"
-                               rel="noopener nofollow"
-                               target="_blank"
-                               title=""></A>
-                        </DIV>
-                      </DIV>
-                    </LI>
-                  </UL>
-                </DIV>
-                <DIV class="zoom-instagram-widget__footer">
-                  <A class=
-                  "wpz-button wpz-button-primary wpz-insta-view-on-insta-button"
-                       href=
-                       "https://www.instagram.com/awayfromhome_nl"
-                       rel="noopener nofollow"
-                       target="_blank"><SPAN class=
-                       "button-icon zoom-svg-instagram-stroke"></SPAN>
-                       View on Instagram</A>
-                </DIV>
-                <DIV class=
-                "wpz-insta-lightbox-wrapper mfp-hide swiper">
-                  <DIV class=
-                  "swiper-wrapper swiper-slide wpz-insta-lightbox-item wpz-insta-lightbox"
-                       data-uid="17888874107966301">
-                    <DIV class="image-wrapper">
-                      <IMG alt=""
-                           class="wpzoom-swiper-image swiper-lazy"
-                           data-src=
-                           "/wp-content/uploads/2024/05/443265604_1103225014238531_581942213932632904_n.jpg">
-                      <DIV class=
-                      "swiper-lazy-preloader swiper-lazy-preloader-white">
-                      </DIV>
-                    </DIV>
-                    <DIV class="details-wrapper">
-                      <DIV class="wpz-insta-header">
-                        <DIV class="wpz-insta-avatar"><IMG alt=
-                        "@awayfromhome_nl"
-                             decoding="async"
-                             height="42"
-                             src=
-                             "/wp-content/plugins/instagram-widget-by-wpzoom/dist/images/backend/icon-insta.png"
-                             width="42"></DIV>
-                        <DIV class="wpz-insta-buttons">
-                          <DIV class="wpz-insta-username">
-                            <A href=
-                            "https://instagram.com/awayfromhome_nl"
-                                 rel="noopener"
-                                 target=
-                                 "_blank">@awayfromhome_nl</A>
-                          </DIV>
-                          <DIV>
-                            •
-                          </DIV>
-                          <DIV class="wpz-insta-follow">
-                            <A href=
-                            "https://instagram.com/awayfromhome_nl?ref=badge"
-                                 rel="noopener"
-                                 target="_blank">Follow</A>
-                          </DIV>
-                        </DIV>
-                      </DIV>
-                      <DIV class="wpz-insta-date">
-                        4 days ago
-                      </DIV>
-                      <DIV class="view-post">
-                        <A href=
-                        "https://www.instagram.com/p/C6-_0wqIRP9/"
-                             rel="noopener"
-                             target="_blank"><SPAN class=
-                             "dashicons dashicons-instagram"></SPAN>View
-                             on Instagram</A> <SPAN class=
-                             "delimiter">|</SPAN>
-                        <DIV class="wpz-insta-pagination">
-                          1/1
-                        </DIV>
-                      </DIV>
-                    </DIV>
-                  </DIV>
-                  <DIV class="swiper-button-prev"></DIV>
-                  <DIV class="swiper-button-next"></DIV>
-                </DIV>
-              </DIV>
+                   class="wp-block-spacer c8"></DIV>…
               <DIV class=
               "sb_youtube sby_layout_grid sby_col_3 sby_mob_col_1 sby_palette_inherit sby_width_resp"
                    data-channel-subscribers="2 subscribers"
@@ -1172,7 +1033,7 @@
         "/wp-content/plugins/social-icons-widget-by-wpzoom/assets/js/social-icons-widget-frontend.js?ver=1715796228"></SCRIPT>
         
   <SCRIPT id="sby_scripts-js-extra">
-  var sbyOptions = {"isAdmin":"","adminAjaxUrl":"\/wp-admin\/admin-ajax.php","placeholder":"\/wp-content\/plugins\/feeds-for-youtube\/img\/placeholder.png","placeholderNarrow":"\/wp-content\/plugins\/feeds-for-youtube\/img\/placeholder-narrow.png","lightboxPlaceholder":"\/wp-content\/plugins\/feeds-for-youtube\/img\/lightbox-placeholder.png","lightboxPlaceholderNarrow":"\/wp-content\/plugins\/feeds-for-youtube\/img\/lightbox-placeholder-narrow.png","autoplay":"1","semiEagerload":"","eagerload":"","nonce":"6bf10369a7","isPro":"","isCustomizer":""};
+  var sbyOptions = {"isAdmin":"","adminAjaxUrl":"\/wp-admin\/admin-ajax.php","placeholder":"\/wp-content\/plugins\/feeds-for-youtube\/img\/placeholder.png","placeholderNarrow":"\/wp-content\/plugins\/feeds-for-youtube\/img\/placeholder-narrow.png","lightboxPlaceholder":"\/wp-content\/plugins\/feeds-for-youtube\/img\/lightbox-placeholder.png","lightboxPlaceholderNarrow":"\/wp-content\/plugins\/feeds-for-youtube\/img\/lightbox-placeholder-narrow.png","autoplay":"1","semiEagerload":"","eagerload":"","nonce":"1c700107b1","isPro":"","isCustomizer":""};
   </SCRIPT> 
   <SCRIPT id="sby_scripts-js"
         src=
