@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title>patrick &#8211; awayfromhome.nl</title>
+	<title>Patrick &#8211; awayfromhome.nl</title>
 	<atom:link href="/author/patrick/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>your getaway at home</description>
@@ -22,7 +22,7 @@
 
 <image>
 	<url>/wp-content/uploads/2024/05/globe_filled_bl_blue_green-150x150.png</url>
-	<title>patrick &#8211; awayfromhome.nl</title>
+	<title>Patrick &#8211; awayfromhome.nl</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
@@ -31,7 +31,7 @@
 		<title>Slovenia 🇸🇮</title>
 		<link>/2024/05/slovenia/</link>
 		
-		<dc:creator><![CDATA[patrick]]></dc:creator>
+		<dc:creator><![CDATA[Patrick]]></dc:creator>
 		<pubDate>Sat, 18 May 2024 01:48:09 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<category><![CDATA[alps]]></category>
@@ -130,7 +130,7 @@
 		<title>Sunset in the Dolomites 🇮🇹</title>
 		<link>/2024/05/sunset-in-the-dolimites-italy/</link>
 		
-		<dc:creator><![CDATA[patrick]]></dc:creator>
+		<dc:creator><![CDATA[Patrick]]></dc:creator>
 		<pubDate>Wed, 15 May 2024 21:36:59 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<category><![CDATA[alps]]></category>
@@ -202,7 +202,7 @@
 		<title>Diving in Bonaire 🇧🇶</title>
 		<link>/2020/12/diving-in-bonaire/</link>
 		
-		<dc:creator><![CDATA[patrick]]></dc:creator>
+		<dc:creator><![CDATA[Patrick]]></dc:creator>
 		<pubDate>Thu, 10 Dec 2020 22:42:00 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<category><![CDATA[bonaire]]></category>
