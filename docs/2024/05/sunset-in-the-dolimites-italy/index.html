@@ -55,6 +55,11 @@
   .wp-block-spacer{margin-top: 0 !important;}
   </STYLE>
   <LINK href=
+  "/wp-content/plugins/image-rights/css/styles.css?ver=1716298016"
+        id="pcr_front_styles-css"
+        media="all"
+        rel="stylesheet">
+  <LINK href=
   "/wp-content/fonts/3fc3276e0a5202a529262a0a58f47f62.css?ver=1.8.7"
         id="inspiro-google-fonts-css"
         media="all"
@@ -375,24 +380,29 @@
         text-align: justify;
   }
 
+
   .header-logo-wrapper{
         text-shadow:0px 0px 6px black, 0px 0px 20px black, 3px 3px 5px black, 3px 3px 5px black;
-        
+        background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');
+        background-size: 35px;
+        background-repeat: no-repeat;
   }
 
-  .header-logo-wrapper:before{
+  .custom-logo-text{
+        padding-left: 42px;
+  }
+
+  .custom-logo-text:before{
         content:'';
-        background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');
-  background-size: 35px;
-  background-repeat: no-repeat;
+        --background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');       
+                box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25), 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        position:absolute;
         width: 35px;
         height: 35px;
-        margin-right: 15px;
-        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25), 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
-        border-radius: 50%;
-        min-width: 35px;
-        min-height: 35px;
+        left:20px;
   }
+
   .site-title{
                 text-shadow: 5px 5px 15px black, 0px 0px 5px black;
   }
@@ -708,18 +718,20 @@
           "post-120 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-alps tag-dolomites tag-europe tag-italy tag-mountain tag-relaxing tag-snow tag-vacation tag-winter"
                    id="post-120">
             <DIV class="entry-cover-image cover_fixed_height">
-              <DIV class="single-featured-image-header"><IMG alt=""
-                   class=
-                   "attachment-inspiro-featured-image size-inspiro-featured-image wp-post-image"
-                   decoding="async"
-                   height="720"
-                   sizes="100vw"
-                   src=
-                   "/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4.jpeg"
-                   srcset=
-                   "/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4.jpeg 1600w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-300x135.jpeg 300w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1024x461.jpeg 1024w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1536x691.jpeg 1536w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-600x270.jpeg 600w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1200x540.jpeg 1200w"
-                   width="1600"></DIV>
-                   <!-- .single-featured-image-header -->
+              <DIV class=
+              "single-featured-image-header pcr_featured_wrap">
+                <IMG alt=""
+                     class=
+                     "attachment-inspiro-featured-image size-inspiro-featured-image wp-post-image"
+                     decoding="async"
+                     height="720"
+                     sizes="100vw"
+                     src=
+                     "/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4.jpeg"
+                     srcset=
+                     "/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4.jpeg 1600w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-300x135.jpeg 300w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1024x461.jpeg 1024w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1536x691.jpeg 1536w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-600x270.jpeg 600w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1200x540.jpeg 1200w"
+                     width="1600"><SPAN>P Quaedackers</SPAN>
+              </DIV><!-- .single-featured-image-header -->
               <HEADER class="entry-header">
                 <DIV class="inner-wrap">
                   <H1 class="entry-title">Sunset in the Dolomites
@@ -760,19 +772,19 @@
                 <SCRIPT>
                 window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
                 window.WPLeafletMapPlugin.push(function WPLeafletMapShortcode() {/*<script>*/
-                var baseUrl = atob('aHR0cHM6Ly90aWxlLnRodW5kZXJmb3Jlc3QuY29tL2xhbmRzY2FwZS97en0ve3h9L3t5fS5wbmc/YXBpa2V5PTlkN2QxZjAwMDlhMzQ1NmI5OTgxMzEyMzIwZTQ2MDBk');
+                var baseUrl = atob('aHR0cHM6Ly9zZXJ2ZXIuYXJjZ2lzb25saW5lLmNvbS9BcmNHSVMvcmVzdC9zZXJ2aWNlcy9OYXRHZW9fV29ybGRfTWFwL01hcFNlcnZlci90aWxlL3t6fS97eX0ve3h9');
                 var base = (!baseUrl && window.MQ) ?
                 window.MQ.mapLayer() : L.tileLayer(baseUrl,
                 L.Util.extend({}, {
                 detectRetina: 0,
                 },
-                {"subdomains":"abc","noWrap":false,"maxZoom":17}        )
+                {"noWrap":true,"maxZoom":12}        )
                 );
                 var options = L.Util.extend({}, {
                 layers: [base],
                 attributionControl: false
                 },
-                {"zoomControl":true,"scrollWheelZoom":false,"doubleClickZoom":true,"fitBounds":false,"minZoom":1,"maxZoom":17,"maxBounds":null,"attribution":""},
+                {"zoomControl":true,"scrollWheelZoom":false,"doubleClickZoom":true,"fitBounds":false,"minZoom":0,"maxZoom":12,"maxBounds":null,"attribution":""},
                 {});
                 window.WPLeafletMapPlugin.createMap(options).setView([46.5004,11.7453],6);window.WPLeafletMapPlugin.createScale({});});
                 </SCRIPT>
@@ -835,28 +847,27 @@
                           data-wp-context=
                           "{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/WhatsApp-Image-2024-05-16-at-12.11.31-4.jpeg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-full has-custom-border&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;has-border-color has-tertiary-border-color wp-image-163&quot;,&quot;imgStyles&quot;:&quot;border-width:1px;border-radius:10px&quot;,&quot;targetWidth&quot;:1600,&quot;targetHeight&quot;:720,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}"
                           data-wp-interactive="core/image">
-                    <IMG alt=""
-                            class=
-                            "has-border-color has-tertiary-border-color wp-image-163 c7"
-                            data-wp-init=
-                            "callbacks.setButtonStyles"
-                            data-wp-on--click=
-                            "actions.showLightbox"
-                            data-wp-on--load=
-                            "callbacks.setButtonStyles"
-                            data-wp-on-window--resize=
-                            "callbacks.setButtonStyles"
-                            decoding="async"
-                            height="720"
-                            loading="lazy"
-                            sizes=
-                            "(max-width: 1600px) 100vw, 1600px"
-                            src=
-                            "/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4.jpeg"
-                            srcset=
-                            "/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4.jpeg 1600w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-300x135.jpeg 300w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1024x461.jpeg 1024w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1536x691.jpeg 1536w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-600x270.jpeg 600w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1200x540.jpeg 1200w"
-                            width="1600"> <BUTTON aria-haspopup=
-                            "dialog"
+                    <DIV class="pcr_content_wrap">
+                      <IMG alt=""
+                           class=
+                           "has-border-color has-tertiary-border-color wp-image-163 c7"
+                           data-wp-init="callbacks.setButtonStyles"
+                           data-wp-on--click="actions.showLightbox"
+                           data-wp-on--load=
+                           "callbacks.setButtonStyles"
+                           data-wp-on-window--resize=
+                           "callbacks.setButtonStyles"
+                           decoding="async"
+                           height="720"
+                           loading="lazy"
+                           sizes=
+                           "(max-width: 1600px) 100vw, 1600px"
+                           src=
+                           "/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4.jpeg"
+                           srcset=
+                           "/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4.jpeg 1600w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-300x135.jpeg 300w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1024x461.jpeg 1024w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1536x691.jpeg 1536w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-600x270.jpeg 600w, /wp-content/uploads/2024/05/WhatsApp-Image-2024-05-16-at-12.11.31-4-1200x540.jpeg 1200w"
+                           width="1600"><SPAN>P Quaedackers</SPAN>
+                    </DIV><BUTTON aria-haspopup="dialog"
                             aria-label="Enlarge image"
                             class="lightbox-trigger"
                             data-wp-init=

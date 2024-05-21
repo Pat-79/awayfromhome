@@ -54,6 +54,11 @@
   .wp-block-spacer{margin-top: 0 !important;}
   </STYLE>
   <LINK href=
+  "/wp-content/plugins/image-rights/css/styles.css?ver=1716298016"
+        id="pcr_front_styles-css"
+        media="all"
+        rel="stylesheet">
+  <LINK href=
   "/wp-content/fonts/3fc3276e0a5202a529262a0a58f47f62.css?ver=1.8.7"
         id="inspiro-google-fonts-css"
         media="all"
@@ -243,8 +248,12 @@
         rel="pingback">
   <LINK href="/xmlrpc.php"
         rel="pingback">
-  <META name="description">
-  <META name="og:description">
+  <META content=
+  "In the corner between Italy and Austria, there is a small country hiding some truly beautiful sceneries, food and people. I am of course talking about Slov"
+        name="description">
+  <META content=
+  "In the corner between Italy and Austria, there is a small country"
+        name="og:description">
   <META content=
   "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
         name="robots">
@@ -256,7 +265,7 @@
         property="article:publisher">
   <META content="article"
         property="article:section">
-  <META content="2024-05-21T11:25:50+01:00"
+  <META content="2024-05-21T14:08:57+01:00"
         property="og:updated_time">
   <META content="1200"
         property="og:image:width">
@@ -267,14 +276,18 @@
         property="og:image:type">
   <META content="2024-05-18T02:48:09+01:00"
         property="article:published_time">
-  <META content="2024-05-21T11:25:50+01:00"
+  <META content="2024-05-21T14:08:57+01:00"
         property="article:modified_time">
-  <META name="description">
+  <META content=
+  "In the corner between Italy and Austria, there is a small country hiding some truly beautiful sceneries, food and people. I am of course talking about Slovenia. I've been visiting the northern part, where also the talles mountain of Slovenia is: the Triglav, 2863m tall. This is the highest peak of Slovenia, and if you take a good look at the national flag, you will see this mountain on the flag."
+        name="description">
   <META content="Slovenia 🇸🇮"
         property="og:title">
   <META content="/?post_type=post&amp;p=379"
         property="og:url">
-  <META property="og:description">
+  <META content=
+  "In the corner between Italy and Austria, there is a small country hiding some truly beautiful sceneries, food and people. I am of course talking about Slovenia. I've been visiting the northern part, where also the talles mountain of Slovenia is: the Triglav, 2863m tall. This is the highest peak of Slovenia, and if you take a good look at the national flag, you will see this mountain on the flag."
+        property="og:description">
   <META content="/wp-content/uploads/2024/05/DSC_0511-300x169.jpg"
         property="og:image">
   <META content="/wp-content/uploads/2024/05/DSC_0511-300x169.jpg"
@@ -287,7 +300,9 @@
         name="twitter:card">
   <META content="Slovenia 🇸🇮"
         name="twitter:title">
-  <META name="twitter:description">
+  <META content=
+  "In the corner between Italy and Austria, there is a small country hiding some truly beautiful sceneries, food and people. I am of course talking about Slovenia. I've been visiting the northern part, where also the talles mountain of Slovenia is: the Triglav, 2863m tall. This is the highest peak of Slovenia, and if you take a good look at the national flag, you will see this mountain on the flag."
+        name="twitter:description">
   <META name="twitter:site">
   <META name="twitter:creator">
   <META content="/?post_type=post&amp;p=379"
@@ -372,24 +387,29 @@
         text-align: justify;
   }
 
+
   .header-logo-wrapper{
         text-shadow:0px 0px 6px black, 0px 0px 20px black, 3px 3px 5px black, 3px 3px 5px black;
-        
+        background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');
+        background-size: 35px;
+        background-repeat: no-repeat;
   }
 
-  .header-logo-wrapper:before{
+  .custom-logo-text{
+        padding-left: 42px;
+  }
+
+  .custom-logo-text:before{
         content:'';
-        background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');
-  background-size: 35px;
-  background-repeat: no-repeat;
+        --background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');       
+                box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25), 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        position:absolute;
         width: 35px;
         height: 35px;
-        margin-right: 15px;
-        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25), 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
-        border-radius: 50%;
-        min-width: 35px;
-        min-height: 35px;
+        left:20px;
   }
+
   .site-title{
                 text-shadow: 5px 5px 15px black, 0px 0px 5px black;
   }
@@ -732,7 +752,7 @@
                     "entry-date published"
                           datetime="2024-05-18T02:48:09+01:00">May
                           18, 2024</TIME><TIME class="updated"
-                          datetime="2024-05-21T11:25:50+01:00">May
+                          datetime="2024-05-21T14:08:57+01:00">May
                           21, 2024</TIME></A></SPAN>
                   </DIV><!-- .entry-meta -->
                 </DIV><!-- .inner-wrap -->
@@ -757,19 +777,19 @@
               <SCRIPT>
               window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
               window.WPLeafletMapPlugin.push(function WPLeafletMapShortcode() {/*<script>*/
-              var baseUrl = atob('aHR0cHM6Ly90aWxlLnRodW5kZXJmb3Jlc3QuY29tL2xhbmRzY2FwZS97en0ve3h9L3t5fS5wbmc/YXBpa2V5PTlkN2QxZjAwMDlhMzQ1NmI5OTgxMzEyMzIwZTQ2MDBk');
+              var baseUrl = atob('aHR0cHM6Ly9zZXJ2ZXIuYXJjZ2lzb25saW5lLmNvbS9BcmNHSVMvcmVzdC9zZXJ2aWNlcy9OYXRHZW9fV29ybGRfTWFwL01hcFNlcnZlci90aWxlL3t6fS97eX0ve3h9');
               var base = (!baseUrl && window.MQ) ?
               window.MQ.mapLayer() : L.tileLayer(baseUrl,
               L.Util.extend({}, {
               detectRetina: 0,
               },
-              {"subdomains":"abc","noWrap":false,"maxZoom":17}        )
+              {"noWrap":true,"maxZoom":12}        )
               );
               var options = L.Util.extend({}, {
               layers: [base],
               attributionControl: false
               },
-              {"zoomControl":true,"scrollWheelZoom":false,"doubleClickZoom":true,"fitBounds":false,"minZoom":1,"maxZoom":17,"maxBounds":null,"attribution":""},
+              {"zoomControl":true,"scrollWheelZoom":false,"doubleClickZoom":true,"fitBounds":false,"minZoom":0,"maxZoom":12,"maxBounds":null,"attribution":""},
               {});
               window.WPLeafletMapPlugin.createMap(options).setView([46.2782,13.8865],6);window.WPLeafletMapPlugin.createScale({});});
               </SCRIPT>

@@ -54,6 +54,11 @@
   .wp-block-spacer{margin-top: 0 !important;}
   </STYLE>
   <LINK href=
+  "/wp-content/plugins/image-rights/css/styles.css?ver=1716298016"
+        id="pcr_front_styles-css"
+        media="all"
+        rel="stylesheet">
+  <LINK href=
   "/wp-content/fonts/3fc3276e0a5202a529262a0a58f47f62.css?ver=1.8.7"
         id="inspiro-google-fonts-css"
         media="all"
@@ -358,24 +363,29 @@
         text-align: justify;
   }
 
+
   .header-logo-wrapper{
         text-shadow:0px 0px 6px black, 0px 0px 20px black, 3px 3px 5px black, 3px 3px 5px black;
-        
+        background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');
+        background-size: 35px;
+        background-repeat: no-repeat;
   }
 
-  .header-logo-wrapper:before{
+  .custom-logo-text{
+        padding-left: 42px;
+  }
+
+  .custom-logo-text:before{
         content:'';
-        background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');
-  background-size: 35px;
-  background-repeat: no-repeat;
+        --background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');       
+                box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25), 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        position:absolute;
         width: 35px;
         height: 35px;
-        margin-right: 15px;
-        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25), 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
-        border-radius: 50%;
-        min-width: 35px;
-        min-height: 35px;
+        left:20px;
   }
+
   .site-title{
                 text-shadow: 5px 5px 15px black, 0px 0px 5px black;
   }

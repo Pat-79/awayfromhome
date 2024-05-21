@@ -55,6 +55,11 @@
   .wp-block-spacer{margin-top: 0 !important;}
   </STYLE>
   <LINK href=
+  "/wp-content/plugins/image-rights/css/styles.css?ver=1716298016"
+        id="pcr_front_styles-css"
+        media="all"
+        rel="stylesheet">
+  <LINK href=
   "/wp-content/fonts/3fc3276e0a5202a529262a0a58f47f62.css?ver=1.8.7"
         id="inspiro-google-fonts-css"
         media="all"
@@ -257,7 +262,7 @@
         property="article:publisher">
   <META content="article"
         property="article:section">
-  <META content="2024-05-21T11:36:09+01:00"
+  <META content="2024-05-21T15:41:53+01:00"
         property="og:updated_time">
   <META content="1200"
         property="og:image:width">
@@ -268,7 +273,7 @@
         property="og:image:type">
   <META content="2020-12-10T23:42:00+01:00"
         property="article:published_time">
-  <META content="2024-05-21T11:36:09+01:00"
+  <META content="2024-05-21T15:41:53+01:00"
         property="article:modified_time">
   <META name="description">
   <META content="Diving in Bonaire 🇧🇶 🏴󠁢󠁱󠁢󠁯󠁿"
@@ -375,24 +380,29 @@
         text-align: justify;
   }
 
+
   .header-logo-wrapper{
         text-shadow:0px 0px 6px black, 0px 0px 20px black, 3px 3px 5px black, 3px 3px 5px black;
-        
+        background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');
+        background-size: 35px;
+        background-repeat: no-repeat;
   }
 
-  .header-logo-wrapper:before{
+  .custom-logo-text{
+        padding-left: 42px;
+  }
+
+  .custom-logo-text:before{
         content:'';
-        background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');
-  background-size: 35px;
-  background-repeat: no-repeat;
+        --background:url('/wp-content/uploads/2024/05/globe_filled_bl_blue_green.svg_round.svg');       
+                box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25), 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        position:absolute;
         width: 35px;
         height: 35px;
-        margin-right: 15px;
-        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25), 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
-        border-radius: 50%;
-        min-width: 35px;
-        min-height: 35px;
+        left:20px;
   }
+
   .site-title{
                 text-shadow: 5px 5px 15px black, 0px 0px 5px black;
   }
@@ -427,7 +437,7 @@
   a.c11 {color: #787878}
   div.c10 {height:var(--wp--preset--spacing--small)}
   div.c9 {border-style:none;border-width:0px;border-radius:0px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}
-  div.c8 {border-width:1px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:66.66%}
+  div.c8 {border-width:1px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:75%}
   div.c7 {height:500px; width:100%;}
   div.c6 {border-width:1px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:25%}
   div.c5 {height:250px; width:100%;}
@@ -731,7 +741,7 @@
                           datetime=
                           "2020-12-10T22:42:00+01:00">December 10,
                           2020</TIME><TIME class="updated"
-                          datetime="2024-05-21T11:36:09+01:00">May
+                          datetime="2024-05-21T15:41:53+01:00">May
                           21, 2024</TIME></A></SPAN>
                   </DIV><!-- .entry-meta -->
                 </DIV><!-- .inner-wrap -->
@@ -758,19 +768,19 @@
                   <SCRIPT>
                   window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
                   window.WPLeafletMapPlugin.push(function WPLeafletMapShortcode() {/*<script>*/
-                  var baseUrl = atob('aHR0cHM6Ly90aWxlLnRodW5kZXJmb3Jlc3QuY29tL2xhbmRzY2FwZS97en0ve3h9L3t5fS5wbmc/YXBpa2V5PTlkN2QxZjAwMDlhMzQ1NmI5OTgxMzEyMzIwZTQ2MDBk');
+                  var baseUrl = atob('aHR0cHM6Ly9zZXJ2ZXIuYXJjZ2lzb25saW5lLmNvbS9BcmNHSVMvcmVzdC9zZXJ2aWNlcy9OYXRHZW9fV29ybGRfTWFwL01hcFNlcnZlci90aWxlL3t6fS97eX0ve3h9');
                   var base = (!baseUrl && window.MQ) ?
                   window.MQ.mapLayer() : L.tileLayer(baseUrl,
                   L.Util.extend({}, {
                   detectRetina: 0,
                   },
-                  {"subdomains":"abc","noWrap":false,"maxZoom":17}        )
+                  {"noWrap":true,"maxZoom":12}        )
                   );
                   var options = L.Util.extend({}, {
                   layers: [base],
                   attributionControl: false
                   },
-                  {"dragging":false,"keyboard":false,"zoomControl":false,"scrollWheelZoom":false,"doubleClickZoom":true,"fitBounds":false,"minZoom":1,"maxZoom":17,"maxBounds":null,"attribution":""},
+                  {"dragging":false,"keyboard":false,"zoomControl":false,"scrollWheelZoom":false,"doubleClickZoom":true,"fitBounds":false,"minZoom":0,"maxZoom":12,"maxBounds":null,"attribution":""},
                   {});
                   window.WPLeafletMapPlugin.createMap(options).setView([12.1689,-68.2855],1);window.WPLeafletMapPlugin.createScale({});});
                   </SCRIPT>
@@ -811,19 +821,19 @@
                   <SCRIPT>
                   window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
                   window.WPLeafletMapPlugin.push(function WPLeafletMapShortcode() {/*<script>*/
-                  var baseUrl = atob('aHR0cHM6Ly90aWxlLnRodW5kZXJmb3Jlc3QuY29tL2xhbmRzY2FwZS97en0ve3h9L3t5fS5wbmc/YXBpa2V5PTlkN2QxZjAwMDlhMzQ1NmI5OTgxMzEyMzIwZTQ2MDBk');
+                  var baseUrl = atob('aHR0cHM6Ly9zZXJ2ZXIuYXJjZ2lzb25saW5lLmNvbS9BcmNHSVMvcmVzdC9zZXJ2aWNlcy9OYXRHZW9fV29ybGRfTWFwL01hcFNlcnZlci90aWxlL3t6fS97eX0ve3h9');
                   var base = (!baseUrl && window.MQ) ?
                   window.MQ.mapLayer() : L.tileLayer(baseUrl,
                   L.Util.extend({}, {
                   detectRetina: 0,
                   },
-                  {"subdomains":"abc","noWrap":false,"maxZoom":17}        )
+                  {"noWrap":true,"maxZoom":12}        )
                   );
                   var options = L.Util.extend({}, {
                   layers: [base],
                   attributionControl: false
                   },
-                  {"zoomControl":true,"scrollWheelZoom":false,"doubleClickZoom":true,"fitBounds":false,"minZoom":1,"maxZoom":17,"maxBounds":null,"attribution":"Bonaire, Caribbean Netherlands"},
+                  {"zoomControl":true,"scrollWheelZoom":false,"doubleClickZoom":true,"fitBounds":false,"minZoom":0,"maxZoom":12,"maxBounds":null,"attribution":"Bonaire, Caribbean Netherlands"},
                   {});
                   window.WPLeafletMapPlugin.createMap(options).setView([12.1689,-68.2855],11);window.WPLeafletMapPlugin.createScale({});});
                   </SCRIPT>
