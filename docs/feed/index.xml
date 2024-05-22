@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>your getaway at home</description>
-	<lastBuildDate>Wed, 22 May 2024 17:44:12 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 22 May 2024 19:45:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2024/05/globe_filled_bl_blue_green-150x150.png</url>
+	<url>/wp-content/uploads/2024/05/cropped-globe_filled_bl_blue_green.svg_round-1-32x32.png</url>
 	<title>awayfromhome.nl</title>
 	<link>/</link>
 	<width>32</width>
@@ -520,7 +520,7 @@ marker.bindPopup(window.WPLeafletMapPlugin.unescape('Rifugio Friedrich August'))
 
 
 
-<div class="wp-block-group has-border-color has-tertiary-background-color has-background is-nowrap is-layout-flex wp-container-core-group-is-layout-10 wp-block-group-is-layout-flex" style="border-color:#D9D9D9;border-width:1px;border-radius:0px;min-height:0px;margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><p><div class="leaflet-map WPLeafletMap" style="height:450px; width:200px;"></div><script>
+<div class="wp-block-group has-border-color has-tertiary-background-color has-background is-nowrap is-layout-flex wp-container-core-group-is-layout-10 wp-block-group-is-layout-flex" style="border-color:#D9D9D9;border-width:1px;border-radius:0px;min-height:0px;margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><p><div class="leaflet-map WPLeafletMap" style="height:450px; width:20%;"></div><script>
 window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
 window.WPLeafletMapPlugin.push(function WPLeafletMapShortcode() {/*<script>*/
 var baseUrl = atob('aHR0cHM6Ly9zZXJ2ZXIuYXJjZ2lzb25saW5lLmNvbS9BcmNHSVMvcmVzdC9zZXJ2aWNlcy9OYXRHZW9fV29ybGRfTWFwL01hcFNlcnZlci90aWxlL3t6fS97eX0ve3h9');
@@ -566,7 +566,7 @@ marker.bindPopup(window.WPLeafletMapPlugin.unescape('Divesite #13: Tolo Ol&amp;#
         });</script></p>
 
 
-<p><div class="leaflet-map WPLeafletMap" style="height:450px; width:100%;"></div><script>
+<p><div class="leaflet-map WPLeafletMap" style="height:450px; width:80%;"></div><script>
 window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
 window.WPLeafletMapPlugin.push(function WPLeafletMapShortcode() {/*<script>*/
 var baseUrl = atob('aHR0cHM6Ly9zZXJ2ZXIuYXJjZ2lzb25saW5lLmNvbS9BcmNHSVMvcmVzdC9zZXJ2aWNlcy9OYXRHZW9fV29ybGRfTWFwL01hcFNlcnZlci90aWxlL3t6fS97eX0ve3h9');
