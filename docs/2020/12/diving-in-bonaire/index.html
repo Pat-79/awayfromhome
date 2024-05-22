@@ -60,6 +60,11 @@
         media="all"
         rel="stylesheet">
   <LINK href=
+  "/wp-content/plugins/simple-photo-feed/public/css/simple-photo-feed-public.css?ver=240522-183639"
+        id="simple-photo-feed-css"
+        media="all"
+        rel="stylesheet">
+  <LINK href=
   "/wp-content/fonts/3fc3276e0a5202a529262a0a58f47f62.css?ver=1.8.7"
         id="inspiro-google-fonts-css"
         media="all"
@@ -277,7 +282,7 @@
         property="article:publisher">
   <META content="article"
         property="article:section">
-  <META content="2024-05-22T11:14:01+01:00"
+  <META content="2024-05-22T18:44:12+01:00"
         property="og:updated_time">
   <META content="1200"
         property="og:image:width">
@@ -288,7 +293,7 @@
         property="og:image:type">
   <META content="2020-12-10T23:42:00+01:00"
         property="article:published_time">
-  <META content="2024-05-22T11:14:01+01:00"
+  <META content="2024-05-22T18:44:12+01:00"
         property="article:modified_time">
   <META content=
   "During covid, when traveling was something that needed quite a bit of extra planning, I managed to book myself on a trip to the tropical Carribean island of Bonaire. Located about 40km north of Venazuela, Bonaire is part of the ABC islands (Aruba (most westwards), Bonaire (most eastwards) and Curacao (the middle island)."
@@ -393,6 +398,11 @@
     display: none;
   }
 
+  .sby_footer{
+        visibility: hidden;
+  display: none;
+  }
+
   .entry-summary{
         text-align:justify;
   }
@@ -445,27 +455,57 @@
   .leaflet-map{
         z-index:0
   }
+
+  .wp-block-tag-cloud{
+  text-align: middle;
+        vertical-align: center;
+  }
+  .tag-cloud-link{
+        text-decoration: none !important;
+        border-radius: 1em 1em 1em 1em;
+        background-color: #6C6C77;
+        border: 1px solid #010101;
+        color: #F9FAFD;
+  padding-left: 0.5em;
+        padding-right: 0.5em;
+        margin-top: 0.1em;
+        margin-bottom: 0.1em;
+        height: 2em;
+  }
+
+  .tag-cloud:link{
+        color: #0BB4AA;
+        text-decoration: none;  
+  }
+  .tag-cloud:hover{
+        color: #0BB4AA;
+        text-decoration: none;
+  }
+
+  ttag-cloud:visited{
+        color: #0BB4AA;
+        text-decoration: none;
+  }
   </STYLE>
   <STYLE id="core-block-supports-inline-css">
-  .wp-container-core-social-links-is-layout-1.wp-container-core-social-links-is-layout-1{justify-content:center;}.wp-container-core-social-links-is-layout-2.wp-container-core-social-links-is-layout-2{justify-content:center;}.wp-container-core-column-is-layout-1.wp-container-core-column-is-layout-1 > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:250px;margin-left:auto !important;margin-right:auto !important;}.wp-container-core-column-is-layout-1.wp-container-core-column-is-layout-1 > .alignwide{max-width:250px;}.wp-container-core-column-is-layout-1.wp-container-core-column-is-layout-1 .alignfull{max-width:none;}.wp-container-core-column-is-layout-1.wp-container-core-column-is-layout-1 > .alignfull{margin-right:calc(0 * -1);margin-left:calc(0 * -1);}.wp-container-core-column-is-layout-1.wp-container-core-column-is-layout-1 > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-column-is-layout-1.wp-container-core-column-is-layout-1.wp-container-core-column-is-layout-1.wp-container-core-column-is-layout-1 > * + *{margin-block-start:0;margin-block-end:0;}.wp-container-core-column-is-layout-2.wp-container-core-column-is-layout-2 > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:100%;margin-left:auto !important;margin-right:auto !important;}.wp-container-core-column-is-layout-2.wp-container-core-column-is-layout-2 > .alignwide{max-width:100%;}.wp-container-core-column-is-layout-2.wp-container-core-column-is-layout-2 .alignfull{max-width:none;}.wp-container-core-column-is-layout-2.wp-container-core-column-is-layout-2 > .alignfull{margin-right:calc(0 * -1);margin-left:calc(0 * -1);}.wp-container-core-column-is-layout-2.wp-container-core-column-is-layout-2 > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-column-is-layout-2.wp-container-core-column-is-layout-2.wp-container-core-column-is-layout-2.wp-container-core-column-is-layout-2 > * + *{margin-block-start:0;margin-block-end:0;}.wp-container-core-columns-is-layout-1.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;gap:0 0;}
+  .wp-container-core-social-links-is-layout-1.wp-container-core-social-links-is-layout-1{justify-content:center;}.wp-container-core-social-links-is-layout-2.wp-container-core-social-links-is-layout-2{justify-content:center;}.wp-container-core-group-is-layout-2.wp-container-core-group-is-layout-2{flex-wrap:nowrap;gap:2px;}
   </STYLE>
   <STYLE type="text/css">
-  div.c16 {--wpz-social-icons-block-item-font-size:18px;--wpz-social-icons-block-item-padding-horizontal:6px;--wpz-social-icons-block-item-padding-vertical:6px;--wpz-social-icons-block-item-margin-horizontal:5px;--wpz-social-icons-block-item-margin-vertical:5px;--wpz-social-icons-block-item-border-radius:50px;--wpz-social-icons-block-label-font-size:16px;--wpz-social-icons-block-label-color:#2e3131;--wpz-social-icons-block-label-color-hover:#2e3131;--wpz-social-icons-alignment:flex-end}
-  a.c15 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#34efdf}
-  a.c14 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#44f3e7}
-  a.c13 {color: #555; font-style:normal;font-weight:700;letter-spacing:2px;}
-  div.c12 {font-style:normal;font-weight:700;letter-spacing:4px;line-height:1.2}
-  a.c11 {color: #787878}
-  div.c10 {height:var(--wp--preset--spacing--small)}
-  div.c9 {border-style:none;border-width:0px;border-radius:0px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}
-  div.c8 {border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:75%}
-  div.c7 {height:500px; width:100%;}
-  div.c6 {border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:250px}
-  div.c5 {height:250px; width:250px;}
-  div.c4 {display: none;}
-  a.c3 {font-size: 22pt;}
-  a.c2 {font-size: 8pt;}
-  a.c1 {font-size: 16.4pt;}
+  div.c15 {--wpz-social-icons-block-item-font-size:18px;--wpz-social-icons-block-item-padding-horizontal:6px;--wpz-social-icons-block-item-padding-vertical:6px;--wpz-social-icons-block-item-margin-horizontal:5px;--wpz-social-icons-block-item-margin-vertical:5px;--wpz-social-icons-block-item-border-radius:50px;--wpz-social-icons-block-label-font-size:16px;--wpz-social-icons-block-label-color:#2e3131;--wpz-social-icons-block-label-color-hover:#2e3131;--wpz-social-icons-alignment:flex-end}
+  a.c14 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#34efdf}
+  a.c13 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#44f3e7}
+  a.c12 {color: #555; font-style:normal;font-weight:700;letter-spacing:2px;}
+  div.c11 {font-style:normal;font-weight:700;letter-spacing:4px;line-height:1.2}
+  a.c10 {color: #787878}
+  div.c9 {height:var(--wp--preset--spacing--small)}
+  div.c8 {border-color:#D9D9D9;border-width:1px;border-radius:0px;min-height:0px;margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px}
+  div.c7 {height:450px; width:100%;}
+  div.c6 {height:450px; width:200px;}
+  div.c5 {display: none;}
+  p.c4 {padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0;margin-left:0;margin-right:0; font-style:normal;font-weight:400;text-transform:capitalize;}
+  a.c3 {font-size: 1.75em;}
+  a.c2 {font-size: 0.75em;}
+  a.c1 {font-size: 1.35em;}
   </STYLE>
 </HEAD>
 <BODY class=
@@ -500,7 +540,7 @@
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-19"
                 id="menu-item-19">
-              <A href="/blog/">Blog</A>
+              <A href="/blog/">Blogs</A>
             </LI>
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page menu-item-20"
@@ -515,8 +555,8 @@
            id="block-78">
         <H3 class="title">Tags</H3>
         <DIV class="wp-widget-group__inner-blocks">
-          <P class="aligncenter wp-block-tag-cloud"><A aria-label=
-          "alps (2 items)"
+          <P class="aligncenter wp-block-tag-cloud c4">
+          <A aria-label="alps (2 items)"
              class=
              "tag-cloud-link tag-link-13 tag-link-position-1 c1"
              href="/tag/alps/">alps</A> <A aria-label=
@@ -668,7 +708,7 @@
                  title="your getaway at home">awayfromhome.nl</A>
           </DIV>
           <DIV class="header-widgets-wrapper">
-            <DIV class="sb-search c4"
+            <DIV class="sb-search c5"
                  id="sb-search">
               <FORM action="/"
                     id="searchform"
@@ -762,7 +802,7 @@
                           datetime=
                           "2020-12-10T22:42:00+01:00">December 10,
                           2020</TIME><TIME class="updated"
-                          datetime="2024-05-22T11:14:01+01:00">May
+                          datetime="2024-05-22T18:44:12+01:00">May
                           22, 2024</TIME></A></SPAN>
                   </DIV><!-- .entry-meta -->
                 </DIV><!-- .inner-wrap -->
@@ -781,116 +821,110 @@
               their dive sites all around the island. They call it
               a Diver's Paradise!</P>
               <DIV class=
-              "wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex c9">
-                <DIV class=
-                "wp-block-column is-vertically-aligned-top has-small-font-size has-global-padding is-content-justification-center is-layout-constrained wp-container-core-column-is-layout-1 wp-block-column-is-layout-constrained c6">
-                  <P></P>
-                  <DIV class="leaflet-map WPLeafletMap c5"></DIV>
-                  <SCRIPT>
-                  window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
-                  window.WPLeafletMapPlugin.push(function WPLeafletMapShortcode() {/*<script>*/
-                  var baseUrl = atob('aHR0cHM6Ly9zZXJ2ZXIuYXJjZ2lzb25saW5lLmNvbS9BcmNHSVMvcmVzdC9zZXJ2aWNlcy9OYXRHZW9fV29ybGRfTWFwL01hcFNlcnZlci90aWxlL3t6fS97eX0ve3h9');
-                  var base = (!baseUrl && window.MQ) ?
-                  window.MQ.mapLayer() : L.tileLayer(baseUrl,
-                  L.Util.extend({}, {
-                  detectRetina: 0,
-                  },
-                  {"noWrap":true,"maxZoom":12}        )
-                  );
-                  var options = L.Util.extend({}, {
-                  layers: [base],
-                  attributionControl: false
-                  },
-                  {"dragging":false,"keyboard":false,"zoomControl":false,"scrollWheelZoom":false,"doubleClickZoom":true,"fitBounds":false,"minZoom":0,"maxZoom":12,"maxBounds":null,"attribution":""},
-                  {});
-                  window.WPLeafletMapPlugin.createMap(options).setView([12.1689,-68.2855],2);window.WPLeafletMapPlugin.createScale({});});
-                  </SCRIPT>
-                  <BR>
-                  <SCRIPT>
+              "wp-block-group has-border-color has-tertiary-background-color has-background is-nowrap is-layout-flex wp-container-core-group-is-layout-2 wp-block-group-is-layout-flex c8">
+                <P></P>
+                <DIV class="leaflet-map WPLeafletMap c6"></DIV>
+                <SCRIPT>
+                window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
+                window.WPLeafletMapPlugin.push(function WPLeafletMapShortcode() {/*<script>*/
+                var baseUrl = atob('aHR0cHM6Ly9zZXJ2ZXIuYXJjZ2lzb25saW5lLmNvbS9BcmNHSVMvcmVzdC9zZXJ2aWNlcy9OYXRHZW9fV29ybGRfTWFwL01hcFNlcnZlci90aWxlL3t6fS97eX0ve3h9');
+                var base = (!baseUrl && window.MQ) ?
+                window.MQ.mapLayer() : L.tileLayer(baseUrl,
+                L.Util.extend({}, {
+                detectRetina: 0,
+                },
+                {"noWrap":true,"maxZoom":12}        )
+                );
+                var options = L.Util.extend({}, {
+                layers: [base],
+                attributionControl: false
+                },
+                {"dragging":false,"keyboard":false,"zoomControl":false,"scrollWheelZoom":false,"doubleClickZoom":true,"fitBounds":false,"minZoom":0,"maxZoom":12,"maxBounds":null,"attribution":""},
+                {});
+                window.WPLeafletMapPlugin.createMap(options).setView([12.1689,-68.2855],2);window.WPLeafletMapPlugin.createScale({});});
+                </SCRIPT>
+                <BR>
+                <SCRIPT>
 
-                  window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
-                  window.WPLeafletMapPlugin.push(function WPLeafletMarkerShortcode() {/*<script>*/
-                  var map = window.WPLeafletMapPlugin.getCurrentMap();
-                  var group = window.WPLeafletMapPlugin.getCurrentGroup();
-                  var marker_options = window.WPLeafletMapPlugin.getIconOptions({"title":"Divesite #13: Tolo Ol&#39; Blue","popupAnchor":"0,-40","svg":true,"background":"#e33414","color":"#ffffff"});
-                  var marker = new L.SVGMarker(
-                  [12.2153,-68.339],
-                  marker_options
-                  );
-                  var is_image = map.is_image_map;
-                  if (marker_options.draggable) {
-                  marker.on('dragend', function () {
-                  var latlng = this.getLatLng();
-                  var lat = latlng.lat;
-                  var lng = latlng.lng;
-                  if (is_image) {
-                  console.log('leaflet-marker y=' + lat + ' x=' + lng);
-                  } else {
-                  console.log('leaflet-marker lat=' + lat + ' lng=' + lng);
-                  }
-                  });
-                  }
-                  marker.addTo( group );
-                  marker.bindPopup(window.WPLeafletMapPlugin.unescape('Divesite #13: Tolo Ol&amp;#8217; Blue'));window.WPLeafletMapPlugin.markers.push( marker );
-                  });
-                  </SCRIPT>
-                </DIV>
-                <DIV class=
-                "wp-block-column is-vertically-aligned-stretch has-global-padding is-layout-constrained wp-container-core-column-is-layout-2 wp-block-column-is-layout-constrained c8">
-                  <P></P>
-                  <DIV class="leaflet-map WPLeafletMap c7"></DIV>
-                  <SCRIPT>
-                  window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
-                  window.WPLeafletMapPlugin.push(function WPLeafletMapShortcode() {/*<script>*/
-                  var baseUrl = atob('aHR0cHM6Ly9zZXJ2ZXIuYXJjZ2lzb25saW5lLmNvbS9BcmNHSVMvcmVzdC9zZXJ2aWNlcy9OYXRHZW9fV29ybGRfTWFwL01hcFNlcnZlci90aWxlL3t6fS97eX0ve3h9');
-                  var base = (!baseUrl && window.MQ) ?
-                  window.MQ.mapLayer() : L.tileLayer(baseUrl,
-                  L.Util.extend({}, {
-                  detectRetina: 0,
-                  },
-                  {"noWrap":true,"maxZoom":12}        )
-                  );
-                  var options = L.Util.extend({}, {
-                  layers: [base],
-                  attributionControl: false
-                  },
-                  {"zoomControl":true,"scrollWheelZoom":false,"doubleClickZoom":true,"fitBounds":false,"minZoom":0,"maxZoom":12,"maxBounds":null,"attribution":"Bonaire, Caribbean Netherlands"},
-                  {});
-                  window.WPLeafletMapPlugin.createMap(options).setView([12.1689,-68.2855],11);window.WPLeafletMapPlugin.createScale({});});
-                  </SCRIPT>
-                  <BR>
-                  <SCRIPT>
+                window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
+                window.WPLeafletMapPlugin.push(function WPLeafletMarkerShortcode() {/*<script>*/
+                var map = window.WPLeafletMapPlugin.getCurrentMap();
+                var group = window.WPLeafletMapPlugin.getCurrentGroup();
+                var marker_options = window.WPLeafletMapPlugin.getIconOptions({"title":"Divesite #13: Tolo Ol&#39; Blue","popupAnchor":"0,-40","svg":true,"background":"#e33414","color":"#ffffff"});
+                var marker = new L.SVGMarker(
+                [12.2153,-68.339],
+                marker_options
+                );
+                var is_image = map.is_image_map;
+                if (marker_options.draggable) {
+                marker.on('dragend', function () {
+                var latlng = this.getLatLng();
+                var lat = latlng.lat;
+                var lng = latlng.lng;
+                if (is_image) {
+                console.log('leaflet-marker y=' + lat + ' x=' + lng);
+                } else {
+                console.log('leaflet-marker lat=' + lat + ' lng=' + lng);
+                }
+                });
+                }
+                marker.addTo( group );
+                marker.bindPopup(window.WPLeafletMapPlugin.unescape('Divesite #13: Tolo Ol&amp;#8217; Blue'));window.WPLeafletMapPlugin.markers.push( marker );
+                });
+                </SCRIPT>
+                <P></P>
+                <DIV class="leaflet-map WPLeafletMap c7"></DIV>
+                <SCRIPT>
+                window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
+                window.WPLeafletMapPlugin.push(function WPLeafletMapShortcode() {/*<script>*/
+                var baseUrl = atob('aHR0cHM6Ly9zZXJ2ZXIuYXJjZ2lzb25saW5lLmNvbS9BcmNHSVMvcmVzdC9zZXJ2aWNlcy9OYXRHZW9fV29ybGRfTWFwL01hcFNlcnZlci90aWxlL3t6fS97eX0ve3h9');
+                var base = (!baseUrl && window.MQ) ?
+                window.MQ.mapLayer() : L.tileLayer(baseUrl,
+                L.Util.extend({}, {
+                detectRetina: 0,
+                },
+                {"noWrap":true,"maxZoom":12}        )
+                );
+                var options = L.Util.extend({}, {
+                layers: [base],
+                attributionControl: false
+                },
+                {"zoomControl":true,"scrollWheelZoom":false,"doubleClickZoom":true,"fitBounds":false,"minZoom":0,"maxZoom":12,"maxBounds":null,"attribution":"Bonaire, Caribbean Netherlands"},
+                {});
+                window.WPLeafletMapPlugin.createMap(options).setView([12.1689,-68.2605],10);window.WPLeafletMapPlugin.createScale({});});
+                </SCRIPT>
+                <BR>
+                <SCRIPT>
 
-                  window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
-                  window.WPLeafletMapPlugin.push(function WPLeafletMarkerShortcode() {/*<script>*/
-                  var map = window.WPLeafletMapPlugin.getCurrentMap();
-                  var group = window.WPLeafletMapPlugin.getCurrentGroup();
-                  var marker_options = window.WPLeafletMapPlugin.getIconOptions({"title":"Divesite #13: Tolo Ol&#39; Blue","popupAnchor":"0,-40","svg":true,"background":"#e33414","color":"#ffffff"});
-                  var marker = new L.SVGMarker(
-                  [12.2153,-68.339],
-                  marker_options
-                  );
-                  var is_image = map.is_image_map;
-                  if (marker_options.draggable) {
-                  marker.on('dragend', function () {
-                  var latlng = this.getLatLng();
-                  var lat = latlng.lat;
-                  var lng = latlng.lng;
-                  if (is_image) {
-                  console.log('leaflet-marker y=' + lat + ' x=' + lng);
-                  } else {
-                  console.log('leaflet-marker lat=' + lat + ' lng=' + lng);
-                  }
-                  });
-                  }
-                  marker.addTo( group );
-                  marker.bindPopup(window.WPLeafletMapPlugin.unescape('Divesite #13: Tolo Ol&amp;#8217; Blue'));window.WPLeafletMapPlugin.markers.push( marker );
-                  });
-                  </SCRIPT>
-                </DIV>
+                window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
+                window.WPLeafletMapPlugin.push(function WPLeafletMarkerShortcode() {/*<script>*/
+                var map = window.WPLeafletMapPlugin.getCurrentMap();
+                var group = window.WPLeafletMapPlugin.getCurrentGroup();
+                var marker_options = window.WPLeafletMapPlugin.getIconOptions({"title":"Divesite #13: Tolo Ol&#39; Blue","popupAnchor":"0,-40","svg":true,"background":"#e33414","color":"#ffffff"});
+                var marker = new L.SVGMarker(
+                [12.2153,-68.339],
+                marker_options
+                );
+                var is_image = map.is_image_map;
+                if (marker_options.draggable) {
+                marker.on('dragend', function () {
+                var latlng = this.getLatLng();
+                var lat = latlng.lat;
+                var lng = latlng.lng;
+                if (is_image) {
+                console.log('leaflet-marker y=' + lat + ' x=' + lng);
+                } else {
+                console.log('leaflet-marker lat=' + lat + ' lng=' + lng);
+                }
+                });
+                }
+                marker.addTo( group );
+                marker.bindPopup(window.WPLeafletMapPlugin.unescape('Divesite #13: Tolo Ol&amp;#8217; Blue'));window.WPLeafletMapPlugin.markers.push( marker );
+                });
+                </SCRIPT>
               </DIV>
               <DIV aria-hidden="true"
-                   class="wp-block-spacer c10"></DIV>
+                   class="wp-block-spacer c9"></DIV>
               <FIGURE class=
               "wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
                 <DIV class="wp-block-embed__wrapper">
@@ -963,13 +997,13 @@
               <SECTION class="widget widget_block"
                        id="block-116">
                 <DIV>
-                  <DIV class="has-medium-font-size c12">
-                    <A class="c11"
+                  <DIV class="has-medium-font-size c11">
+                    <A class="c10"
                          href=
                          "/"><STRONG>awayfromhome.nl</STRONG></A>
                   </DIV>
                   <DIV>
-                    <A class="c13"
+                    <A class="c12"
                          href="/sitemap/">Sitemap</A>
                   </DIV>
                 </DIV>
@@ -987,16 +1021,16 @@
               <SECTION class="widget widget_block"
                        id="block-50">
                 <DIV class=
-                "wp-block-wpzoom-blocks-social-icons is-style-with-canvas-round c16">
-                  <A class="social-icon-link c14"
+                "wp-block-wpzoom-blocks-social-icons is-style-with-canvas-round c15">
+                  <A class="social-icon-link c13"
                        href=
                        "https://www.instagram.com/awayfromhome_nl/"
                        title="Instagram"><SPAN class=
-                       "social-icon socicon socicon-instagram"></SPAN></A><A class="social-icon-link c15"
+                       "social-icon socicon socicon-instagram"></SPAN></A><A class="social-icon-link c14"
                        href=
                        "https://www.youtube.com/channel/UCLY15iYLm65hrgkSAywRNXw"
                        title="Youtube"><SPAN class=
-                       "social-icon socicon socicon-youtube"></SPAN></A><A class="social-icon-link c14"
+                       "social-icon socicon socicon-youtube"></SPAN></A><A class="social-icon-link c13"
                        href="/feed"
                        title="Rss"><SPAN class=
                        "social-icon socicon socicon-rss"></SPAN></A>

@@ -59,6 +59,11 @@
         media="all"
         rel="stylesheet">
   <LINK href=
+  "/wp-content/plugins/simple-photo-feed/public/css/simple-photo-feed-public.css?ver=240522-183639"
+        id="simple-photo-feed-css"
+        media="all"
+        rel="stylesheet">
+  <LINK href=
   "/wp-content/fonts/3fc3276e0a5202a529262a0a58f47f62.css?ver=1.8.7"
         id="inspiro-google-fonts-css"
         media="all"
@@ -260,7 +265,7 @@
         property="article:publisher">
   <META content="article"
         property="article:section">
-  <META content="2024-05-22T09:49:29+01:00"
+  <META content="2024-05-22T18:25:19+01:00"
         property="og:updated_time">
   <META content="1200"
         property="og:image:width">
@@ -271,7 +276,7 @@
         property="og:image:type">
   <META content="2024-05-15T22:36:59+01:00"
         property="article:published_time">
-  <META content="2024-05-22T09:49:29+01:00"
+  <META content="2024-05-22T18:25:19+01:00"
         property="article:modified_time">
   <META content=
   "The Dolomites are one of the most beautiful areas of the Alps in Europe. They are located (mostly) in North-East Italy, in the provinces of South-Tirol, Trentino and Veneto and are nowadays part of the UNESCO World Heritage Site. The Dolomites have many rugged peaks, up to a height of 3343 meters and are known for their breathtaking vistas from the tops and beautiful valleys. What better then end a day of skiing in December on top of a hill overlooking the beautiful Fassa Valley, together with a beautiful sunshine and music in the background!"
@@ -376,6 +381,11 @@
     display: none;
   }
 
+  .sby_footer{
+        visibility: hidden;
+  display: none;
+  }
+
   .entry-summary{
         text-align:justify;
   }
@@ -428,21 +438,53 @@
   .leaflet-map{
         z-index:0
   }
+
+  .wp-block-tag-cloud{
+  text-align: middle;
+        vertical-align: center;
+  }
+  .tag-cloud-link{
+        text-decoration: none !important;
+        border-radius: 1em 1em 1em 1em;
+        background-color: #6C6C77;
+        border: 1px solid #010101;
+        color: #F9FAFD;
+  padding-left: 0.5em;
+        padding-right: 0.5em;
+        margin-top: 0.1em;
+        margin-bottom: 0.1em;
+        height: 2em;
+  }
+
+  .tag-cloud:link{
+        color: #0BB4AA;
+        text-decoration: none;  
+  }
+  .tag-cloud:hover{
+        color: #0BB4AA;
+        text-decoration: none;
+  }
+
+  ttag-cloud:visited{
+        color: #0BB4AA;
+        text-decoration: none;
+  }
   </STYLE>
   <STYLE id="core-block-supports-inline-css">
   .wp-container-core-social-links-is-layout-1.wp-container-core-social-links-is-layout-1{justify-content:center;}.wp-container-core-social-links-is-layout-2.wp-container-core-social-links-is-layout-2{justify-content:center;}
   </STYLE>
   <STYLE type="text/css">
-  div.c10 {--wpz-social-icons-block-item-font-size:18px;--wpz-social-icons-block-item-padding-horizontal:6px;--wpz-social-icons-block-item-padding-vertical:6px;--wpz-social-icons-block-item-margin-horizontal:5px;--wpz-social-icons-block-item-margin-vertical:5px;--wpz-social-icons-block-item-border-radius:50px;--wpz-social-icons-block-label-font-size:16px;--wpz-social-icons-block-label-color:#2e3131;--wpz-social-icons-block-label-color-hover:#2e3131;--wpz-social-icons-alignment:flex-end}
-  a.c9 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#34efdf}
-  a.c8 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#44f3e7}
-  a.c7 {color: #555; font-style:normal;font-weight:700;letter-spacing:2px;}
-  div.c6 {font-style:normal;font-weight:700;letter-spacing:4px;line-height:1.2}
-  a.c5 {color: #787878}
-  div.c4 {display: none;}
-  a.c3 {font-size: 22pt;}
-  a.c2 {font-size: 8pt;}
-  a.c1 {font-size: 16.4pt;}
+  div.c11 {--wpz-social-icons-block-item-font-size:18px;--wpz-social-icons-block-item-padding-horizontal:6px;--wpz-social-icons-block-item-padding-vertical:6px;--wpz-social-icons-block-item-margin-horizontal:5px;--wpz-social-icons-block-item-margin-vertical:5px;--wpz-social-icons-block-item-border-radius:50px;--wpz-social-icons-block-label-font-size:16px;--wpz-social-icons-block-label-color:#2e3131;--wpz-social-icons-block-label-color-hover:#2e3131;--wpz-social-icons-alignment:flex-end}
+  a.c10 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#34efdf}
+  a.c9 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#44f3e7}
+  a.c8 {color: #555; font-style:normal;font-weight:700;letter-spacing:2px;}
+  div.c7 {font-style:normal;font-weight:700;letter-spacing:4px;line-height:1.2}
+  a.c6 {color: #787878}
+  div.c5 {display: none;}
+  p.c4 {padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0;margin-left:0;margin-right:0; font-style:normal;font-weight:400;text-transform:capitalize;}
+  a.c3 {font-size: 1.75em;}
+  a.c2 {font-size: 0.75em;}
+  a.c1 {font-size: 1.35em;}
   </STYLE>
 </HEAD>
 <BODY class=
@@ -477,7 +519,7 @@
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-19"
                 id="menu-item-19">
-              <A href="/blog/">Blog</A>
+              <A href="/blog/">Blogs</A>
             </LI>
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page menu-item-20"
@@ -492,8 +534,8 @@
            id="block-78">
         <H3 class="title">Tags</H3>
         <DIV class="wp-widget-group__inner-blocks">
-          <P class="aligncenter wp-block-tag-cloud"><A aria-label=
-          "alps (2 items)"
+          <P class="aligncenter wp-block-tag-cloud c4">
+          <A aria-label="alps (2 items)"
              class=
              "tag-cloud-link tag-link-13 tag-link-position-1 c1"
              href="/tag/alps/">alps</A> <A aria-label=
@@ -645,7 +687,7 @@
                  title="your getaway at home">awayfromhome.nl</A>
           </DIV>
           <DIV class="header-widgets-wrapper">
-            <DIV class="sb-search c4"
+            <DIV class="sb-search c5"
                  id="sb-search">
               <FORM action="/"
                     id="searchform"
@@ -743,7 +785,7 @@
                     on</SPAN> <TIME class="entry-date published"
                           datetime="2024-05-15T22:36:59+01:00">May
                           15, 2024</TIME><TIME class="updated"
-                          datetime="2024-05-22T09:49:29+01:00">May
+                          datetime="2024-05-22T18:25:19+01:00">May
                           22, 2024</TIME></SPAN><SPAN class=
                           "entry-comments"><A href=
                           "/2024/05/sunset-in-the-dolimites-italy/#respond">No
@@ -780,13 +822,13 @@
               <SECTION class="widget widget_block"
                        id="block-116">
                 <DIV>
-                  <DIV class="has-medium-font-size c6">
-                    <A class="c5"
+                  <DIV class="has-medium-font-size c7">
+                    <A class="c6"
                          href=
                          "/"><STRONG>awayfromhome.nl</STRONG></A>
                   </DIV>
                   <DIV>
-                    <A class="c7"
+                    <A class="c8"
                          href="/sitemap/">Sitemap</A>
                   </DIV>
                 </DIV>
@@ -804,16 +846,16 @@
               <SECTION class="widget widget_block"
                        id="block-50">
                 <DIV class=
-                "wp-block-wpzoom-blocks-social-icons is-style-with-canvas-round c10">
-                  <A class="social-icon-link c8"
+                "wp-block-wpzoom-blocks-social-icons is-style-with-canvas-round c11">
+                  <A class="social-icon-link c9"
                        href=
                        "https://www.instagram.com/awayfromhome_nl/"
                        title="Instagram"><SPAN class=
-                       "social-icon socicon socicon-instagram"></SPAN></A><A class="social-icon-link c9"
+                       "social-icon socicon socicon-instagram"></SPAN></A><A class="social-icon-link c10"
                        href=
                        "https://www.youtube.com/channel/UCLY15iYLm65hrgkSAywRNXw"
                        title="Youtube"><SPAN class=
-                       "social-icon socicon socicon-youtube"></SPAN></A><A class="social-icon-link c8"
+                       "social-icon socicon socicon-youtube"></SPAN></A><A class="social-icon-link c9"
                        href="/feed"
                        title="Rss"><SPAN class=
                        "social-icon socicon socicon-rss"></SPAN></A>

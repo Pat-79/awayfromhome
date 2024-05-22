@@ -10,7 +10,7 @@
   <SCRIPT>
   (function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
   </SCRIPT>
-  <TITLE>Blog - awayfromhome.nl</TITLE>
+  <TITLE>Blogs - awayfromhome.nl</TITLE>
   <META content="max-image-preview:large"
         name="robots">
   <LINK href="/feed/"
@@ -52,6 +52,11 @@
   <LINK href=
   "/wp-content/plugins/image-rights/css/styles.css?ver=1716298016"
         id="pcr_front_styles-css"
+        media="all"
+        rel="stylesheet">
+  <LINK href=
+  "/wp-content/plugins/simple-photo-feed/public/css/simple-photo-feed-public.css?ver=240522-183639"
+        id="simple-photo-feed-css"
         media="all"
         rel="stylesheet">
   <LINK href=
@@ -264,7 +269,7 @@
         property="article:publisher">
   <META content="page"
         property="article:section">
-  <META content="2024-05-19T00:50:01+01:00"
+  <META content="2024-05-22T20:22:03+01:00"
         property="og:updated_time">
   <META content="1200"
         property="og:image:width">
@@ -276,10 +281,10 @@
         property="og:image:type">
   <META content="2024-05-14T22:10:06+01:00"
         property="article:published_time">
-  <META content="2024-05-19T00:50:01+01:00"
+  <META content="2024-05-22T20:22:03+01:00"
         property="article:modified_time">
   <META name="description">
-  <META content="Blog"
+  <META content="Blogs"
         property="og:title">
   <META content="/?post_type=page&amp;p=11"
         property="og:url">
@@ -296,7 +301,7 @@
         property="og:locale">
   <META content="summary_large_image"
         name="twitter:card">
-  <META content="Blog"
+  <META content="Blogs"
         name="twitter:title">
   <META name="twitter:description">
   <META name="twitter:site">
@@ -375,6 +380,11 @@
     display: none;
   }
 
+  .sby_footer{
+        visibility: hidden;
+  display: none;
+  }
+
   .entry-summary{
         text-align:justify;
   }
@@ -427,30 +437,62 @@
   .leaflet-map{
         z-index:0
   }
+
+  .wp-block-tag-cloud{
+  text-align: middle;
+        vertical-align: center;
+  }
+  .tag-cloud-link{
+        text-decoration: none !important;
+        border-radius: 1em 1em 1em 1em;
+        background-color: #6C6C77;
+        border: 1px solid #010101;
+        color: #F9FAFD;
+  padding-left: 0.5em;
+        padding-right: 0.5em;
+        margin-top: 0.1em;
+        margin-bottom: 0.1em;
+        height: 2em;
+  }
+
+  .tag-cloud:link{
+        color: #0BB4AA;
+        text-decoration: none;  
+  }
+  .tag-cloud:hover{
+        color: #0BB4AA;
+        text-decoration: none;
+  }
+
+  ttag-cloud:visited{
+        color: #0BB4AA;
+        text-decoration: none;
+  }
   </STYLE>
   <STYLE id="core-block-supports-inline-css">
   .wp-container-core-social-links-is-layout-1.wp-container-core-social-links-is-layout-1{justify-content:center;}.wp-container-core-social-links-is-layout-2.wp-container-core-social-links-is-layout-2{justify-content:center;}.wp-elements-a1817b6b9e4eaefd5826fde68b0a8fdb a:where(:not(.wp-element-button)){color:var(--wp--preset--color--tertiary);}.wp-elements-123519e8a6a8c932c1c730a549fd0ce4 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--lightgrey);}.wp-elements-61eeeb1d6c31f3761cb8bc35b6e1a095 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--tertiary);}.wp-container-core-post-template-is-layout-1.wp-container-core-post-template-is-layout-1{grid-template-columns:repeat(1, minmax(0, 1fr));gap:var(--wp--preset--spacing--small);}
   </STYLE>
   <STYLE type="text/css">
-  div.c19 {--wpz-social-icons-block-item-font-size:18px;--wpz-social-icons-block-item-padding-horizontal:6px;--wpz-social-icons-block-item-padding-vertical:6px;--wpz-social-icons-block-item-margin-horizontal:5px;--wpz-social-icons-block-item-margin-vertical:5px;--wpz-social-icons-block-item-border-radius:50px;--wpz-social-icons-block-label-font-size:16px;--wpz-social-icons-block-label-color:#2e3131;--wpz-social-icons-block-label-color-hover:#2e3131;--wpz-social-icons-alignment:flex-end}
-  a.c18 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#34efdf}
-  a.c17 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#44f3e7}
-  a.c16 {color: #555; font-style:normal;font-weight:700;letter-spacing:2px;}
-  div.c15 {font-style:normal;font-weight:700;letter-spacing:4px;line-height:1.2}
-  a.c14 {color: #787878}
-  div.c13 {height:85px}
-  div.c12 {height:var(--wp--preset--spacing--x-small)}
-  a.c11 {border-width:0px; padding-right:0;padding-left:0;padding-top:0px;padding-bottom:0px; text-transform:none;}
-  h3.c10 {margin-top:0;margin-bottom:var(--wp--preset--spacing--x-small);}
-  div.c9 {margin-top:0;margin-bottom:0;}
-  figure.c8 {width:100%;height:240px; margin-bottom:var(--wp--preset--spacing--x-small);}
-  a.c7 {height:240px}
-  img.c6 {border-radius:5px;height:240px;object-fit:cover;}
-  div.c5 {height:33px}
-  div.c4 {display: none;}
-  a.c3 {font-size: 22pt;}
-  a.c2 {font-size: 8pt;}
-  a.c1 {font-size: 16.4pt;}
+  div.c20 {--wpz-social-icons-block-item-font-size:18px;--wpz-social-icons-block-item-padding-horizontal:6px;--wpz-social-icons-block-item-padding-vertical:6px;--wpz-social-icons-block-item-margin-horizontal:5px;--wpz-social-icons-block-item-margin-vertical:5px;--wpz-social-icons-block-item-border-radius:50px;--wpz-social-icons-block-label-font-size:16px;--wpz-social-icons-block-label-color:#2e3131;--wpz-social-icons-block-label-color-hover:#2e3131;--wpz-social-icons-alignment:flex-end}
+  a.c19 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#34efdf}
+  a.c18 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#44f3e7}
+  a.c17 {color: #555; font-style:normal;font-weight:700;letter-spacing:2px;}
+  div.c16 {font-style:normal;font-weight:700;letter-spacing:4px;line-height:1.2}
+  a.c15 {color: #787878}
+  div.c14 {height:85px}
+  div.c13 {height:var(--wp--preset--spacing--x-small)}
+  a.c12 {border-width:0px; padding-right:0;padding-left:0;padding-top:0px;padding-bottom:0px; text-transform:none;}
+  h3.c11 {margin-top:0;margin-bottom:var(--wp--preset--spacing--x-small);}
+  div.c10 {margin-top:0;margin-bottom:0;}
+  figure.c9 {width:100%;height:240px; margin-bottom:var(--wp--preset--spacing--x-small);}
+  a.c8 {height:240px}
+  img.c7 {border-radius:5px;height:240px;object-fit:cover;}
+  div.c6 {height:33px}
+  div.c5 {display: none;}
+  p.c4 {padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0;margin-left:0;margin-right:0; font-style:normal;font-weight:400;text-transform:capitalize;}
+  a.c3 {font-size: 1.75em;}
+  a.c2 {font-size: 0.75em;}
+  a.c1 {font-size: 1.35em;}
   </STYLE>
 </HEAD>
 <BODY class=
@@ -486,7 +528,7 @@
             "menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item menu-item-19"
                 id="menu-item-19">
               <A aria-current="page"
-                  href="/blog/">Blog</A>
+                  href="/blog/">Blogs</A>
             </LI>
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page menu-item-20"
@@ -501,8 +543,8 @@
            id="block-78">
         <H3 class="title">Tags</H3>
         <DIV class="wp-widget-group__inner-blocks">
-          <P class="aligncenter wp-block-tag-cloud"><A aria-label=
-          "alps (2 items)"
+          <P class="aligncenter wp-block-tag-cloud c4">
+          <A aria-label="alps (2 items)"
              class=
              "tag-cloud-link tag-link-13 tag-link-position-1 c1"
              href="/tag/alps/">alps</A> <A aria-label=
@@ -654,7 +696,7 @@
                  title="your getaway at home">awayfromhome.nl</A>
           </DIV>
           <DIV class="header-widgets-wrapper">
-            <DIV class="sb-search c4"
+            <DIV class="sb-search c5"
                  id="sb-search">
               <FORM action="/"
                     id="searchform"
@@ -734,7 +776,7 @@
                    <!-- .single-featured-image-header -->
               <HEADER class="entry-header">
                 <DIV class="inner-wrap">
-                  <H1 class="entry-title">Blog</H1>
+                  <H1 class="entry-title">Blogs</H1>
                 </DIV><!-- .inner-wrap -->
               </HEADER><!-- .entry-header -->
             </DIV><!-- .entry-cover-image -->
@@ -747,9 +789,9 @@
                 "has-text-align-left has-secondary-color has-text-color">
                 FROM THE BLOG</P>
                 <DIV aria-hidden="true"
-                     class="wp-block-spacer c5"></DIV>
+                     class="wp-block-spacer c6"></DIV>
                 <H2 class="wp-block-heading has-text-align-left">
-                Latest News</H2>
+                Last new articles</H2>
                 <DIV class=
                 "wp-block-query is-layout-flow wp-block-query-is-layout-flow">
                   <UL class=
@@ -757,13 +799,13 @@
                     <LI class=
                     "wp-block-post post-379 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-alps tag-europe tag-mountain tag-slovenia tag-summer tag-vacation">
                       <FIGURE class=
-                      "wp-block-post-featured-image c8">
-                        <A class="c7"
+                      "wp-block-post-featured-image c9">
+                        <A class="c8"
                                 href="/2024/05/slovenia/"
                                 target="_self"><IMG alt=
                                 "Slovenia 🇸🇮"
                              class=
-                             "attachment-post-thumbnail size-post-thumbnail wp-post-image c6"
+                             "attachment-post-thumbnail size-post-thumbnail wp-post-image c7"
                              decoding="async"
                              height="1440"
                              sizes="100vw"
@@ -774,13 +816,13 @@
                              width="2560"></A>
                       </FIGURE>
                       <DIV class=
-                      "has-link-color has-text-color has-tertiary-color wp-block-post-date wp-elements-a1817b6b9e4eaefd5826fde68b0a8fdb c9">
+                      "has-link-color has-text-color has-tertiary-color wp-block-post-date wp-elements-a1817b6b9e4eaefd5826fde68b0a8fdb c10">
                         <TIME datetime=
                         "2024-05-18T02:48:09+01:00">May 18,
                         2024</TIME>
                       </DIV>
                       <H3 class=
-                      "has-link-color has-text-color has-lightgrey-color wp-block-post-title wp-elements-123519e8a6a8c932c1c730a549fd0ce4 c10">
+                      "has-link-color has-text-color has-lightgrey-color wp-block-post-title wp-elements-123519e8a6a8c932c1c730a549fd0ce4 c11">
                       <A href="/2024/05/slovenia/"
                          target="_self">Slovenia <SPAN class=
                          "emoji">🇸🇮</SPAN></A></H3>
@@ -793,27 +835,27 @@
                         of course talking about Slovenia. I've been
                         visiting the northern part, where also the
                         talles mountain…</P>
-                      </DIV><A class="wp-block-read-more c11"
+                      </DIV><A class="wp-block-read-more c12"
                           href="/2024/05/slovenia/"
                           target="_self">Read more<SPAN class=
                           "screen-reader-text">: Slovenia
                           <SPAN class="emoji">🇸🇮</SPAN></SPAN></A>
                       <DIV aria-hidden="true"
-                           class="wp-block-spacer c12"></DIV>
+                           class="wp-block-spacer c13"></DIV>
                       <HR class=
                       "wp-block-separator has-text-color has-tertiary-color has-alpha-channel-opacity has-tertiary-background-color has-background is-style-default">
                     </LI>
                     <LI class=
                     "wp-block-post post-120 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-alps tag-dolomites tag-europe tag-italy tag-mountain tag-relaxing tag-snow tag-vacation tag-winter">
                       <FIGURE class=
-                      "wp-block-post-featured-image c8">
-                        <A class="c7"
+                      "wp-block-post-featured-image c9">
+                        <A class="c8"
                                 href=
                                 "/2024/05/sunset-in-the-dolimites-italy/"
                                 target="_self"><IMG alt=
                                 "Sunset in the Dolomites 🇮🇹"
                              class=
-                             "attachment-post-thumbnail size-post-thumbnail wp-post-image c6"
+                             "attachment-post-thumbnail size-post-thumbnail wp-post-image c7"
                              decoding="async"
                              height="1200"
                              sizes="100vw"
@@ -824,13 +866,13 @@
                              width="2000"></A>
                       </FIGURE>
                       <DIV class=
-                      "has-link-color has-text-color has-tertiary-color wp-block-post-date wp-elements-a1817b6b9e4eaefd5826fde68b0a8fdb c9">
+                      "has-link-color has-text-color has-tertiary-color wp-block-post-date wp-elements-a1817b6b9e4eaefd5826fde68b0a8fdb c10">
                         <TIME datetime=
                         "2024-05-15T22:36:59+01:00">May 15,
                         2024</TIME>
                       </DIV>
                       <H3 class=
-                      "has-link-color has-text-color has-lightgrey-color wp-block-post-title wp-elements-123519e8a6a8c932c1c730a549fd0ce4 c10">
+                      "has-link-color has-text-color has-lightgrey-color wp-block-post-title wp-elements-123519e8a6a8c932c1c730a549fd0ce4 c11">
                       <A href=
                       "/2024/05/sunset-in-the-dolimites-italy/"
                          target="_self">Sunset in the Dolomites
@@ -844,7 +886,7 @@
                         the provinces of South-Tirol, Trentino and
                         Veneto and are nowadays part of the UNESCO
                         World Heritage…</P>
-                      </DIV><A class="wp-block-read-more c11"
+                      </DIV><A class="wp-block-read-more c12"
                           href=
                           "/2024/05/sunset-in-the-dolimites-italy/"
                           target="_self">Read more<SPAN class=
@@ -852,20 +894,20 @@
                           Dolomites <SPAN class=
                           "emoji">🇮🇹</SPAN></SPAN></A>
                       <DIV aria-hidden="true"
-                           class="wp-block-spacer c12"></DIV>
+                           class="wp-block-spacer c13"></DIV>
                       <HR class=
                       "wp-block-separator has-text-color has-tertiary-color has-alpha-channel-opacity has-tertiary-background-color has-background is-style-default">
                     </LI>
                     <LI class=
                     "wp-block-post post-62 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-bonaire tag-carribean tag-diving tag-island tag-scuba tag-summer tag-tropical tag-vacation">
                       <FIGURE class=
-                      "wp-block-post-featured-image c8">
-                        <A class="c7"
+                      "wp-block-post-featured-image c9">
+                        <A class="c8"
                                 href="/2020/12/diving-in-bonaire/"
                                 target="_self"><IMG alt=
                                 "Diving in Bonaire 🇧🇶 🏴󠁢󠁱󠁢󠁯󠁿"
                              class=
-                             "attachment-post-thumbnail size-post-thumbnail wp-post-image c6"
+                             "attachment-post-thumbnail size-post-thumbnail wp-post-image c7"
                              decoding="async"
                              height="640"
                              loading="lazy"
@@ -877,13 +919,13 @@
                              width="1047"></A>
                       </FIGURE>
                       <DIV class=
-                      "has-link-color has-text-color has-tertiary-color wp-block-post-date wp-elements-a1817b6b9e4eaefd5826fde68b0a8fdb c9">
+                      "has-link-color has-text-color has-tertiary-color wp-block-post-date wp-elements-a1817b6b9e4eaefd5826fde68b0a8fdb c10">
                         <TIME datetime=
                         "2020-12-10T22:42:00+01:00">December 10,
                         2020</TIME>
                       </DIV>
                       <H3 class=
-                      "has-link-color has-text-color has-lightgrey-color wp-block-post-title wp-elements-123519e8a6a8c932c1c730a549fd0ce4 c10">
+                      "has-link-color has-text-color has-lightgrey-color wp-block-post-title wp-elements-123519e8a6a8c932c1c730a549fd0ce4 c11">
                       <A href="/2020/12/diving-in-bonaire/"
                          target="_self">Diving in Bonaire
                          <SPAN class="emoji">🇧🇶</SPAN> <SPAN class=
@@ -897,21 +939,21 @@
                         tropical Carribean island of Bonaire.
                         Located about 40km north of Venazuela,
                         Bonaire is part…</P>
-                      </DIV><A class="wp-block-read-more c11"
+                      </DIV><A class="wp-block-read-more c12"
                           href="/2020/12/diving-in-bonaire/"
                           target="_self">Read more<SPAN class=
                           "screen-reader-text">: Diving in Bonaire
                           <SPAN class="emoji">🇧🇶</SPAN> <SPAN class=
                           "emoji">🏴󠁢󠁱󠁢󠁯󠁿</SPAN></SPAN></A>
                       <DIV aria-hidden="true"
-                           class="wp-block-spacer c12"></DIV>
+                           class="wp-block-spacer c13"></DIV>
                       <HR class=
                       "wp-block-separator has-text-color has-tertiary-color has-alpha-channel-opacity has-tertiary-background-color has-background is-style-default">
                     </LI>
                   </UL>
                 </DIV>
                 <DIV aria-hidden="true"
-                     class="wp-block-spacer c13"></DIV>
+                     class="wp-block-spacer c14"></DIV>
               </DIV>
             </DIV><!-- .entry-content -->
           </ARTICLE><!-- #post-11 -->
@@ -928,13 +970,13 @@
               <SECTION class="widget widget_block"
                        id="block-116">
                 <DIV>
-                  <DIV class="has-medium-font-size c15">
-                    <A class="c14"
+                  <DIV class="has-medium-font-size c16">
+                    <A class="c15"
                          href=
                          "/"><STRONG>awayfromhome.nl</STRONG></A>
                   </DIV>
                   <DIV>
-                    <A class="c16"
+                    <A class="c17"
                          href="/sitemap/">Sitemap</A>
                   </DIV>
                 </DIV>
@@ -952,16 +994,16 @@
               <SECTION class="widget widget_block"
                        id="block-50">
                 <DIV class=
-                "wp-block-wpzoom-blocks-social-icons is-style-with-canvas-round c19">
-                  <A class="social-icon-link c17"
+                "wp-block-wpzoom-blocks-social-icons is-style-with-canvas-round c20">
+                  <A class="social-icon-link c18"
                        href=
                        "https://www.instagram.com/awayfromhome_nl/"
                        title="Instagram"><SPAN class=
-                       "social-icon socicon socicon-instagram"></SPAN></A><A class="social-icon-link c18"
+                       "social-icon socicon socicon-instagram"></SPAN></A><A class="social-icon-link c19"
                        href=
                        "https://www.youtube.com/channel/UCLY15iYLm65hrgkSAywRNXw"
                        title="Youtube"><SPAN class=
-                       "social-icon socicon socicon-youtube"></SPAN></A><A class="social-icon-link c17"
+                       "social-icon socicon socicon-youtube"></SPAN></A><A class="social-icon-link c18"
                        href="/feed"
                        title="Rss"><SPAN class=
                        "social-icon socicon socicon-rss"></SPAN></A>

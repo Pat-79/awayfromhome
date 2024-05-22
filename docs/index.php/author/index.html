@@ -13,11 +13,11 @@
   <TITLE>Author - awayfromhome.nl</TITLE>
   <META content="max-image-preview:large"
         name="robots">
-  <LINK href="/feed/"
+  <LINK href="/index.php/feed/"
         rel="alternate"
         title="awayfromhome.nl » Feed"
         type="application/rss+xml">
-  <LINK href="/comments/feed/"
+  <LINK href="/index.php/comments/feed/"
         rel="alternate"
         title="awayfromhome.nl » Comments Feed"
         type="application/rss+xml">
@@ -52,6 +52,11 @@
   <LINK href=
   "/wp-content/plugins/image-rights/css/styles.css?ver=1716298016"
         id="pcr_front_styles-css"
+        media="all"
+        rel="stylesheet">
+  <LINK href=
+  "/wp-content/plugins/simple-photo-feed/public/css/simple-photo-feed-public.css?ver=240522-183639"
+        id="simple-photo-feed-css"
         media="all"
         rel="stylesheet">
   <LINK href=
@@ -201,9 +206,9 @@
   <SCRIPT id="jquery-migrate-js"
         src=
         "/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></SCRIPT>
-  <LINK href="/wp-json/"
+  <LINK href="/index.php/wp-json/"
         rel="https://api.w.org/">
-  <LINK href="/wp-json/wp/v2/pages/229"
+  <LINK href="/index.php/wp-json/wp/v2/pages/229"
         rel="alternate"
         type="application/json">
   <LINK href="/xmlrpc.php?rsd"
@@ -212,16 +217,16 @@
         type="application/rsd+xml">
   <META content="WordPress 6.5.3"
         name="generator">
-  <LINK href="/author/"
+  <LINK href="/index.php/author/"
         rel="canonical">
   <LINK href="/?p=229"
         rel="shortlink">
   <LINK href=
-  "/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fauthor%2F"
+  "/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Findex.php%2Fauthor%2F"
         rel="alternate"
         type="application/json+oembed">
   <LINK href=
-  "/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fauthor%2F#038;format=xml"
+  "/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Findex.php%2Fauthor%2F#038;format=xml"
         rel="alternate"
         type="text/xml+oembed">
   <LINK as="font"
@@ -375,6 +380,11 @@
     display: none;
   }
 
+  .sby_footer{
+        visibility: hidden;
+  display: none;
+  }
+
   .entry-summary{
         text-align:justify;
   }
@@ -427,23 +437,55 @@
   .leaflet-map{
         z-index:0
   }
+
+  .wp-block-tag-cloud{
+  text-align: middle;
+        vertical-align: center;
+  }
+  .tag-cloud-link{
+        text-decoration: none !important;
+        border-radius: 1em 1em 1em 1em;
+        background-color: #6C6C77;
+        border: 1px solid #010101;
+        color: #F9FAFD;
+  padding-left: 0.5em;
+        padding-right: 0.5em;
+        margin-top: 0.1em;
+        margin-bottom: 0.1em;
+        height: 2em;
+  }
+
+  .tag-cloud:link{
+        color: #0BB4AA;
+        text-decoration: none;  
+  }
+  .tag-cloud:hover{
+        color: #0BB4AA;
+        text-decoration: none;
+  }
+
+  ttag-cloud:visited{
+        color: #0BB4AA;
+        text-decoration: none;
+  }
   </STYLE>
   <STYLE id="core-block-supports-inline-css">
   .wp-container-core-social-links-is-layout-1.wp-container-core-social-links-is-layout-1{justify-content:center;}.wp-container-core-social-links-is-layout-2.wp-container-core-social-links-is-layout-2{justify-content:center;}
   </STYLE>
   <STYLE type="text/css">
-  div.c12 {--wpz-social-icons-block-item-font-size:18px;--wpz-social-icons-block-item-padding-horizontal:6px;--wpz-social-icons-block-item-padding-vertical:6px;--wpz-social-icons-block-item-margin-horizontal:5px;--wpz-social-icons-block-item-margin-vertical:5px;--wpz-social-icons-block-item-border-radius:50px;--wpz-social-icons-block-label-font-size:16px;--wpz-social-icons-block-label-color:#2e3131;--wpz-social-icons-block-label-color-hover:#2e3131;--wpz-social-icons-alignment:flex-end}
-  a.c11 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#34efdf}
-  a.c10 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#44f3e7}
-  a.c9 {color: #555; font-style:normal;font-weight:700;letter-spacing:2px;}
-  div.c8 {font-style:normal;font-weight:700;letter-spacing:4px;line-height:1.2}
-  a.c7 {color: #787878}
-  div.c6 {height:100px}
-  div.c5 {height:var(--wp--preset--spacing--small)}
-  div.c4 {display: none;}
-  a.c3 {font-size: 22pt;}
-  a.c2 {font-size: 8pt;}
-  a.c1 {font-size: 16.4pt;}
+  div.c13 {--wpz-social-icons-block-item-font-size:18px;--wpz-social-icons-block-item-padding-horizontal:6px;--wpz-social-icons-block-item-padding-vertical:6px;--wpz-social-icons-block-item-margin-horizontal:5px;--wpz-social-icons-block-item-margin-vertical:5px;--wpz-social-icons-block-item-border-radius:50px;--wpz-social-icons-block-label-font-size:16px;--wpz-social-icons-block-label-color:#2e3131;--wpz-social-icons-block-label-color-hover:#2e3131;--wpz-social-icons-alignment:flex-end}
+  a.c12 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#34efdf}
+  a.c11 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#44f3e7}
+  a.c10 {color: #555; font-style:normal;font-weight:700;letter-spacing:2px;}
+  div.c9 {font-style:normal;font-weight:700;letter-spacing:4px;line-height:1.2}
+  a.c8 {color: #787878}
+  div.c7 {height:100px}
+  div.c6 {height:var(--wp--preset--spacing--small)}
+  div.c5 {display: none;}
+  p.c4 {padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0;margin-left:0;margin-right:0; font-style:normal;font-weight:400;text-transform:capitalize;}
+  a.c3 {font-size: 1.75em;}
+  a.c2 {font-size: 0.75em;}
+  a.c1 {font-size: 1.35em;}
   </STYLE>
 </HEAD>
 <BODY class=
@@ -473,17 +515,17 @@
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page menu-item-18"
                 id="menu-item-18">
-              <A href="/about/">About</A>
+              <A href="/index.php/about/">About</A>
             </LI>
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page menu-item-19"
                 id="menu-item-19">
-              <A href="/blog/">Blog</A>
+              <A href="/index.php/blog/">Blogs</A>
             </LI>
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page menu-item-20"
                 id="menu-item-20">
-              <A href="/social-media/">Social Media</A>
+              <A href="/index.php/social-media/">Social Media</A>
             </LI>
           </UL>
         </DIV>
@@ -493,75 +535,75 @@
            id="block-78">
         <H3 class="title">Tags</H3>
         <DIV class="wp-widget-group__inner-blocks">
-          <P class="aligncenter wp-block-tag-cloud"><A aria-label=
-          "alps (2 items)"
+          <P class="aligncenter wp-block-tag-cloud c4">
+          <A aria-label="alps (2 items)"
              class=
              "tag-cloud-link tag-link-13 tag-link-position-1 c1"
-             href="/tag/alps/">alps</A> <A aria-label=
+             href="/index.php/tag/alps/">alps</A> <A aria-label=
              "bonaire (1 item)"
              class=
              "tag-cloud-link tag-link-4 tag-link-position-2 c2"
-             href="/tag/bonaire/">bonaire</A> <A aria-label=
-             "carribean (1 item)"
+             href="/index.php/tag/bonaire/">bonaire</A>
+             <A aria-label="carribean (1 item)"
              class=
              "tag-cloud-link tag-link-5 tag-link-position-3 c2"
-             href="/tag/carribean/">carribean</A> <A aria-label=
-             "diving (1 item)"
+             href="/index.php/tag/carribean/">carribean</A>
+             <A aria-label="diving (1 item)"
              class=
              "tag-cloud-link tag-link-6 tag-link-position-4 c2"
-             href="/tag/diving/">diving</A> <A aria-label=
+             href="/index.php/tag/diving/">diving</A> <A aria-label=
              "dolomites (1 item)"
              class=
              "tag-cloud-link tag-link-11 tag-link-position-5 c2"
-             href="/tag/dolomites/">dolomites</A> <A aria-label=
-             "europe (2 items)"
+             href="/index.php/tag/dolomites/">dolomites</A>
+             <A aria-label="europe (2 items)"
              class=
              "tag-cloud-link tag-link-24 tag-link-position-6 c1"
-             href="/tag/europe/">europe</A> <A aria-label=
+             href="/index.php/tag/europe/">europe</A> <A aria-label=
              "island (1 item)"
              class=
              "tag-cloud-link tag-link-8 tag-link-position-7 c2"
-             href="/tag/island/">island</A> <A aria-label=
+             href="/index.php/tag/island/">island</A> <A aria-label=
              "italy (1 item)"
              class=
              "tag-cloud-link tag-link-12 tag-link-position-8 c2"
-             href="/tag/italy/">italy</A> <A aria-label=
+             href="/index.php/tag/italy/">italy</A> <A aria-label=
              "mountain (2 items)"
              class=
              "tag-cloud-link tag-link-16 tag-link-position-9 c1"
-             href="/tag/mountain/">mountain</A> <A aria-label=
-             "relaxing (1 item)"
+             href="/index.php/tag/mountain/">mountain</A>
+             <A aria-label="relaxing (1 item)"
              class=
              "tag-cloud-link tag-link-17 tag-link-position-10 c2"
-             href="/tag/relaxing/">relaxing</A> <A aria-label=
-             "scuba (1 item)"
+             href="/index.php/tag/relaxing/">relaxing</A>
+             <A aria-label="scuba (1 item)"
              class=
              "tag-cloud-link tag-link-7 tag-link-position-11 c2"
-             href="/tag/scuba/">scuba</A> <A aria-label=
+             href="/index.php/tag/scuba/">scuba</A> <A aria-label=
              "slovenia (1 item)"
              class=
              "tag-cloud-link tag-link-25 tag-link-position-12 c2"
-             href="/tag/slovenia/">slovenia</A> <A aria-label=
-             "snow (1 item)"
+             href="/index.php/tag/slovenia/">slovenia</A>
+             <A aria-label="snow (1 item)"
              class=
              "tag-cloud-link tag-link-15 tag-link-position-13 c2"
-             href="/tag/snow/">snow</A> <A aria-label=
+             href="/index.php/tag/snow/">snow</A> <A aria-label=
              "summer (2 items)"
              class=
              "tag-cloud-link tag-link-19 tag-link-position-14 c1"
-             href="/tag/summer/">summer</A> <A aria-label=
+             href="/index.php/tag/summer/">summer</A> <A aria-label=
              "tropical (1 item)"
              class=
              "tag-cloud-link tag-link-9 tag-link-position-15 c2"
-             href="/tag/tropical/">tropical</A> <A aria-label=
-             "vacation (3 items)"
+             href="/index.php/tag/tropical/">tropical</A>
+             <A aria-label="vacation (3 items)"
              class=
              "tag-cloud-link tag-link-18 tag-link-position-16 c3"
-             href="/tag/vacation/">vacation</A> <A aria-label=
-             "winter (1 item)"
+             href="/index.php/tag/vacation/">vacation</A>
+             <A aria-label="winter (1 item)"
              class=
              "tag-cloud-link tag-link-14 tag-link-position-17 c2"
-             href="/tag/winter/">winter</A></P>
+             href="/index.php/tag/winter/">winter</A></P>
         </DIV>
         <DIV class="clear"></DIV>
       </DIV>
@@ -571,10 +613,10 @@
         <DIV class="wp-widget-group__inner-blocks">
           <UL class="wp-block-archives-list wp-block-archives">
             <LI>
-              <A href="/2024/05/">May 2024</A>
+              <A href="/index.php/2024/05/">May 2024</A>
             </LI>
             <LI>
-              <A href="/2020/12/">December 2020</A>
+              <A href="/index.php/2020/12/">December 2020</A>
             </LI>
           </UL>
         </DIV>
@@ -646,7 +688,7 @@
                  title="your getaway at home">awayfromhome.nl</A>
           </DIV>
           <DIV class="header-widgets-wrapper">
-            <DIV class="sb-search c4"
+            <DIV class="sb-search c5"
                  id="sb-search">
               <FORM action="/"
                     id="searchform"
@@ -732,7 +774,7 @@
             </DIV><!-- .entry-cover-image -->
             <DIV class="entry-content">
               <DIV aria-hidden="true"
-                   class="wp-block-spacer c5"></DIV>
+                   class="wp-block-spacer c6"></DIV>
               <P>A list of contributing authors of this
               website:</P>
               <DIV class="wp-block-post-author">
@@ -747,12 +789,12 @@
                      width="48"></DIV>
                 <DIV class="wp-block-post-author__content">
                   <P class="wp-block-post-author__name"><A href=
-                  "/author/patrick/"
+                  "/index.php/author/patrick/"
                      target="_self">Patrick</A></P>
                 </DIV>
               </DIV>
               <DIV aria-hidden="true"
-                   class="wp-block-spacer c6"></DIV>
+                   class="wp-block-spacer c7"></DIV>
             </DIV><!-- .entry-content -->
           </ARTICLE><!-- #post-229 -->
         </MAIN><!-- #main -->
@@ -768,14 +810,14 @@
               <SECTION class="widget widget_block"
                        id="block-116">
                 <DIV>
-                  <DIV class="has-medium-font-size c8">
-                    <A class="c7"
+                  <DIV class="has-medium-font-size c9">
+                    <A class="c8"
                          href=
                          "/"><STRONG>awayfromhome.nl</STRONG></A>
                   </DIV>
                   <DIV>
-                    <A class="c9"
-                         href="/sitemap/">Sitemap</A>
+                    <A class="c10"
+                         href="/index.php/sitemap/">Sitemap</A>
                   </DIV>
                 </DIV>
               </SECTION>
@@ -792,17 +834,17 @@
               <SECTION class="widget widget_block"
                        id="block-50">
                 <DIV class=
-                "wp-block-wpzoom-blocks-social-icons is-style-with-canvas-round c12">
-                  <A class="social-icon-link c10"
+                "wp-block-wpzoom-blocks-social-icons is-style-with-canvas-round c13">
+                  <A class="social-icon-link c11"
                        href=
                        "https://www.instagram.com/awayfromhome_nl/"
                        title="Instagram"><SPAN class=
-                       "social-icon socicon socicon-instagram"></SPAN></A><A class="social-icon-link c11"
+                       "social-icon socicon socicon-instagram"></SPAN></A><A class="social-icon-link c12"
                        href=
                        "https://www.youtube.com/channel/UCLY15iYLm65hrgkSAywRNXw"
                        title="Youtube"><SPAN class=
-                       "social-icon socicon socicon-youtube"></SPAN></A><A class="social-icon-link c10"
-                       href="/feed"
+                       "social-icon socicon socicon-youtube"></SPAN></A><A class="social-icon-link c11"
+                       href="/index.php/feed"
                        title="Rss"><SPAN class=
                        "social-icon socicon socicon-rss"></SPAN></A>
                 </DIV>

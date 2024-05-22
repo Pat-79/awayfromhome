@@ -59,6 +59,11 @@
         media="all"
         rel="stylesheet">
   <LINK href=
+  "/wp-content/plugins/simple-photo-feed/public/css/simple-photo-feed-public.css?ver=240522-183639"
+        id="simple-photo-feed-css"
+        media="all"
+        rel="stylesheet">
+  <LINK href=
   "/wp-content/fonts/3fc3276e0a5202a529262a0a58f47f62.css?ver=1.8.7"
         id="inspiro-google-fonts-css"
         media="all"
@@ -390,6 +395,11 @@
     display: none;
   }
 
+  .sby_footer{
+        visibility: hidden;
+  display: none;
+  }
+
   .entry-summary{
         text-align:justify;
   }
@@ -442,33 +452,65 @@
   .leaflet-map{
         z-index:0
   }
+
+  .wp-block-tag-cloud{
+  text-align: middle;
+        vertical-align: center;
+  }
+  .tag-cloud-link{
+        text-decoration: none !important;
+        border-radius: 1em 1em 1em 1em;
+        background-color: #6C6C77;
+        border: 1px solid #010101;
+        color: #F9FAFD;
+  padding-left: 0.5em;
+        padding-right: 0.5em;
+        margin-top: 0.1em;
+        margin-bottom: 0.1em;
+        height: 2em;
+  }
+
+  .tag-cloud:link{
+        color: #0BB4AA;
+        text-decoration: none;  
+  }
+  .tag-cloud:hover{
+        color: #0BB4AA;
+        text-decoration: none;
+  }
+
+  ttag-cloud:visited{
+        color: #0BB4AA;
+        text-decoration: none;
+  }
   </STYLE>
   <STYLE data-wp-text="state.overlayStyles"></STYLE>
   <STYLE id="core-block-supports-inline-css">
   .wp-container-core-social-links-is-layout-1.wp-container-core-social-links-is-layout-1{justify-content:center;}.wp-container-core-social-links-is-layout-2.wp-container-core-social-links-is-layout-2{justify-content:center;}.wp-container-core-group-is-layout-2.wp-container-core-group-is-layout-2{flex-wrap:nowrap;justify-content:center;}.wp-container-core-group-is-layout-3.wp-container-core-group-is-layout-3{flex-wrap:nowrap;justify-content:center;}.wp-container-core-group-is-layout-4.wp-container-core-group-is-layout-4{flex-wrap:nowrap;justify-content:center;align-items:center;}.wp-container-core-group-is-layout-5.wp-container-core-group-is-layout-5{flex-wrap:nowrap;justify-content:center;align-items:center;}.wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6{flex-wrap:nowrap;justify-content:center;align-items:stretch;}.wp-container-core-group-is-layout-7.wp-container-core-group-is-layout-7{flex-wrap:nowrap;justify-content:center;align-items:center;}.wp-container-core-group-is-layout-8.wp-container-core-group-is-layout-8{flex-wrap:nowrap;justify-content:center;align-items:center;}.wp-container-core-group-is-layout-9.wp-container-core-group-is-layout-9{gap:var(--wp--preset--spacing--x-small);flex-direction:column;align-items:stretch;}
   </STYLE>
   <STYLE type="text/css">
-  div.c21 {background-color: #fff}
-  button.c20 {fill: #000}
-  div.c19 {--wpz-social-icons-block-item-font-size:18px;--wpz-social-icons-block-item-padding-horizontal:6px;--wpz-social-icons-block-item-padding-vertical:6px;--wpz-social-icons-block-item-margin-horizontal:5px;--wpz-social-icons-block-item-margin-vertical:5px;--wpz-social-icons-block-item-border-radius:50px;--wpz-social-icons-block-label-font-size:16px;--wpz-social-icons-block-label-color:#2e3131;--wpz-social-icons-block-label-color-hover:#2e3131;--wpz-social-icons-alignment:flex-end}
-  a.c18 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#34efdf}
-  a.c17 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#44f3e7}
-  a.c16 {color: #555; font-style:normal;font-weight:700;letter-spacing:2px;}
-  div.c15 {font-style:normal;font-weight:700;letter-spacing:4px;line-height:1.2}
-  a.c14 {color: #787878}
-  div.c13 {background-image: url(/wp-content/uploads/2024/05/cropped-WhatsApp-Image-2024-05-16-at-12.11.31-4.jpeg)}
-  div.c12 {border-width:1px;border-radius:15px;padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)}
-  div.c11 {border-style:none;border-width:0px;border-radius:0px}
-  img.c10 {border-width:1px;border-radius:10px;object-fit:cover}
-  img.c9 {border-width:1px;border-radius:10px}
-  span.c8 {border-radius:10px;border-width:1px}
-  img.c7 {border-radius:10px;border-width:1px;object-fit:cover;}
-  div.c6 {height:var(--wp--preset--spacing--small)}
-  div.c5 {height:500px; width:100%;}
-  div.c4 {display: none;}
-  a.c3 {font-size: 22pt;}
-  a.c2 {font-size: 8pt;}
-  a.c1 {font-size: 16.4pt;}
+  div.c22 {background-color: #fff}
+  button.c21 {fill: #000}
+  div.c20 {--wpz-social-icons-block-item-font-size:18px;--wpz-social-icons-block-item-padding-horizontal:6px;--wpz-social-icons-block-item-padding-vertical:6px;--wpz-social-icons-block-item-margin-horizontal:5px;--wpz-social-icons-block-item-margin-vertical:5px;--wpz-social-icons-block-item-border-radius:50px;--wpz-social-icons-block-label-font-size:16px;--wpz-social-icons-block-label-color:#2e3131;--wpz-social-icons-block-label-color-hover:#2e3131;--wpz-social-icons-alignment:flex-end}
+  a.c19 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#34efdf}
+  a.c18 {--wpz-social-icons-block-item-color:#0bb4aa;--wpz-social-icons-block-item-color-hover:#44f3e7}
+  a.c17 {color: #555; font-style:normal;font-weight:700;letter-spacing:2px;}
+  div.c16 {font-style:normal;font-weight:700;letter-spacing:4px;line-height:1.2}
+  a.c15 {color: #787878}
+  div.c14 {background-image: url(/wp-content/uploads/2024/05/cropped-WhatsApp-Image-2024-05-16-at-12.11.31-4.jpeg)}
+  div.c13 {border-width:1px;border-radius:15px;padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)}
+  div.c12 {border-style:none;border-width:0px;border-radius:0px}
+  img.c11 {border-width:1px;border-radius:10px;object-fit:cover}
+  img.c10 {border-width:1px;border-radius:10px}
+  span.c9 {border-radius:10px;border-width:1px}
+  img.c8 {border-radius:10px;border-width:1px;object-fit:cover;}
+  div.c7 {height:var(--wp--preset--spacing--small)}
+  div.c6 {height:500px; width:100%;}
+  div.c5 {display: none;}
+  p.c4 {padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0;margin-left:0;margin-right:0; font-style:normal;font-weight:400;text-transform:capitalize;}
+  a.c3 {font-size: 1.75em;}
+  a.c2 {font-size: 0.75em;}
+  a.c1 {font-size: 1.35em;}
   </STYLE>
 </HEAD>
 <BODY class=
@@ -503,7 +545,7 @@
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-19"
                 id="menu-item-19">
-              <A href="/blog/">Blog</A>
+              <A href="/blog/">Blogs</A>
             </LI>
             <LI class=
             "menu-item menu-item-type-post_type menu-item-object-page menu-item-20"
@@ -518,8 +560,8 @@
            id="block-78">
         <H3 class="title">Tags</H3>
         <DIV class="wp-widget-group__inner-blocks">
-          <P class="aligncenter wp-block-tag-cloud"><A aria-label=
-          "alps (2 items)"
+          <P class="aligncenter wp-block-tag-cloud c4">
+          <A aria-label="alps (2 items)"
              class=
              "tag-cloud-link tag-link-13 tag-link-position-1 c1"
              href="/tag/alps/">alps</A> <A aria-label=
@@ -671,7 +713,7 @@
                  title="your getaway at home">awayfromhome.nl</A>
           </DIV>
           <DIV class="header-widgets-wrapper">
-            <DIV class="sb-search c4"
+            <DIV class="sb-search c5"
                  id="sb-search">
               <FORM action="/"
                     id="searchform"
@@ -784,7 +826,7 @@
               winter also skiing as there is a small ski resort
               located close to the lake.</P>
               <P></P>
-              <DIV class="leaflet-map WPLeafletMap c5"></DIV>
+              <DIV class="leaflet-map WPLeafletMap c6"></DIV>
               <SCRIPT>
               window.WPLeafletMapPlugin = window.WPLeafletMapPlugin || [];
               window.WPLeafletMapPlugin.push(function WPLeafletMapShortcode() {/*<script>*/
@@ -834,17 +876,17 @@
               });
               </SCRIPT>
               <DIV aria-hidden="true"
-                   class="wp-block-spacer c6"></DIV>
+                   class="wp-block-spacer c7"></DIV>
               <H2 class="wp-block-heading">Photo gallery</H2>
               <DIV class=
-              "wp-block-group has-border-color has-lightgrey-border-color has-background-background-color has-background is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-9 wp-block-group-is-layout-flex c12">
+              "wp-block-group has-border-color has-lightgrey-border-color has-background-background-color has-background is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-9 wp-block-group-is-layout-flex c13">
                 <DIV class=
                 "wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-2 wp-block-group-is-layout-flex">
                   <FIGURE class="wp-block-post-featured-image">
                     <A href="/2024/05/slovenia/"
                             target="_self"><IMG alt="Slovenia 🇸🇮"
                          class=
-                         "attachment-post-thumbnail size-post-thumbnail wp-post-image c7"
+                         "attachment-post-thumbnail size-post-thumbnail wp-post-image c8"
                          decoding="async"
                          height="1440"
                          sizes="100vw"
@@ -854,7 +896,7 @@
                          "/wp-content/uploads/2024/05/DSC_0511-scaled.jpg 2560w, /wp-content/uploads/2024/05/DSC_0511-300x169.jpg 300w, /wp-content/uploads/2024/05/DSC_0511-1024x576.jpg 1024w, /wp-content/uploads/2024/05/DSC_0511-2000x1125.jpg 2000w, /wp-content/uploads/2024/05/DSC_0511-768x432.jpg 768w, /wp-content/uploads/2024/05/DSC_0511-1536x864.jpg 1536w, /wp-content/uploads/2024/05/DSC_0511-2048x1152.jpg 2048w, /wp-content/uploads/2024/05/DSC_0511-600x338.jpg 600w, /wp-content/uploads/2024/05/DSC_0511-1200x675.jpg 1200w"
                          width="2560"><SPAN aria-hidden="true"
                           class=
-                          "wp-block-post-featured-image__overlay has-background-dim has-background-dim-40 c8"></SPAN></A>
+                          "wp-block-post-featured-image__overlay has-background-dim has-background-dim-40 c9"></SPAN></A>
                   </FIGURE>
                 </DIV>
                 <DIV class=
@@ -865,7 +907,7 @@
                           "{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/PANO_20180719_164208-scaled.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large has-custom-border&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-396&quot;,&quot;imgStyles&quot;:&quot;border-width:1px;border-radius:10px&quot;,&quot;targetWidth&quot;:2560,&quot;targetHeight&quot;:508,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}"
                           data-wp-interactive="core/image">
                     <IMG alt=""
-                            class="wp-image-396 c9"
+                            class="wp-image-396 c10"
                             data-wp-init=
                             "callbacks.setButtonStyles"
                             data-wp-on--click=
@@ -913,7 +955,7 @@
                           "{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/DSC_0520-1-scaled.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-large has-custom-border&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-404&quot;,&quot;imgStyles&quot;:&quot;border-width:1px;border-radius:10px&quot;,&quot;targetWidth&quot;:2560,&quot;targetHeight&quot;:1440,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}"
                           data-wp-interactive="core/image">
                     <IMG alt=""
-                            class="wp-image-404 c9"
+                            class="wp-image-404 c10"
                             data-wp-init=
                             "callbacks.setButtonStyles"
                             data-wp-on--click=
@@ -958,7 +1000,7 @@
                           "{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/DSC_0576.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-large has-custom-border&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-391&quot;,&quot;imgStyles&quot;:&quot;border-width:1px;border-radius:10px&quot;,&quot;targetWidth&quot;:2000,&quot;targetHeight&quot;:1500,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}"
                           data-wp-interactive="core/image">
                     <IMG alt=""
-                            class="wp-image-391 c9"
+                            class="wp-image-391 c10"
                             data-wp-init=
                             "callbacks.setButtonStyles"
                             data-wp-on--click=
@@ -1003,7 +1045,7 @@
                           "{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/DSC_0003_15-scaled.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-large has-custom-border&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-392&quot;,&quot;imgStyles&quot;:&quot;border-width:1px;border-radius:10px&quot;,&quot;targetWidth&quot;:2560,&quot;targetHeight&quot;:1440,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}"
                           data-wp-interactive="core/image">
                     <IMG alt=""
-                            class="wp-image-392 c9"
+                            class="wp-image-392 c10"
                             data-wp-init=
                             "callbacks.setButtonStyles"
                             data-wp-on--click=
@@ -1051,7 +1093,7 @@
                           "{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/DSC_0563-scaled.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-large has-custom-border&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-390&quot;,&quot;imgStyles&quot;:&quot;border-width:1px;border-radius:10px&quot;,&quot;targetWidth&quot;:2560,&quot;targetHeight&quot;:1440,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}"
                           data-wp-interactive="core/image">
                     <IMG alt=""
-                            class="wp-image-390 c9"
+                            class="wp-image-390 c10"
                             data-wp-init=
                             "callbacks.setButtonStyles"
                             data-wp-on--click=
@@ -1093,7 +1135,7 @@
                   <FIGURE class=
                   "wp-block-image size-large has-custom-border">
                     <IMG alt=""
-                            class="wp-image-389 c9"
+                            class="wp-image-389 c10"
                             decoding="async"
                             height="576"
                             loading="lazy"
@@ -1114,7 +1156,7 @@
                           "{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/DSC_0418-scaled.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-large has-custom-border&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-386&quot;,&quot;imgStyles&quot;:&quot;border-width:1px;border-radius:10px;object-fit:cover&quot;,&quot;targetWidth&quot;:2560,&quot;targetHeight&quot;:1440,&quot;scaleAttr&quot;:&quot;cover&quot;,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}"
                           data-wp-interactive="core/image">
                     <IMG alt=""
-                            class="wp-image-386 c10"
+                            class="wp-image-386 c11"
                             data-wp-init=
                             "callbacks.setButtonStyles"
                             data-wp-on--click=
@@ -1162,7 +1204,7 @@
                           "{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/DSC_0366-scaled.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-full has-custom-border&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-384&quot;,&quot;imgStyles&quot;:&quot;border-width:1px;border-radius:10px&quot;,&quot;targetWidth&quot;:2560,&quot;targetHeight&quot;:1440,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}"
                           data-wp-interactive="core/image">
                     <IMG alt=""
-                            class="wp-image-384 c9"
+                            class="wp-image-384 c10"
                             data-wp-init=
                             "callbacks.setButtonStyles"
                             data-wp-on--click=
@@ -1207,7 +1249,7 @@
                           "{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/DSC_0506-1-scaled.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-full has-custom-border&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-382&quot;,&quot;imgStyles&quot;:&quot;border-width:1px;border-radius:10px&quot;,&quot;targetWidth&quot;:2560,&quot;targetHeight&quot;:1440,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}"
                           data-wp-interactive="core/image">
                     <IMG alt=""
-                            class="wp-image-382 c9"
+                            class="wp-image-382 c10"
                             data-wp-init=
                             "callbacks.setButtonStyles"
                             data-wp-on--click=
@@ -1244,14 +1286,14 @@
                   </FIGURE>
                 </DIV>
                 <DIV class=
-                "wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-8 wp-block-group-is-layout-flex c11">
+                "wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-8 wp-block-group-is-layout-flex c12">
                   <FIGURE class=
                   "wp-block-image size-large has-custom-border wp-lightbox-container"
                           data-wp-context=
                           "{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/DSC_0442-edited.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-large has-custom-border&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-436&quot;,&quot;imgStyles&quot;:&quot;border-width:1px;border-radius:10px&quot;,&quot;targetWidth&quot;:1500,&quot;targetHeight&quot;:2000,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}"
                           data-wp-interactive="core/image">
                     <IMG alt=""
-                            class="wp-image-436 c9"
+                            class="wp-image-436 c10"
                             data-wp-init=
                             "callbacks.setButtonStyles"
                             data-wp-on--click=
@@ -1295,7 +1337,7 @@
                           "{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/DSC_0522.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-large has-custom-border&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-380&quot;,&quot;imgStyles&quot;:&quot;border-width:1px;border-radius:10px&quot;,&quot;targetWidth&quot;:1100,&quot;targetHeight&quot;:1100,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}"
                           data-wp-interactive="core/image">
                     <IMG alt=""
-                            class="wp-image-380 c9"
+                            class="wp-image-380 c10"
                             data-wp-init=
                             "callbacks.setButtonStyles"
                             data-wp-on--click=
@@ -1379,7 +1421,7 @@
                 <A href="/2024/05/sunset-in-the-dolimites-italy/"
                      rel="prev">
                 <DIV class="previous-info">
-                  <DIV class="previous-cover c13"></DIV>
+                  <DIV class="previous-cover c14"></DIV>
                   <DIV class="previous-content">
                     <SPAN class=
                     "screen-reader-text">Previous</SPAN><SPAN aria-hidden="true"
@@ -1405,13 +1447,13 @@
               <SECTION class="widget widget_block"
                        id="block-116">
                 <DIV>
-                  <DIV class="has-medium-font-size c15">
-                    <A class="c14"
+                  <DIV class="has-medium-font-size c16">
+                    <A class="c15"
                          href=
                          "/"><STRONG>awayfromhome.nl</STRONG></A>
                   </DIV>
                   <DIV>
-                    <A class="c16"
+                    <A class="c17"
                          href="/sitemap/">Sitemap</A>
                   </DIV>
                 </DIV>
@@ -1429,16 +1471,16 @@
               <SECTION class="widget widget_block"
                        id="block-50">
                 <DIV class=
-                "wp-block-wpzoom-blocks-social-icons is-style-with-canvas-round c19">
-                  <A class="social-icon-link c17"
+                "wp-block-wpzoom-blocks-social-icons is-style-with-canvas-round c20">
+                  <A class="social-icon-link c18"
                        href=
                        "https://www.instagram.com/awayfromhome_nl/"
                        title="Instagram"><SPAN class=
-                       "social-icon socicon socicon-instagram"></SPAN></A><A class="social-icon-link c18"
+                       "social-icon socicon socicon-instagram"></SPAN></A><A class="social-icon-link c19"
                        href=
                        "https://www.youtube.com/channel/UCLY15iYLm65hrgkSAywRNXw"
                        title="Youtube"><SPAN class=
-                       "social-icon socicon socicon-youtube"></SPAN></A><A class="social-icon-link c17"
+                       "social-icon socicon socicon-youtube"></SPAN></A><A class="social-icon-link c18"
                        href="/feed"
                        title="Rss"><SPAN class=
                        "social-icon socicon socicon-rss"></SPAN></A>
@@ -1495,7 +1537,7 @@
        data-wp-watch="callbacks.setOverlayFocus"
        tabindex="-1">
     <BUTTON aria-label="Close"
-         class="close-button c20"
+         class="close-button c21"
          type="button"><SVG aria-hidden="true"
          focusable="false"
          height="20"
@@ -1530,7 +1572,7 @@
       </FIGURE>
     </DIV>
     <DIV aria-hidden="true"
-         class="scrim c21"></DIV>
+         class="scrim c22"></DIV>
   </DIV>
   <LINK href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         id="leaflet_stylesheet-css"
