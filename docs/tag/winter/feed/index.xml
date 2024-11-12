@@ -9,8 +9,8 @@
 
 <channel>
 	<title>winter &#8211; awayfromhome.nl</title>
-	<atom:link href="/tag/winter/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="/tag/winter/feed/?simply_static_page=31372" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description>your getaway at home</description>
 	<lastBuildDate>Wed, 22 May 2024 17:25:19 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,7 +23,7 @@
 <image>
 	<url>/wp-content/uploads/2024/05/cropped-globe_filled_bl_blue_green.svg_round-1-32x32.png</url>
 	<title>winter &#8211; awayfromhome.nl</title>
-	<link>/</link>
+	<link></link>
 	<width>32</width>
 	<height>32</height>
 </image> 
