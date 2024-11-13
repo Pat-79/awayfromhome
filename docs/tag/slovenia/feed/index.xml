@@ -9,8 +9,8 @@
 
 <channel>
 	<title>slovenia &#8211; awayfromhome.nl</title>
-	<atom:link href="/tag/slovenia/feed/?simply_static_page=31362" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="/tag/slovenia/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>your getaway at home</description>
 	<lastBuildDate>Tue, 21 May 2024 21:36:16 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,7 +23,7 @@
 <image>
 	<url>/wp-content/uploads/2024/05/cropped-globe_filled_bl_blue_green.svg_round-1-32x32.png</url>
 	<title>slovenia &#8211; awayfromhome.nl</title>
-	<link></link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
