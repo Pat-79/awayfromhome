@@ -1,0 +1,27 @@
+# Author directory used by author-card include.
+# Match posts using: author: Exact Name Here
+# Optional keys: avatar, bio, location, page_url (or page), social_links
+# bio and location can be a plain string or a language map:
+# bio:
+#   default: Default fallback text
+#   en: English text
+#   nl: Nederlandse tekst
+
+- name: Patrick
+  avatar: /assets/images/avatar.svg
+  bio:
+    default: Exploring local cities, scenic drives, and practical family travel routes.
+    en: Exploring local cities, scenic drives, and practical family travel routes.
+    de: Lokale Staedtereisen, landschaftlich schoene Routen und praktische Reiserouten fuer Familien.
+    nl: Lokale stedentrips, mooie autoroutes en praktische familievakanties.
+  location:
+    default: The Netherlands
+    en: The Netherlands
+    de: Niederlande
+    nl: Nederland
+  page_url: /author-patrick/
+  social_links:
+    - platform: instagram
+      url: https://www.instagram.com/awayfromhome_nl/
+    - platform: youtube
+      url: https://www.youtube.com/@-Away-From-Home-

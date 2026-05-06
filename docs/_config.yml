@@ -1,0 +1,171 @@
+# ── Site identity ──────────────────────────────────────────────────────────────
+title: awayfromhome.nl
+description: your getaway at home
+url: "https://awayfromhome.nl"
+permalink: /en/blog/:year-:month-:day_:title/
+email: noreply@awayfromhome.nl
+lang: en
+timezone: "Europe/Amsterdam"
+
+
+# ── Remote theme ───────────────────────────────────────────────────────────────
+remote_theme: Pat-79/jekyll-awayfromhome
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+
+# ── Brand ──────────────────────────────────────────────────────────────────────
+brand:
+  title: awayfromhome.nl
+  logo: /assets/images/globe_filled_bl_blue_green.svg_round.svg
+
+
+navigation:
+  - title: Home
+    key: home
+    url: /
+  - title: About
+    key: about
+    url: /about/
+  - title: Blogs
+    key: blog
+    url: /blog/
+  - title: Browse
+    key: browse
+    url: /browse/
+  - title: Social Media
+    key: social-media
+    url: /social-media/
+  - title: Search
+    key: search
+    url: /search/
+  - title: Cookies
+    key: cookies
+    url: /cookies/
+
+# ── Social links ───────────────────────────────────────────────────────────────
+social_links:
+  - platform: youtube
+    url: https://www.youtube.com/@-Away-From-Home-
+  - platform: instagram
+    url: https://www.instagram.com/awayfromhome_nl/
+  - platform: github
+    url: https://github.com/Pat-79/awayfromhome
+
+# ── Home landing hero ──────────────────────────────────────────────────────────
+default_post_image: /assets/images/default-hero.svg
+
+home_landing:
+  image: /assets/images/default-hero.svg
+  hls_url: /assets/streams/home-title-v2/home-title.m3u8
+
+# ── Widgets ───────────────────────────────────────────────────────────────────
+map_widget:
+  tile_url: https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}
+  #tile_url: https://{s}.openstreetmap.org/{z}/{x}/{y}.png
+  tile_attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  tile_subdomains:
+  tile_max_zoom: 19
+  locked: true
+  scroll_wheel_zoom: false
+  dragging:
+  touch_zoom:
+  double_click_zoom:
+  box_zoom:
+  keyboard:
+  tile_referrer_policy: strict-origin-when-cross-origin
+  tile_cross_origin:
+  max_width:
+  max_height:
+
+video_widget:
+  width:
+  height:
+  max_width:
+  max_height:
+  aspect_ratio: 16:9
+  bare: false
+  autoplay: false
+  muted: false
+  loop: false
+  controls: true
+  playsinline: true
+  preload: metadata
+  lazy: true
+  privacy_mode: true
+  referrer_policy: strict-origin-when-cross-origin
+  poster: /assets/images/default-hero.svg
+
+gallery_widget:
+  max_width: 900px
+  max_height:
+  show_image_caption: "false"
+  show_image_description: "false"
+  carousel_autoplay: 6
+
+
+# ── Sidebar ───────────────────────────────────────────────────────────────────
+sidebar:
+  archive:
+    enabled: true
+    # Supported: 'year' | 'month-year' | 'year-month-tree'
+    # mode: month-year
+    mode: year-month-tree
+    show_post_counts: true
+
+# ── Multilingual settings ─────────────────────────────────────────────────────
+# Multilingual settings
+#lang: en   # default site language
+# When true, post/page listings on non-default-language pages will include
+# default-language posts that have no translation in the current language
+# (identified by a missing `ref` partner). Useful as a graceful fallback
+# so non-English pages don't appear empty while content is being translated.
+lang_fallback: true
+
+# Languages available on this site.
+# 'code' must match the lang front-matter value and the folder name under ar/, fr/, etc.
+# 'native' is shown in the language selector UI.
+languages:
+  - code: en
+    name: English
+    native: English
+    flag: "🇬🇧"
+  - code: nl
+    name: Dutch
+    native: Nederlands
+    flag: "🇳🇱"
+
+# Defaults: give every file a lang and give posts their permalink prefix.
+# Order matters — later entries override earlier ones for the same file.
+defaults:
+  - scope: { path: "", type: "posts" }
+    values:
+      lang: en
+      #permalink: "/blog/:year-:month-:day_:title/"
+      permalink: "/:slug/"
+      #sitemap: false
+  - scope: { path: "" }
+    values:
+      lang: en
+
+  - scope: { path: "theme/en" }
+    values:
+      lang: en
+  - scope: { path: "_posts/en", type: "posts" }
+    values:
+      lang: en
+      #permalink: "/nl/blog/:year-:month-:day_:title/"
+      permalink: "/en/:slug/"
+
+  - scope: { path: "theme/nl" }
+    values:
+      lang: nl
+  - scope: { path: "_posts/nl", type: "posts" }
+    values:
+      lang: nl
+      #permalink: "/nl/blog/:year-:month-:day_:title/"
+      permalink: "/nl/:slug/"
+
+# ── Feed settings ─────────────────────────────────────────────────────────────
+feed:
+  posts_limit: 255

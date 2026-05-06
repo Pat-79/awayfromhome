@@ -1,0 +1,47 @@
+---
+permalink: /403.html
+layout: page
+image: /assets/images/pages/photos/Death_Valley_Stop_Sign_by_Patrickske.webp
+permalink: /401-unauthorized/401.html
+sitemap: false
+---
+
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>401</h1>
+
+  <p><strong>Unauthorized</strong></p>
+  <p>You are not authorized to access the page. If you think you made a mistake logging in, go back and log in correctly. When you keep experiencing problems, contact the administrator.</p>
+<script>
+// Function to get URL parameter by name
+function getURLParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+// Get the 'original_url' parameter
+const originalUrl = getURLParameter('original_url');
+
+// Display the 'original_url' if present
+if (originalUrl) {
+    // Decode the URL parameter
+    const decodedUrl = decodeURIComponent(originalUrl);
+
+    // Insert the text in the current location within the body
+    document.write(`<p>You were redirected from this website: <a href="https://${decodedUrl}" target="_blank">https://${decodedUrl}<\/a><\/p>`);
+}
+</script>
+</div>

@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Space Invaders hero illustration</title>
+  <desc id="desc">A stylized vector hero image for the Space Invaders game with dark blue gradients, cyan light trails, pixel invaders, shields, and a player cannon.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07182c"/>
+      <stop offset="55%" stop-color="#0a2940"/>
+      <stop offset="100%" stop-color="#04111f"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1be4ff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#4af1ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#7bf7ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5ff5ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5ff5ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur-xl" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <filter id="blur-md" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <g id="invader-a" shape-rendering="crispEdges">
+      <rect x="24" y="0" width="12" height="12"/>
+      <rect x="48" y="0" width="12" height="12"/>
+      <rect x="12" y="12" width="12" height="12"/>
+      <rect x="24" y="12" width="12" height="12"/>
+      <rect x="36" y="12" width="12" height="12"/>
+      <rect x="48" y="12" width="12" height="12"/>
+      <rect x="60" y="12" width="12" height="12"/>
+      <rect x="0" y="24" width="12" height="12"/>
+      <rect x="12" y="24" width="12" height="12"/>
+      <rect x="24" y="24" width="12" height="12"/>
+      <rect x="36" y="24" width="12" height="12"/>
+      <rect x="48" y="24" width="12" height="12"/>
+      <rect x="60" y="24" width="12" height="12"/>
+      <rect x="72" y="24" width="12" height="12"/>
+      <rect x="0" y="36" width="12" height="12"/>
+      <rect x="24" y="36" width="12" height="12"/>
+      <rect x="36" y="36" width="12" height="12"/>
+      <rect x="48" y="36" width="12" height="12"/>
+      <rect x="72" y="36" width="12" height="12"/>
+      <rect x="12" y="48" width="12" height="12"/>
+      <rect x="60" y="48" width="12" height="12"/>
+      <rect x="0" y="60" width="12" height="12"/>
+      <rect x="24" y="60" width="12" height="12"/>
+      <rect x="48" y="60" width="12" height="12"/>
+      <rect x="72" y="60" width="12" height="12"/>
+    </g>
+    <g id="invader-b" shape-rendering="crispEdges">
+      <rect x="24" y="0" width="12" height="12"/>
+      <rect x="48" y="0" width="12" height="12"/>
+      <rect x="12" y="12" width="12" height="12"/>
+      <rect x="24" y="12" width="12" height="12"/>
+      <rect x="36" y="12" width="12" height="12"/>
+      <rect x="48" y="12" width="12" height="12"/>
+      <rect x="60" y="12" width="12" height="12"/>
+      <rect x="0" y="24" width="12" height="12"/>
+      <rect x="24" y="24" width="12" height="12"/>
+      <rect x="36" y="24" width="12" height="12"/>
+      <rect x="48" y="24" width="12" height="12"/>
+      <rect x="72" y="24" width="12" height="12"/>
+      <rect x="0" y="36" width="12" height="12"/>
+      <rect x="12" y="36" width="12" height="12"/>
+      <rect x="24" y="36" width="12" height="12"/>
+      <rect x="36" y="36" width="12" height="12"/>
+      <rect x="48" y="36" width="12" height="12"/>
+      <rect x="60" y="36" width="12" height="12"/>
+      <rect x="72" y="36" width="12" height="12"/>
+      <rect x="12" y="48" width="12" height="12"/>
+      <rect x="36" y="48" width="12" height="12"/>
+      <rect x="60" y="48" width="12" height="12"/>
+      <rect x="0" y="60" width="12" height="12"/>
+      <rect x="24" y="60" width="12" height="12"/>
+      <rect x="48" y="60" width="12" height="12"/>
+      <rect x="72" y="60" width="12" height="12"/>
+    </g>
+    <g id="player" shape-rendering="crispEdges">
+      <rect x="36" y="0" width="12" height="12"/>
+      <rect x="24" y="12" width="12" height="12"/>
+      <rect x="36" y="12" width="12" height="12"/>
+      <rect x="48" y="12" width="12" height="12"/>
+      <rect x="12" y="24" width="12" height="12"/>
+      <rect x="24" y="24" width="12" height="12"/>
+      <rect x="36" y="24" width="12" height="12"/>
+      <rect x="48" y="24" width="12" height="12"/>
+      <rect x="60" y="24" width="12" height="12"/>
+      <rect x="0" y="36" width="12" height="12"/>
+      <rect x="12" y="36" width="12" height="12"/>
+      <rect x="24" y="36" width="12" height="12"/>
+      <rect x="36" y="36" width="12" height="12"/>
+      <rect x="48" y="36" width="12" height="12"/>
+      <rect x="60" y="36" width="12" height="12"/>
+      <rect x="72" y="36" width="12" height="12"/>
+    </g>
+    <g id="shield" shape-rendering="crispEdges">
+      <rect x="0" y="12" width="12" height="12"/>
+      <rect x="12" y="0" width="12" height="12"/>
+      <rect x="24" y="0" width="12" height="12"/>
+      <rect x="36" y="0" width="12" height="12"/>
+      <rect x="48" y="12" width="12" height="12"/>
+      <rect x="0" y="24" width="12" height="12"/>
+      <rect x="12" y="24" width="12" height="12"/>
+      <rect x="24" y="24" width="12" height="12"/>
+      <rect x="36" y="24" width="12" height="12"/>
+      <rect x="48" y="24" width="12" height="12"/>
+      <rect x="0" y="36" width="12" height="12"/>
+      <rect x="12" y="36" width="12" height="12"/>
+      <rect x="36" y="36" width="12" height="12"/>
+      <rect x="48" y="36" width="12" height="12"/>
+    </g>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 170C224 108 396 106 594 152C772 194 901 149 1051 127C1231 100 1408 141 1600 239V0H0Z" fill="#163f61" opacity="0.44"/>
+  <path d="M0 346C165 245 319 176 505 171C722 166 911 223 1095 267C1264 308 1435 360 1600 420V216C1422 140 1236 121 1061 147C907 170 767 228 592 214C397 198 213 211 0 317Z" fill="#0c3453" opacity="0.62"/>
+  <path d="M0 900H1600V604C1438 532 1288 493 1130 500C964 507 836 558 673 530C463 494 228 502 0 620Z" fill="#0a2741" opacity="0.95"/>
+  <circle cx="940" cy="212" r="128" fill="url(#glow)" opacity="0.28"/>
+  <circle cx="1230" cy="532" r="76" fill="#1f6f8a" opacity="0.18"/>
+  <circle cx="428" cy="592" r="72" fill="#2aa6c8" opacity="0.12"/>
+  <circle cx="836" cy="338" r="34" fill="#3ad8ff" opacity="0.16"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M-92 798C114 638 285 473 436 346C576 228 710 145 889 122C1046 101 1204 127 1386 230C1466 275 1540 335 1662 410" stroke="#1cc9ef" stroke-opacity="0.12" stroke-width="30"/>
+    <path d="M-92 798C114 638 285 473 436 346C576 228 710 145 889 122C1046 101 1204 127 1386 230C1466 275 1540 335 1662 410" stroke="#47e8ff" stroke-opacity="0.28" stroke-width="18"/>
+    <path d="M-92 798C114 638 285 473 436 346C576 228 710 145 889 122C1046 101 1204 127 1386 230C1466 275 1540 335 1662 410" stroke="url(#beam)" stroke-width="7"/>
+
+    <path d="M-134 207C107 280 300 318 464 349C607 377 729 417 861 493C1037 594 1184 701 1325 769C1438 823 1535 844 1644 840" stroke="#19d2f4" stroke-opacity="0.1" stroke-width="28"/>
+    <path d="M-134 207C107 280 300 318 464 349C607 377 729 417 861 493C1037 594 1184 701 1325 769C1438 823 1535 844 1644 840" stroke="#48edff" stroke-opacity="0.24" stroke-width="16"/>
+    <path d="M-134 207C107 280 300 318 464 349C607 377 729 417 861 493C1037 594 1184 701 1325 769C1438 823 1535 844 1644 840" stroke="url(#beam)" stroke-width="6"/>
+
+    <path d="M-73 505C163 581 355 603 535 614C701 624 823 623 928 651C1030 678 1166 680 1327 649C1442 626 1545 629 1654 656" stroke="#1ab8da" stroke-opacity="0.1" stroke-width="24"/>
+    <path d="M-73 505C163 581 355 603 535 614C701 624 823 623 928 651C1030 678 1166 680 1327 649C1442 626 1545 629 1654 656" stroke="#4af3ff" stroke-opacity="0.2" stroke-width="14"/>
+    <path d="M-73 505C163 581 355 603 535 614C701 624 823 623 928 651C1030 678 1166 680 1327 649C1442 626 1545 629 1654 656" stroke="url(#beam)" stroke-width="5"/>
+
+    <path d="M-60 908C186 829 442 800 720 785C930 774 1128 774 1300 750C1419 733 1521 744 1649 775" stroke="#18c3eb" stroke-opacity="0.1" stroke-width="26"/>
+    <path d="M-60 908C186 829 442 800 720 785C930 774 1128 774 1300 750C1419 733 1521 744 1649 775" stroke="#3aeaff" stroke-opacity="0.18" stroke-width="15"/>
+    <path d="M-60 908C186 829 442 800 720 785C930 774 1128 774 1300 750C1419 733 1521 744 1649 775" stroke="url(#beam)" stroke-width="5"/>
+  </g>
+  <g opacity="0.25" stroke="#6cefff" stroke-width="2" fill="none">
+    <path d="M-40 240C241 392 540 408 826 450C1076 486 1339 600 1632 762"/>
+    <path d="M-50 572C273 650 554 658 786 686C1073 720 1344 791 1606 875"/>
+  </g>
+  <g fill="#89f7ff" opacity="0.65">
+    <circle cx="136" cy="134" r="2"/>
+    <circle cx="252" cy="202" r="2"/>
+    <circle cx="1470" cy="120" r="2"/>
+    <circle cx="1428" cy="198" r="2"/>
+    <circle cx="1186" cy="141" r="2"/>
+    <circle cx="1288" cy="301" r="2"/>
+    <circle cx="168" cy="730" r="2"/>
+    <circle cx="1442" cy="724" r="2"/>
+    <circle cx="1034" cy="774" r="2"/>
+    <circle cx="850" cy="96" r="2"/>
+  </g>
+  <polygon points="744,840 806,392 856,392 920,840" fill="#25d9ff" opacity="0.08"/>
+  <polygon points="764,840 816,430 844,430 896,840" fill="#72f6ff" opacity="0.08"/>
+  <rect x="0" y="794" width="1600" height="106" fill="#061320" opacity="0.92"/>
+  <rect x="0" y="790" width="1600" height="2" fill="#43e7ff" opacity="0.22"/>
+  <g transform="translate(1078 152) scale(2.1)" fill="#75f7ff" opacity="0.16" filter="url(#blur-xl)">
+    <use href="#invader-a"/>
+  </g>
+  <g transform="translate(1112 166) scale(2.1)" fill="#8ffbff" opacity="0.88">
+    <use href="#invader-a"/>
+  </g>
+  <g transform="translate(950 246) scale(1.45)" fill="#6eecff" opacity="0.28">
+    <use href="#invader-b"/>
+  </g>
+  <g transform="translate(1244 278) scale(1.2)" fill="#6be6ff" opacity="0.22">
+    <use href="#invader-b"/>
+  </g>
+  <g transform="translate(458 172) scale(0.95)" fill="#70efff" opacity="0.14">
+    <use href="#invader-a"/>
+  </g>
+  <g transform="translate(232 670) scale(1.25)" fill="#4fe8ff" opacity="0.18">
+    <use href="#shield"/>
+  </g>
+  <g transform="translate(574 670) scale(1.25)" fill="#4fe8ff" opacity="0.18">
+    <use href="#shield"/>
+  </g>
+  <g transform="translate(916 670) scale(1.25)" fill="#4fe8ff" opacity="0.18">
+    <use href="#shield"/>
+  </g>
+  <g transform="translate(1258 670) scale(1.25)" fill="#4fe8ff" opacity="0.18">
+    <use href="#shield"/>
+  </g>
+  <rect x="795" y="532" width="10" height="150" fill="#7cf7ff" opacity="0.76" filter="url(#blur-md)"/>
+  <rect x="799" y="516" width="2" height="170" fill="#d8ffff" opacity="0.98"/>
+  <g transform="translate(752 726) scale(1.75)" fill="#91fbff" opacity="0.18" filter="url(#blur-xl)">
+    <use href="#player"/>
+  </g>
+  <g transform="translate(760 732) scale(1.75)" fill="#d8ffff">
+    <use href="#player"/>
+  </g>
+  <g fill="#79f6ff" opacity="0.48">
+    <rect x="198" y="812" width="134" height="5"/>
+    <rect x="540" y="812" width="134" height="5"/>
+    <rect x="882" y="812" width="134" height="5"/>
+    <rect x="1224" y="812" width="134" height="5"/>
+  </g>
+</svg>
