@@ -24,24 +24,38 @@ navigation:
   - title: Home
     key: home
     url: /
+    url_nl: /nl/
+    url_en: /en/
   - title: About
     key: about
     url: /about/
+    url_nl: /nl/about/
+    url_en: /en/about/
   - title: Blogs
     key: blog
     url: /blog/
+    url_nl: /nl/blog/
+    url_en: /en/blog/
   - title: Browse
     key: browse
     url: /browse/
+    url_nl: /nl/browse/
+    url_en: /en/browse/
   - title: Social Media
     key: social-media
     url: /social-media/
+    url_nl: /nl/social-media/
+    url_en: /en/social-media/
   - title: Search
     key: search
     url: /search/
+    url_nl: /nl/search/
+    url_en: /en/search/
   - title: Cookies
     key: cookies
     url: /cookies/
+    url_nl: /nl/cookies/
+    url_en: /en/cookies/
 
 # ── Social links ───────────────────────────────────────────────────────────────
 social_links:
