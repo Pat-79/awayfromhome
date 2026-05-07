@@ -1,6 +1,6 @@
 ---
 title: Space Invaders Game
-permalink: /game.html
+permalink: /game/
 image: /assets/images/pages/space-invaders-hero.svg
 excerpt: "Play a pixel-perfect remake of the classic arcade game Space Invaders, built with vanilla JavaScript and HTML5 canvas."
 ---
@@ -154,6 +154,14 @@ excerpt: "Play a pixel-perfect remake of the classic arcade game Space Invaders,
     #touch-fire  { left: 30%;  width: 40%; }
     #touch-right { right: 0;   width: 28%; }
     #touch-left.active, #touch-fire.active, #touch-right.active { opacity: 0.82; }
+
+    /* ── Touch-device layout overrides ──────────── */
+    @media (pointer: coarse) {
+      body {
+        justify-content: flex-start;
+        padding-top: env(safe-area-inset-top, 0px);
+      }
+    }
   </style>
 </head>
 <body>
@@ -401,10 +409,10 @@ excerpt: "Play a pixel-perfect remake of the classic arcade game Space Invaders,
       "XXXXXXXXXXXXXXXXXXXXXX",
       "XXXXXXXXXXXXXXXXXXXXXX",
       "XXXXXXXXXXXXXXXXXXXXXX",
-      "XXXXXXX      XXXXXXXXX",  // gap in the middle-bottom
-      "XXXXXX        XXXXXXXX",
-      "XXXXX          XXXXXXX",
-      "XXXXX          XXXXXXX",
+      "XXXXXXXX      XXXXXXXX",  // gap in the middle-bottom
+      "XXXXXXX        XXXXXXX",
+      "XXXXXX          XXXXXX",
+      "XXXXXX          XXXXXX",
     ];
     return rows.map(r => r.split("").map(c => c === "X" ? 1 : 0));
   })();
@@ -444,11 +452,17 @@ excerpt: "Play a pixel-perfect remake of the classic arcade game Space Invaders,
   function setupTouch() {
     function zone(id, keyLeft, keyRight, keyFire) {
       const el = document.getElementById(id);
-      const on  = () => { el.classList.add("active");    keys.left=keyLeft; keys.right=keyRight; if(keyFire) keys.fire=true; };
-      const off = () => { el.classList.remove("active"); keys.left=false;  keys.right=false;    if(keyFire) keys.fire=false; };
-      el.addEventListener("touchstart",  e => { e.preventDefault(); on();  }, { passive:false });
-      el.addEventListener("touchend",    e => { e.preventDefault(); off(); }, { passive:false });
-      el.addEventListener("touchcancel", e => { e.preventDefault(); off(); }, { passive:false });
+      const on  = () => {
+        el.classList.add("active");
+        keys.left = keyLeft; keys.right = keyRight;
+        if (keyFire) keys.fire = true;
+        if (keyFire && (state === "title" || state === "gameover" || state === "levelclear")) startGame();
+      };
+      const off = () => { el.classList.remove("active"); keys.left = false; keys.right = false; if (keyFire) keys.fire = false; };
+      el.addEventListener("pointerdown",  e => { e.preventDefault(); el.setPointerCapture(e.pointerId); on();  }, { passive: false });
+      el.addEventListener("pointerup",    e => { e.preventDefault(); off(); }, { passive: false });
+      el.addEventListener("pointerleave", e => { off(); });
+      el.addEventListener("pointercancel",e => { off(); });
     }
     zone("touch-left",  true,  false, false);
     zone("touch-right", false, true,  false);
@@ -499,7 +513,7 @@ excerpt: "Play a pixel-perfect remake of the classic arcade game Space Invaders,
   }
 
   function resetPlayer() {
-    playerX = Math.floor(LW / 2 - PLAYER_W / 2);
+    playerX = Math.round((LW - PLAYER_W) / 2 / PX) * PX;
   }
 
   function startLevel() {
@@ -586,7 +600,7 @@ excerpt: "Play a pixel-perfect remake of the classic arcade game Space Invaders,
     // ── enemy shoot ───────────────────────────────────────────────────────
     if (alive.length && Math.random() < 0.005 * (1 + level * 0.15) && enemyBullets.length < 2 + level) {
       const shooter = alive[Math.floor(Math.random() * alive.length)];
-      enemyBullets.push({ x: shooter.x + 3 * PX, y: shooter.y + 8 * PX, vy: 3, w: PX, h: PX * 3 });
+      enemyBullets.push({ x: shooter.x + 3 * PX, y: shooter.y + 8 * PX, vy: 4, w: PX, h: PX * 3 });
     }
     for (const b of enemyBullets) { b.y += b.vy; }
 
@@ -599,7 +613,7 @@ excerpt: "Play a pixel-perfect remake of the classic arcade game Space Invaders,
       const bounds = invaderBounds();
       if (bounds) {
         if (invStepDown) {
-          for (const inv of invaders) inv.y += INV_H * 0.38;
+          for (const inv of invaders) inv.y += 8;  // 4 game pixels (must be a multiple of PX)
           invDir      = -invDir;
           invStepDown = false;
         } else {
