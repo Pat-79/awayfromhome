@@ -3,7 +3,7 @@ title: Blog
 layout: blog
 lang: nl
 ref: page-blog
-image: /assets/images/pages/photos/Island_Sunset_by_Patrickske.jpg
+image: /assets/images/pages/photos/Island_Sunset_by_Patrickske.webp
 permalink: /nl/blog/
 blog_intro: ""
 ---

@@ -2,7 +2,7 @@
 title: About
 layout: page
 ref: page-about
-image: /assets/images/pages/photos/Bangkok_by_night_by_Patrickske.jpg
+image: /assets/images/pages/photos/Bangkok_by_night_by_Patrickske.webp
 permalink: /about/
 sitemap: false
 ---

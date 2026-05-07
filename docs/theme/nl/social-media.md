@@ -3,7 +3,7 @@ title: Social Media
 layout: page
 lang: nl
 ref: page-social-media
-image: /assets/images/pages/photos/Golden_Gate_by_patrickske.jpg
+image: /assets/images/pages/photos/Golden_Gate_by_patrickske.webp
 permalink: /nl/social-media/
 ---
 

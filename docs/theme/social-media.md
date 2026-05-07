@@ -2,7 +2,7 @@
 title: Social Media
 layout: page
 ref: page-social-media
-image: /assets/images/pages/photos/Golden_Gate_by_patrickske.jpg
+image: /assets/images/pages/photos/Golden_Gate_by_patrickske.webp
 permalink: /social-media/
 sitemap: false
 ---

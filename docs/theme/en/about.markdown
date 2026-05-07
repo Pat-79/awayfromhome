@@ -3,7 +3,7 @@ title: About
 layout: page
 lang: en
 ref: page-about
-image: /assets/images/pages/photos/Bangkok_by_night_by_Patrickske.jpg
+image: /assets/images/pages/photos/Bangkok_by_night_by_Patrickske.webp
 permalink: /en/about/
 ---
 

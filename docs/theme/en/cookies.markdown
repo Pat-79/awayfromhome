@@ -3,7 +3,7 @@ title: Cookies & Local Storage
 layout: page
 lang: en
 ref: page-cookies
-image: /assets/images/pages/photos/Bohinj_Lake_Sunset_Slovenia_by_Patrickske.jpg
+image: /assets/images/pages/photos/Bohinj_Lake_Sunset_Slovenia_by_Patrickske.webp
 permalink: /en/cookies/
 ---
 
