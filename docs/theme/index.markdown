@@ -4,7 +4,7 @@ layout: home
 ref: page-home
 permalink: /
 image: /assets/images/pages/photos/Turtle_Bonaire_by_Patrickske.webp
-home_per_page: 4
+home_per_page: 3
 sitemap: false
 ---
 

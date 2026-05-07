@@ -5,7 +5,7 @@ lang: en
 ref: page-home
 image: /assets/images/pages/photos/Turtle_Bonaire_by_Patrickske.webp
 permalink: /en/
-home_per_page: 4
+home_per_page: 3
 ---
 
 # Your getaway to the world starts from home
