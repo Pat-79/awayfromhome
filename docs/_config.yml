@@ -1,13 +1,13 @@
 # ── Site identity ──────────────────────────────────────────────────────────────
 title: awayfromhome.nl
 description: your getaway at home
-url: "https://awayfromhome.nl"
-baseurl: ""
+#repository: Pat-79/awayfromhome
+#url: "https://awayfromhome.nl"
+#baseurl: ""
 permalink: /en/blog/:year-:month-:day_:title/
 email: noreply@awayfromhome.nl
 lang: en
 timezone: "Europe/Amsterdam"
-repository: Pat-79/awayfromhome
 
 
 # ── Remote theme ───────────────────────────────────────────────────────────────
