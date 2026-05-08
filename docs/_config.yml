@@ -15,6 +15,7 @@ remote_theme: Pat-79/jekyll-awayfromhome
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-redirect-from
 
 # ── Brand ──────────────────────────────────────────────────────────────────────
 brand:
