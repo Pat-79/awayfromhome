@@ -5,6 +5,7 @@ lang: en
 ref: page-about
 image: /assets/images/pages/photos/Bangkok_by_night_by_Patrickske.webp
 permalink: /en/about/
+redirect_from: /about/
 ---
 
 ## awayfromhome.nl is there to take you on tour around the world
