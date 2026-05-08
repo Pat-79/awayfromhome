@@ -5,7 +5,6 @@ lang: en
 ref: page-home
 image: /assets/images/pages/photos/Turtle_Bonaire_by_Patrickske.webp
 permalink: /en/
-redirect_from: /
 home_per_page: 3
 ---
 
