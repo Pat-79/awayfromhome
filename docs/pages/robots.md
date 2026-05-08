@@ -1,8 +1,12 @@
 ---
 layout: none
+sitemap: false
 permalink: /robots.txt
 ---
 # robots.txt — {{ site.url }}
+
+# ── sitemap.xml ──────────────────────────────────────────────────────────────
+Sitemap: {{ site.url }}/sitemap.xml
 
 # ── Standard crawlers ────────────────────────────────────────────────────────
 User-agent: *
