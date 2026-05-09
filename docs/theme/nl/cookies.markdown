@@ -19,6 +19,7 @@ Beide helpen de site instellingen te onthouden en basisfuncties te ondersteunen.
 
 Deze website kan technische instellingen opslaan, bijvoorbeeld:
 
+- Je cookie voorkeuren instellingen
 - Je voorkeursweergave (licht, donker of systeem)
 - Je taalvoorkeur
 - Gecachte zoekgegevens om zoeken sneller te maken
@@ -35,12 +36,16 @@ Die cookies worden beheerd door de externe aanbieder, niet door deze website.
 Je kunt cookies en lokale opslag op elk moment wissen via de instellingen van je browser.
 Als je deze gegevens wist, kunnen sommige voorkeuren worden teruggezet.
 
-Je kunt ook de knop hieronder gebruiken om alle gegevens die deze website in je browser heeft opgeslagen direct te verwijderen.
+Het is ook mogelijk om je cookie voorkeuren hier beneden te wijzigen, of alle gegevens, die deze website in je browser heeft opgeslagen, direct te verwijderen.
 
 ### Cookie toestemmingen
+
+De noodzakelijke cookies kunnen niet worden uitgeschakeld. Deze zijn nodig voor het correct functioneren van deze website. De cookies voor kaarten en video's kunnen hier beneden worden aan of uitgezet.
 
 {% include cookie-preferences.html %}
 
 ### Data opslag
+
+Op dit moment slaat deze website de volgende data in je browser op:
 
 {% include storage-widget.html %}
