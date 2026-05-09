@@ -60,6 +60,103 @@ navigation:
     url_nl: /nl/cookies/
     url_en: /en/cookies/
 
+# ── Sidebar ───────────────────────────────────────────────────────────────────
+sidebar:
+  archive:
+    enabled: true
+    # Supported: 'year' | 'month-year' | 'year-month-tree'
+    # mode: month-year
+    mode: year-month-tree
+    show_post_counts: true
+
+# ── Multilingual settings ─────────────────────────────────────────────────────
+# Multilingual settings
+#lang: en   # default site language
+# When true, post/page listings on non-default-language pages will include
+# default-language posts that have no translation in the current language
+# (identified by a missing `ref` partner). Useful as a graceful fallback
+# so non-English pages don't appear empty while content is being translated.
+lang_fallback: true
+
+# Languages available on this site.
+# 'code' must match the lang front-matter value and the folder name under ar/, fr/, etc.
+# 'native' is shown in the language selector UI.
+languages:
+  - code: en
+    name: English
+    native: English
+    flag: "🇬🇧"
+  - code: nl
+    name: Dutch
+    native: Nederlands
+    flag: "🇳🇱"
+
+cookie_consent:
+  # Master switch — set to true to enable the consent banner.
+  enabled: true
+
+  # Bump this number whenever you add a new cookie category. Returning visitors
+  # will see the banner again so they can review the new category.
+  version: 1
+
+  # How long (in days) consent is stored. The lifetime renews on every visit,
+  # so only visitors who don't return within this period will be asked again.
+  lifetime_days: 365
+
+  # Controls when the consent banner is automatically shown to visitors who
+  # have not yet made a choice.
+  #
+  #   always  — show to every new visitor on every page, immediately.
+  #   on_use  — show only when the page contains a consent gate (map/video
+  #             widget) OR the browser already holds essential site data
+  #             (theme, language, search cache). Visitors who have not yet
+  #             interacted with the site are not shown the banner.
+  #   never   — never show the banner automatically. Visitors can still manage
+  #             their preferences on the cookies page.
+  #
+  banner_trigger: on_use
+
+  # Show an "Accept Essential" button on the banner. Clicking it accepts only
+  # the required (essential) cookies and declines all optional ones, while
+  # still dismissing the banner. The user can enable individual optional
+  # categories later via the widget placeholder buttons or the cookies page.
+  # true = shown (default), false = hidden.
+  show_accept_essential: true
+
+  # Show a "Decline All" button on the banner. Since Decline All and Accept
+  # Essential are functionally identical (both grant only essential cookies),
+  # showing both is redundant. Set to true only if your audience or legal
+  # requirements specifically expect a rejection button on the first layer.
+  # Decline All always remains available inside the Manage Cookies panel.
+  # true = shown, false = hidden (default).
+  show_decline_all: false
+
+  # Which button is the default (primary) action — shown last in the row,
+  # styled as the accent/primary button.
+  #
+  #   accept_all        — [Manage Cookies] [Accept Essential] [Accept All]
+  #   accept_essential  — [Manage Cookies] [Accept All] [Accept Essential]
+  #
+  default_action: accept_essential
+
+  # Cookie categories. 'id' is a slug used in code and i18n keys.
+  # required: true  → always on, no consent needed, no toggle shown.
+  # required: false → user must actively consent; defaults to off (opt-in).
+  categories:
+    - id: essential
+      required: true
+    - id: maps
+      required: false
+    - id: video
+      required: false
+
+# ── Home landing hero ──────────────────────────────────────────────────────────
+default_post_image: /assets/images/default-hero.svg
+home_landing:
+  image: /assets/images/default-hero.svg
+  hls_url: /assets/streams/home-title-v2/home-title.m3u8
+  latest_posts_limit: 9999999999
+
 # ── Social links ───────────────────────────────────────────────────────────────
 social_links:
   - platform: youtube
@@ -68,13 +165,6 @@ social_links:
     url: https://www.instagram.com/awayfromhome_nl/
   - platform: github
     url: https://github.com/Pat-79/awayfromhome
-
-# ── Home landing hero ──────────────────────────────────────────────────────────
-default_post_image: /assets/images/default-hero.svg
-
-home_landing:
-  image: /assets/images/default-hero.svg
-  hls_url: /assets/streams/home-title-v2/home-title.m3u8
 
 # ── Widgets ───────────────────────────────────────────────────────────────────
 map_widget:
@@ -119,38 +209,6 @@ gallery_widget:
   show_image_caption: "false"
   show_image_description: "false"
   carousel_autoplay: 6
-
-
-# ── Sidebar ───────────────────────────────────────────────────────────────────
-sidebar:
-  archive:
-    enabled: true
-    # Supported: 'year' | 'month-year' | 'year-month-tree'
-    # mode: month-year
-    mode: year-month-tree
-    show_post_counts: true
-
-# ── Multilingual settings ─────────────────────────────────────────────────────
-# Multilingual settings
-#lang: en   # default site language
-# When true, post/page listings on non-default-language pages will include
-# default-language posts that have no translation in the current language
-# (identified by a missing `ref` partner). Useful as a graceful fallback
-# so non-English pages don't appear empty while content is being translated.
-lang_fallback: true
-
-# Languages available on this site.
-# 'code' must match the lang front-matter value and the folder name under ar/, fr/, etc.
-# 'native' is shown in the language selector UI.
-languages:
-  - code: en
-    name: English
-    native: English
-    flag: "🇬🇧"
-  - code: nl
-    name: Dutch
-    native: Nederlands
-    flag: "🇳🇱"
 
 # Defaults: give every file a lang and give posts their permalink prefix.
 # Order matters — later entries override earlier ones for the same file.
