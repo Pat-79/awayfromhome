@@ -143,7 +143,7 @@ cookie_consent:
   #   accept_all        — [Manage Cookies] [Accept Essential] [Accept All]
   #   accept_essential  — [Manage Cookies] [Accept All] [Accept Essential]
   #
-  default_action: accept_essential
+  default_action: accept_all
 
   # Cookie categories. 'id' is a slug used in code and i18n keys.
   # required: true  → always on, no consent needed, no toggle shown.
