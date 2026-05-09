@@ -37,6 +37,10 @@ Als je deze gegevens wist, kunnen sommige voorkeuren worden teruggezet.
 
 Je kunt ook de knop hieronder gebruiken om alle gegevens die deze website in je browser heeft opgeslagen direct te verwijderen.
 
+### Cookie toestemmingen
+
 {% include cookie-preferences.html %}
+
+### Data opslag
 
 {% include storage-widget.html %}

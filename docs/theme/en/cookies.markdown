@@ -38,6 +38,9 @@ If you clear this data, some preferences may reset.
 
 You can also use the button below to remove all data stored by this site in your browser immediately.
 
+### Cookie consent
+
 {% include cookie-preferences.html %}
 
+### Data storage
 {% include storage-widget.html %}
