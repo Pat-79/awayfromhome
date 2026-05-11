@@ -141,6 +141,24 @@ storage_widget:
   key_afh_highlight_terms: Search highlight terms
   key_afh_cookie_consent: Cookie consent preferences
 
+comments:
+  heading: "Comments"
+  be_first: "Be the first to comment."
+  leave_comment: "Leave a comment"
+  closed: "Comments are closed."
+  form_name: "Name"
+  form_email: "Email"
+  email_note: "Your email address is never published. It is only used for your avatar."
+  form_comment: "Comment"
+  form_submit: "Submit"
+  reply: "Reply"
+  cancel_reply: "Cancel reply"
+  replying_to: "Replying to %s"
+  success: "Thank you! Your comment is awaiting moderation."
+  error: "Something went wrong. Please try again."
+  count_label: "comment"
+  count_label_plural: "comments"
+
 cookie_consent:
   banner_title: "&#x1F36A; Cookie Preferences"
   banner_intro: "We use cookies to power site features. Some content (maps, videos) requires third-party cookies. You can change your preferences at any time on the cookies page."
