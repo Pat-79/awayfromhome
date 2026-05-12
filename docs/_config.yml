@@ -1,9 +1,6 @@
 # ── Site identity ──────────────────────────────────────────────────────────────
 title: awayfromhome.nl
 description: your getaway at home
-#repository: Pat-79/awayfromhome
-#url: "https://awayfromhome.nl"
-#baseurl: ""
 permalink: /en/blog/:year-:month-:day_:title/
 email: noreply@awayfromhome.nl
 lang: en
@@ -26,39 +23,53 @@ brand:
 navigation:
   - title: Home
     key: home
-    url: /
+    url: /en/
     url_nl: /nl/
     url_en: /en/
   - title: About
     key: about
-    url: /about/
+    url: /en/about/
     url_nl: /nl/about/
     url_en: /en/about/
   - title: Blogs
     key: blog
-    url: /blog/
+    url: /en/blog/
     url_nl: /nl/blog/
     url_en: /en/blog/
   - title: Browse
     key: browse
-    url: /browse/
+    url: /en/browse/
     url_nl: /nl/browse/
     url_en: /en/browse/
   - title: Social Media
     key: social-media
-    url: /social-media/
+    url: /en/social-media/
     url_nl: /nl/social-media/
     url_en: /en/social-media/
   - title: Search
     key: search
-    url: /search/
+    url: /en/search/
     url_nl: /nl/search/
     url_en: /en/search/
   - title: Cookies
     key: cookies
-    url: /cookies/
+    url: /en/cookies/
     url_nl: /nl/cookies/
     url_en: /en/cookies/
+  - title: Sitemap
+    key: page-sitemap
+    url: /en/sitemap/
+    url_nl: /nl/sitemap/
+    url_en: /en/sitemap/
+    hide_in_nav: true
+  - title: Archive
+    key: page-archive
+    url: /en/archive/
+    url_nl: /nl/archive/
+    url_en: /en/archive/
+    hide_in_nav: true
+
+
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 sidebar:
@@ -246,6 +257,13 @@ defaults:
       lang: nl
       #permalink: "/nl/blog/:year-:month-:day_:title/"
       permalink: "/nl/:slug/"
+
+sitemap_page:
+  # Language scope for _layouts/sitemap.html
+  # all: show entries from all languages
+  # current_with_fallback: show current sitemap language; if a translation
+  # is missing, include the site default language version instead
+  language_mode: current_with_fallback
 
 # ── Feed settings ─────────────────────────────────────────────────────────────
 feed:
