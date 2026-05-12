@@ -161,6 +161,7 @@ comments:
   email_note: "Je e-mailadres wordt nooit gepubliceerd. Het wordt alleen gebruikt voor je avatar."
   form_comment: "Reactie"
   form_submit: "Verzenden"
+  markdown_hint: "Markdown is supported. Links open in a new tab."
   reply: "Antwoorden"
   cancel_reply: "Antwoord annuleren"
   replying_to: "Je antwoordt op %s"
