@@ -254,7 +254,7 @@ feed:
 # ── Comments ──────────────────────────────────────────────────────────────────
 comments:
   # Master switch for file-based comments.
-  enabled: false
+  enabled: true
 
   # Cloudflare Worker endpoint that receives submissions.
   worker_url: https://comments.awayfromhome.nl
