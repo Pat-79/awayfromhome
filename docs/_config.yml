@@ -58,9 +58,9 @@ navigation:
     url_en: /en/cookies/
   - title: Sitemap
     key: page-sitemap
-    url: /en/sitemap/
+    url: /sitemap/
     url_nl: /nl/sitemap/
-    url_en: /en/sitemap/
+    url_en: /sitemap/
     hide_in_nav: true
   - title: Archive
     key: page-archive
