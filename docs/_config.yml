@@ -300,3 +300,6 @@ comments:
   # browser: use the visitor browser locale
   # locale tag (for example nl-NL): force one locale everywhere
   #date_locale: nl-NL
+
+exclude:
+  - assets/images/**/original/**
