@@ -5,7 +5,8 @@ permalink: /en/blog/:year-:month-:day_:title/
 email: noreply@awayfromhome.nl
 lang: en
 timezone: "Europe/Amsterdam"
-
+url: "https://awayfromhome.nl"
+baseurl: ""
 
 # ── Remote theme ───────────────────────────────────────────────────────────────
 remote_theme: Pat-79/jekyll-awayfromhome
