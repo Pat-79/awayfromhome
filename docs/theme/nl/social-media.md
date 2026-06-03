@@ -44,3 +44,20 @@ Ik heb alle foto's voor je gebundeld in een galerij:
   max_width="720px"
   align="center"
 %}
+
+## Video montage
+
+Op de homepage laat ik een video montage zien van plekken waar ik ben geweest. Net zoals bij de foto's, is elk video fragment door mezelf opgenomen vanaf plaatsen overal op de wereld.
+
+{% include video-widget.html
+  provider="hls"
+  src="/assets/streams/home-title-v2/home-title.m3u8"
+  poster="/assets/images/pages/photos/Turtle_Bonaire_by_Patrickske.webp"
+  min_width="50vw"
+  max_width="900px"
+  aspect_ratio="16:9"
+  autoplay="true"
+  muted="true"
+  loop="false"
+  controls="true"
+%}

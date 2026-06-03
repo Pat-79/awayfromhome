@@ -48,7 +48,7 @@ I've compiled every photo into a gallery for you to view:
 
 ## Video montage
 
-At the homepage I show a video montage of places I have been. Just like with the photos, every clip of the video montage was recorded by myself from places all over the worls.
+At the homepage I show a video montage of places I have been. Just like with the photos, every clip of the video montage was recorded by myself from places all over the world.
 
 {% include video-widget.html
   provider="hls"
