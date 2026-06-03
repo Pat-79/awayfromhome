@@ -45,3 +45,20 @@ I've compiled every photo into a gallery for you to view:
   max_width="720px"
   align="center"
 %}
+
+## Video montage
+
+At the homepage I show a video montage of places I have been. Just like with the photos, every clip of the video montage was recorded by myself from places all over the worls.
+
+{% include video-widget.html
+  provider="hls"
+  src="/assets/streams/home-title-v2/home-title.m3u8"
+  poster="/assets/images/pages/photos/Turtle_Bonaire_by_Patrickske.webp"
+  min_width="50vw"
+  max_width="900px"
+  aspect_ratio="16:9"
+  autoplay="true"
+  muted="true"
+  loop="false"
+  controls="true"
+%}
