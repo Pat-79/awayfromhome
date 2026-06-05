@@ -42,11 +42,11 @@ max_width="1000px"
 
 ## UNESCO Werelderfgoed
 
-De Dolomieten behoren tot de meest spectaculaire bergregio's in de Alpen. In de winter veranderen ze vaak in een echt winterwonderland, gezegend met veel zonneschijn en uitstekende sneeuwcondities. De ruige toppen maken deel uit van het [UNESCO Werelderfgoed](https://whc.unesco.org/en/list/1237/) en vormen een van de meest herkenbare berglandschappen van Europa. Tijdens zonsopgang en zonsondergang transformeren veel van deze toppen door het beroemde *Enrosadira* fenomeen, waarbij de bleke rotswanden oplichten in tinten van roze, oranje en dieprood.
+De Dolomieten behoren tot de meest spectaculaire bergregio's in de Alpen. In de winter veranderen ze vaak in een echt winterwonderland, gezegend met veel zonneschijn en uitstekende sneeuwcondities. De ruige toppen maken deel uit van het [UNESCO Werelderfgoed](https://whc.unesco.org/en/list/1237/){:target="_blank"} en vormen een van de meest herkenbare berglandschappen van Europa. Tijdens zonsopgang en zonsondergang transformeren veel van deze toppen door het beroemde *Enrosadira* fenomeen, waarbij de bleke rotswanden oplichten in tinten van roze, oranje en dieprood.
 
-De [Marmolada](https://nl.wikipedia.org/wiki/Marmolada) (hoogte 3343 m), vaak de Koningin van de Dolomieten genoemd, is de hoogste berg van de keten en biedt adembenemende uitzichten vanaf de top, Punta Rocca. Grillige bergkammen, smaragdgroene meren, traditionele bergdorpjes, historische kerken en indrukwekkende valleien zijn overal in de regio te vinden.
+De [Marmolada](https://nl.wikipedia.org/wiki/Marmolada){:target="_blank"} (hoogte 3343 m), vaak de Koningin van de Dolomieten genoemd, is de hoogste berg van de keten en biedt adembenemende uitzichten vanaf de top, Punta Rocca. Grillige bergkammen, smaragdgroene meren, traditionele bergdorpjes, historische kerken en indrukwekkende valleien zijn overal in de regio te vinden.
 
-Het gebied is ook op cultureel vlak opmerkelijk divers. Tegenwoordig is het een deel van Italië, waardoor er veel Italiaans wordt gesproken. De regio maakte vroeger echter deel uit van het Oostenrijks Hongaarse Rijk, waardoor Duits in veel gebieden de voertaal blijft. In verschillende gemeenten wordt ook nog [Ladinisch](https://nl.wikipedia.org/wiki/Ladinisch) gesproken, een Reto Romaanse taal. Deze unieke mix van culturen maakt de Dolomieten bovendien tot een culinaire hotspot.
+Het gebied is ook op cultureel vlak opmerkelijk divers. Tegenwoordig is het een deel van Italië, waardoor er veel Italiaans wordt gesproken. De regio maakte vroeger echter deel uit van het Oostenrijks Hongaarse Rijk, waardoor Duits in veel gebieden de voertaal blijft. In verschillende gemeenten wordt ook nog [Ladinisch](https://nl.wikipedia.org/wiki/Ladinisch){:target="_blank"} gesproken, een Reto Romaanse taal. Deze unieke mix van culturen maakt de Dolomieten bovendien tot een culinaire hotspot.
 
 Gelegen op het kruispunt tussen Italië en Oostenrijk biedt de regio het beste van twee werelden. Bezoekers kunnen genieten van stevige Alpenrecepten, de verfijnde Italiaanse keuken en natuurlijk een uitstekende selectie aan Zuid Tiroolse wijnen.
 
@@ -61,7 +61,7 @@ max_width="1000px"
 
 ### Enrosadira: Wanneer de Bergen Gloeien
 
-Een van de meest magische momenten van een winterse dag in de Dolomieten vindt plaats kort voor zonsondergang. Terwijl de zon langzaam naar de horizon zakt, beginnen de bleke kalkstenen kliffen op te lichten in tinten van roze, oranje en dieprood. Dit fenomeen staat lokaal bekend als [*Enrosadira*](https://www.bbc.com/travel/article/20250331-italy-dolomites-the-magic-of-the-legendary-enrosadira) en is een van de meest iconische bezienswaardigheden in de regio.
+Een van de meest magische momenten van een winterse dag in de Dolomieten vindt plaats kort voor zonsondergang. Terwijl de zon langzaam naar de horizon zakt, beginnen de bleke kalkstenen kliffen op te lichten in tinten van roze, oranje en dieprood. Dit fenomeen staat lokaal bekend als [*Enrosadira*](https://www.bbc.com/travel/article/20250331-italy-dolomites-the-magic-of-the-legendary-enrosadira){:target="_blank"} en is een van de meest iconische bezienswaardigheden in de regio.
 
 Het effect is vooral spectaculair tijdens heldere winteravonden. De warme kleuren van de verlichte toppen vormen een prachtig contrast met de besneeuwde bossen, witte hellingen en de diepblauwe alpenlucht. Enkele van de mooiste uitzichten zijn te vinden rondom het Sellamassief, de Sassolungo, de Marmolada en de Rosengarten groep.
 
@@ -116,11 +116,11 @@ Een van de bekendste routes is de Sella Ronda, die rond het indrukwekkende Sella
 
 De Dolomieten zijn een bestemming voor het hele jaar door. Ik heb de regio ook in de zomer bezocht, maar die ervaringen verdienen op een dag hun eigen blogpost. Deze reis stond volledig in het teken van de winter.
 
-Het zal geen verrassing zijn dat de Dolomieten grote aantallen wintersportliefhebbers trekken. De bergen zijn perfect geschikt voor volle dagen skiën en snowboarden. Bezoekers kunnen de wereldberoemde [Sella Ronda](https://www.val-gardena.com/en/winter/sella-ronda/) verkennen, de historische skitocht van de [Eerste Wereldoorlog](https://lagazuoi.it/EN/Experience-Winter-page9-The-Great-War-Ski-Tour) volgen, de spectaculaire hellingen van Seceda afdalen of skiën door de beroemde Hidden Valley onder Lagazuoi. Een van de hoogtepunten van deze route is het laatste deel, waar skiërs door paarden over de vallei naar de volgende lift worden getrokken.
+Het zal geen verrassing zijn dat de Dolomieten grote aantallen wintersportliefhebbers trekken. De bergen zijn perfect geschikt voor volle dagen skiën en snowboarden. Bezoekers kunnen de wereldberoemde [Sella Ronda](https://www.val-gardena.com/en/winter/sella-ronda/){:target="_blank"} verkennen, de historische skitocht van de [Eerste Wereldoorlog](https://lagazuoi.it/EN/Experience-Winter-page9-The-Great-War-Ski-Tour){:target="_blank"} volgen, de spectaculaire hellingen van Seceda afdalen of skiën door de beroemde Hidden Valley onder Lagazuoi. Een van de hoogtepunten van deze route is het laatste deel, waar skiërs door paarden over de vallei naar de volgende lift worden getrokken.
 
 Waar je ook heen gaat, je wordt de hele dag omringd door indrukwekkende toppen. De kans is groot dat je ook van volop zonneschijn zult genieten. Dit deel van de Alpen staat erom bekend een van de hoogste aantallen zonnige dagen tijdens het winterseizoen te hebben.
 
-Het skigebied [Dolomiti Superski](https://www.dolomitisuperski.com/en/) is een samenwerking tussen twaalf skigebieden die onder één enkele skipas vallen. Samen bieden ze meer dan 1200 kilometer aan pistes, waardoor het een van de grootste skigebieden ter wereld is.
+Het skigebied [Dolomiti Superski](https://www.dolomitisuperski.com/en/){:target="_blank"} is een samenwerking tussen twaalf skigebieden die onder één enkele skipas vallen. Samen bieden ze meer dan 1200 kilometer aan pistes, waardoor het een van de grootste skigebieden ter wereld is.
 
 Voor degenen die liever niet skiën of snowboarden zijn er tal van alternatieven. Door de hele regio zijn winterwandelpaden te vinden en liefhebbers van langlaufen hebben keuze te over.
 
@@ -180,7 +180,7 @@ De Dolomieten liggen in het noordoosten van Italië en zijn gemakkelijk met de a
 
 Bezoekers die vanuit het noorden reizen, rijden meestal via Innsbruck en steken de Brennerpas over. Degenen die vanuit Zuid Italië aanreizen, reizen doorgaans via Verona en Trento.
 
-Als je liever vliegt, is er een regionale luchthaven in [Bolzano (BZO)](https://www.bolzanoairport.it/en/) en een luchthaven in [Innsbruck (INN)](https://www.innsbruck-airport.com/en/) voor Europese verbindingen. Internationale reizigers vliegen vaak op [München (MUC)](https://www.munich-airport.com/) of [Milaan (MXP)](https://www.milanomalpensa-airport.com/en), die beide op ongeveer drie uur rijden met de auto liggen.
+Als je liever vliegt, is er een regionale luchthaven in [Bolzano (BZO)](https://www.bolzanoairport.it/en/){:target="_blank"} en een luchthaven in [Innsbruck (INN)](https://www.innsbruck-airport.com/en/){:target="_blank"} voor Europese verbindingen. Internationale reizigers vliegen vaak op [München (MUC)](https://www.munich-airport.com/){:target="_blank"} of [Milaan (MXP)](https://www.milanomalpensa-airport.com/en){:target="_blank"}, die beide op ongeveer drie uur rijden met de auto liggen.
 
 ## Fotogalerij
 

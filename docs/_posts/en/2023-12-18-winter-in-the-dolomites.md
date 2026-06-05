@@ -42,11 +42,11 @@ max_width="1000px"
 
 ## UNESCO World Heritage Site
 
-The Dolomites are among the most spectacular mountain regions in the Alps. During winter, they often transform into a true winter wonderland, blessed with plenty of sunshine and excellent snow conditions. The rugged peaks form part of a [UNESCO World Heritage Site](https://whc.unesco.org/en/list/1237/) and create one of the most recognizable mountain landscapes in Europe. During sunrise and sunset, many of these peaks are transformed by the famous *Enrosadira* phenomenon, when the pale rock faces glow in shades of pink, orange and deep red.
+The Dolomites are among the most spectacular mountain regions in the Alps. During winter, they often transform into a true winter wonderland, blessed with plenty of sunshine and excellent snow conditions. The rugged peaks form part of a [UNESCO World Heritage Site](https://whc.unesco.org/en/list/1237/){:target="_blank"} and create one of the most recognizable mountain landscapes in Europe. During sunrise and sunset, many of these peaks are transformed by the famous *Enrosadira* phenomenon, when the pale rock faces glow in shades of pink, orange and deep red.
 
-The [Marmolada](https://en.wikipedia.org/wiki/Marmolada) (altitude 3343 m), often referred to as the Queen of the Dolomites, is the highest mountain in the range and offers breathtaking views from its summit, Punta Rocca. Jagged ridgelines, emerald lakes, traditional mountain villages, historic churches and dramatic valleys can be found throughout the region.
+The [Marmolada](https://en.wikipedia.org/wiki/Marmolada){:target="_blank"} (altitude 3343 m), often referred to as the Queen of the Dolomites, is the highest mountain in the range and offers breathtaking views from its summit, Punta Rocca. Jagged ridgelines, emerald lakes, traditional mountain villages, historic churches and dramatic valleys can be found throughout the region.
 
-The area is also remarkably diverse from a cultural perspective. Nowadays it is part of Italy, so Italian is widely spoken. However, the region was once part of the Austro Hungarian Empire, and German remains the primary language in many areas. In several municipalities, [Ladin](https://en.wikipedia.org/wiki/Ladin_language), a Rhaeto Romance language, is still spoken. This unique mix of cultures makes the Dolomites a culinary hotspot as well.
+The area is also remarkably diverse from a cultural perspective. Nowadays it is part of Italy, so Italian is widely spoken. However, the region was once part of the Austro Hungarian Empire, and German remains the primary language in many areas. In several municipalities, [Ladin](https://en.wikipedia.org/wiki/Ladin_language){:target="_blank"}, a Rhaeto Romance language, is still spoken. This unique mix of cultures makes the Dolomites a culinary hotspot as well.
 
 Located at the crossroads between Italy and Austria, the region offers the best of both worlds. Visitors can enjoy hearty Alpine dishes, refined Italian cuisine and, of course, an excellent selection of South Tyrolean wines.
 
@@ -62,7 +62,7 @@ max_width="1000px"
 
 ### Enrosadira: When the Mountains Glow
 
-One of the most magical moments of a winter day in the Dolomites happens shortly before sunset. As the sun slowly sinks towards the horizon, the pale limestone cliffs begin to glow in shades of pink, orange and deep red. This phenomenon is known locally as [*Enrosadira*](https://www.bbc.com/travel/article/20250331-italy-dolomites-the-magic-of-the-legendary-enrosadira) and is one of the most iconic sights in the region.
+One of the most magical moments of a winter day in the Dolomites happens shortly before sunset. As the sun slowly sinks towards the horizon, the pale limestone cliffs begin to glow in shades of pink, orange and deep red. This phenomenon is known locally as [*Enrosadira*](https://www.bbc.com/travel/article/20250331-italy-dolomites-the-magic-of-the-legendary-enrosadira){:target="_blank"} and is one of the most iconic sights in the region.
 
 The effect is especially spectacular on clear winter evenings. The warm colours of the illuminated peaks create a stunning contrast with the snow covered forests, white slopes and deep blue alpine sky. Some of the best views can be found around the Sella Massif, Sassolungo, Marmolada and the Rosengarten group.
 
@@ -117,11 +117,11 @@ One of the most famous routes is the Sella Ronda, which circles the impressive S
 
 The Dolomites are a year round destination. I have visited the region during summer as well, but those experiences deserve their own blog post someday. This trip was all about winter.
 
-It should come as no surprise that the Dolomites attract large numbers of winter sports enthusiasts. The mountains are perfectly suited for full days of skiing and snowboarding. Visitors can explore the world famous [Sella Ronda](https://www.val-gardena.com/en/winter/sella-ronda/), follow the historic [First World War ski tour](https://lagazuoi.it/EN/Experience-Winter-page9-The-Great-War-Ski-Tour), descend the spectacular slopes of Seceda or ski through the famous Hidden Valley beneath Lagazuoi. One of the highlights of this route is the final section, where skiers are pulled across the valley floor by horses to the next lift.
+It should come as no surprise that the Dolomites attract large numbers of winter sports enthusiasts. The mountains are perfectly suited for full days of skiing and snowboarding. Visitors can explore the world famous [Sella Ronda](https://www.val-gardena.com/en/winter/sella-ronda/){:target="_blank"}, follow the historic [First World War ski tour](https://lagazuoi.it/EN/Experience-Winter-page9-The-Great-War-Ski-Tour){:target="_blank"}, descend the spectacular slopes of Seceda or ski through the famous Hidden Valley beneath Lagazuoi. One of the highlights of this route is the final section, where skiers are pulled across the valley floor by horses to the next lift.
 
 No matter where you go, you will be surrounded by dramatic peaks throughout the day. Chances are high that you will enjoy plenty of sunshine as well. This part of the Alps is known for having one of the highest numbers of sunny days during the winter season.
 
-The [Dolomiti Superski](https://www.dolomitisuperski.com/en/) area is a collaboration between twelve ski resorts operating under a single ski pass. Together they offer more than 1,200 kilometres of slopes, making it one of the largest ski areas in the world.
+The [Dolomiti Superski](https://www.dolomitisuperski.com/en/){:target="_blank"} area is a collaboration between twelve ski resorts operating under a single ski pass. Together they offer more than 1,200 kilometres of slopes, making it one of the largest ski areas in the world.
 
 For those who prefer not to ski or snowboard, there are plenty of alternatives. Winter hiking trails can be found throughout the region, and cross country skiing enthusiasts will be spoiled for choice.
 
@@ -181,7 +181,7 @@ The Dolomites are located in northeastern Italy and can easily be reached by car
 
 Visitors travelling from the north will usually pass through Innsbruck and cross the Brenner Pass. Those approaching from southern Italy typically travel via Verona and Trento.
 
-If you prefer to fly, there is a regional airport in [Bolzano (BZO)](https://www.bolzanoairport.it/en/) as well as an airport in [Innsbruck (INN)](https://www.innsbruck-airport.com/en/) for European connections. International travellers often fly into [Munich (MUC)](https://www.munich-airport.com/) or [Milan (MXP)](https://www.milanomalpensa-airport.com/en), both of which are approximately three hours away by car.
+If you prefer to fly, there is a regional airport in [Bolzano (BZO)](https://www.bolzanoairport.it/en/){:target="_blank"} as well as an airport in [Innsbruck (INN)](https://www.innsbruck-airport.com/en/){:target="_blank"} for European connections. International travellers often fly into [Munich (MUC)](https://www.munich-airport.com/){:target="_blank"} or [Milan (MXP)](https://www.milanomalpensa-airport.com/en){:target="_blank"}, both of which are approximately three hours away by car.
 
 ## Photo Gallery
 
