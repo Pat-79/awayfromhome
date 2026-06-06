@@ -248,8 +248,7 @@ defaults:
   - scope: { path: "_posts/en", type: "posts" }
     values:
       lang: en
-      #permalink: "/nl/blog/:year-:month-:day_:title/"
-      permalink: "/en/:slug/"
+      permalink: "/:slug/"
 
   - scope: { path: "theme/nl" }
     values:
