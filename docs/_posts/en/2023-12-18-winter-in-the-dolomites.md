@@ -18,6 +18,7 @@ tags:
   - snow
   - skiing
   - vacation
+  - winter
 redirect_from: /en/sunset-in-the-dolomites/
 ---
 
@@ -121,7 +122,7 @@ It should come as no surprise that the Dolomites attract large numbers of winter
 
 No matter where you go, you will be surrounded by dramatic peaks throughout the day. Chances are high that you will enjoy plenty of sunshine as well. This part of the Alps is known for having one of the highest numbers of sunny days during the winter season.
 
-The [Dolomiti Superski](https://www.dolomitisuperski.com/en/){:target="_blank"} area is a collaboration between twelve ski resorts operating under a single ski pass. Together they offer more than 1,200 kilometres of slopes, making it one of the largest ski areas in the world.
+The [Dolomiti Superski](https://www.dolomitisuperski.com/en/){:target="_blank"} area is a collaboration between twelve ski resorts operating under a single ski pass. Together they offer more than 1200 kilometres of slopes, making it one of the largest ski areas in the world.
 
 For those who prefer not to ski or snowboard, there are plenty of alternatives. Winter hiking trails can be found throughout the region, and cross country skiing enthusiasts will be spoiled for choice.
 

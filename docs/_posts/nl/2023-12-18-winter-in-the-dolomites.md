@@ -18,6 +18,7 @@ tags:
   - snow
   - skiing
   - vacation
+  - winter
 redirect_from: /nl/sunset-in-the-dolomites/
 ---
 
