@@ -6,6 +6,7 @@ ref: page-social-media
 image: /assets/images/pages/photos/Golden_Gate_by_patrickske.webp
 permalink: /social-media/
 redirect_from: /en/social-media/
+excerpt: This section is still under construction. New social media links will be added here.
 ---
 
 This section is still under construction. New social media links will be added here.

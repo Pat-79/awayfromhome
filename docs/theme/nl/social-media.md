@@ -5,6 +5,7 @@ lang: nl
 ref: page-social-media
 image: /assets/images/pages/photos/Golden_Gate_by_patrickske.webp
 permalink: /nl/social-media/
+excerpt: Deze sectie is nog in opbouw. Nieuwe social media-links worden hier binnenkort toegevoegd.
 ---
 
 Deze sectie is nog in opbouw. Nieuwe social media-links worden hier binnenkort toegevoegd.

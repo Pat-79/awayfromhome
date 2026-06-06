@@ -5,6 +5,7 @@ lang: nl
 ref: page-cookies
 image: /assets/images/pages/photos/Bohinj_Lake_Sunset_Slovenia_by_Patrickske.webp
 permalink: /nl/cookies/
+excerpt: Op deze pagina lees je in eenvoudige taal hoe deze website gegevens in je browser opslaat.
 ---
 
 Op deze pagina lees je in eenvoudige taal hoe deze website gegevens in je browser opslaat.

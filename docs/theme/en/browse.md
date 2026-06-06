@@ -7,6 +7,7 @@ image: /assets/images/pages/photos/Sassolungo_Winter_Selva_di_Val_Gardena_by_Pat
 permalink: /browse/
 redirect_from: /en/browse/
 browse_intro: ""
+excerpt: Browse trough all blogs.
 ---
 
-Blader trough all blogs.
+Browse trough all blogs.

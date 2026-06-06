@@ -5,6 +5,7 @@ lang: nl
 ref: page-about
 image: /assets/images/pages/photos/Bangkok_by_night_by_Patrickske.webp
 permalink: /nl/about/
+excerpt: Deze website is gemaakt en wordt beheerd door mijzelf, Patrick. Het is een hobbyproject waarbij ik mijn passie voor reizen combineer met mijn interesse in online technologie. Sla me op in je favorieten om op de hoogte te blijven van mijn nieuwste blogs.
 ---
 
 ## awayfromhome.nl neemt je mee op reis om de wereld

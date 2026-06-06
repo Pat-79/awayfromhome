@@ -6,6 +6,7 @@ ref: page-about
 image: /assets/images/pages/photos/Bangkok_by_night_by_Patrickske.webp
 permalink: /about/
 redirect_from: /en/about/
+excerpt: This website is created and maintained by myself, Patrick. It’s absolutely a hobby project, combining my passion for traveling with my interest for online tech. Please bookmark me to stay updated with my latest blogs.
 ---
 
 ## awayfromhome.nl is there to take you on tour around the world

@@ -6,6 +6,7 @@ ref: page-cookies
 image: /assets/images/pages/photos/Bohinj_Lake_Sunset_Slovenia_by_Patrickske.webp
 permalink: /cookies/
 redirect_from: /en/cookies/
+excerpt: This page explains, in simple terms, how this website stores small bits of data in your browser.
 ---
 
 This page explains, in simple terms, how this website stores small bits of data in your browser.
