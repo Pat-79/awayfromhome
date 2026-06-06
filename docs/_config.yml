@@ -171,6 +171,7 @@ cookie_consent:
 # ── Home landing hero ──────────────────────────────────────────────────────────
 default_post_image: /assets/images/default-hero.svg
 home_landing:
+  use_latest_post_image: true
   image: /assets/images/default-hero.svg
   hls_url: /assets/streams/home-title-v2/home-title.m3u8
   latest_posts_limit: 9999999999

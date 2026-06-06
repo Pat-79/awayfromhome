@@ -4,7 +4,6 @@ layout: home
 lang: nl
 ref: page-home
 permalink: /nl/
-image: /assets/images/pages/photos/Turtle_Bonaire_by_Patrickske.webp
 home_per_page: 3
 ---
 
