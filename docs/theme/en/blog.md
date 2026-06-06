@@ -4,8 +4,8 @@ layout: blog
 lang: en
 ref: page-blog
 image: /assets/images/pages/photos/Island_Sunset_by_Patrickske.webp
-permalink: /en/blog/
-redirect_from: /blog/
+permalink: /blog/
+redirect_from: /en/blog/
 redirect_from: /en/blogs/
 redirect_from: /blogs/
 blog_intro: ""

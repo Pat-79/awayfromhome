@@ -24,39 +24,39 @@ brand:
 navigation:
   - title: Home
     key: home
-    url: /en/
+    url: /
     url_nl: /nl/
-    url_en: /en/
+    url_en: /
   - title: About
     key: about
-    url: /en/about/
+    url: /about/
     url_nl: /nl/about/
-    url_en: /en/about/
+    url_en: /about/
   - title: Blogs
     key: blog
-    url: /en/blog/
+    url: /blog/
     url_nl: /nl/blog/
-    url_en: /en/blog/
+    url_en: /blog/
   - title: Browse
     key: browse
-    url: /en/browse/
+    url: /browse/
     url_nl: /nl/browse/
-    url_en: /en/browse/
+    url_en: /browse/
   - title: Social Media
     key: social-media
-    url: /en/social-media/
+    url: /social-media/
     url_nl: /nl/social-media/
-    url_en: /en/social-media/
+    url_en: /social-media/
   - title: Search
     key: search
-    url: /en/search/
+    url: /search/
     url_nl: /nl/search/
-    url_en: /en/search/
+    url_en: /search/
   - title: Cookies
     key: cookies
-    url: /en/cookies/
+    url: /cookies/
     url_nl: /nl/cookies/
-    url_en: /en/cookies/
+    url_en: /cookies/
   - title: Sitemap
     key: page-sitemap
     url: /sitemap/
@@ -65,9 +65,9 @@ navigation:
     hide_in_nav: true
   - title: Archive
     key: page-archive
-    url: /en/archive/
+    url: /archive/
     url_nl: /nl/archive/
-    url_en: /en/archive/
+    url_en: /archive/
     hide_in_nav: true
 
 
