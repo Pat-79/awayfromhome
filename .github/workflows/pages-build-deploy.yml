@@ -1,0 +1,117 @@
+name: Build and deploy Jekyll site
+
+on:
+  push:
+    branches: ["new-website"] # <-- edit if your default/deploy branch differs
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+env:
+  JEKYLL_ROOT: docs # subdirectory containing _config.yml ("." if at repo root)
+  RUBY_VERSION: "3.3"
+  THEME_REPO: Pat-79/jekyll-awayfromhome # source of generate-image-variants.sh
+  THEME_REF: main # pin to the same ref your remote_theme uses
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout site
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
+          working-directory: ${{ env.JEKYLL_ROOT }}
+
+      - name: Fetch the theme's image-variant script
+        # scripts/generate-image-variants.sh lives in the theme repo, not this
+        # one — remote_theme only pulls in Jekyll-recognized assets at build
+        # time, not arbitrary scripts.
+        run: |
+          mkdir -p "${{ env.JEKYLL_ROOT }}/scripts"
+          curl -fsSL \
+            "https://raw.githubusercontent.com/${{ env.THEME_REPO }}/${{ env.THEME_REF }}/scripts/generate-image-variants.sh" \
+            -o "${{ env.JEKYLL_ROOT }}/scripts/generate-image-variants.sh"
+          chmod +x "${{ env.JEKYLL_ROOT }}/scripts/generate-image-variants.sh"
+
+      - name: Confirm ImageMagick is available
+        run: magick -version
+
+      # Ephemeral by design: nothing this step produces gets committed back
+      # to the repo. Caching here is purely to avoid every build reprocessing
+      # every photo from scratch — cache is CI-only storage, not git history.
+      - name: Cache generated image variants
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ env.JEKYLL_ROOT }}/assets/images
+            ${{ env.JEKYLL_ROOT }}/_data/image-dimensions.yml
+          key: image-variants-${{ hashFiles(format('{0}/assets/images/**/*.jpg', env.JEKYLL_ROOT), format('{0}/assets/images/**/*.jpeg', env.JEKYLL_ROOT), format('{0}/assets/images/**/*.png', env.JEKYLL_ROOT), format('{0}/assets/images/**/*.webp', env.JEKYLL_ROOT), format('{0}/assets/images/**/*.gif', env.JEKYLL_ROOT), format('{0}/assets/images/**/*.avif', env.JEKYLL_ROOT)) }}
+          restore-keys: |
+            image-variants-
+
+      - name: Generate responsive image variants, dimensions, and placeholders
+        working-directory: ${{ env.JEKYLL_ROOT }}
+        run: ./scripts/generate-image-variants.sh
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        working-directory: ${{ env.JEKYLL_ROOT }}
+        run: bundle exec jekyll build --destination ../_site
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload build artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      # Optional Cloudflare Pages mirror. Reuses the exact same _site output
+      # built above — no second build, no checkout on Cloudflare's side.
+      # Skips automatically if CLOUDFLARE_ACCOUNT_ID isn't set — no YAML
+      # editing needed to opt out, just don't set the secrets/variable below.
+      #
+      # One-time setup to enable:
+      #   1. Cloudflare dashboard -> Workers & Pages -> Create -> Pages ->
+      #      "Upload assets" (NOT "Connect to Git" - that mode builds on
+      #      Cloudflare's side instead of reusing this job's output).
+      #   2. Repo secrets: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID.
+      #   3. Repo variable (Settings -> Secrets and variables -> Actions ->
+      #      Variables): CLOUDFLARE_PROJECT_NAME, matching the project name
+      #      chosen in step 1.
+      #
+      # This site's own CNAME/DNS keeps pointing at GitHub Pages — this step
+      # only publishes to Cloudflare's own <project>.pages.dev URL as a
+      # mirror, it does not touch the awayfromhome.nl domain.
+      - name: Deploy to Cloudflare Pages (mirror)
+        if: ${{ secrets.CLOUDFLARE_ACCOUNT_ID != '' }}
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ vars.CLOUDFLARE_PROJECT_NAME }}
+          directory: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
