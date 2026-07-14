@@ -304,3 +304,4 @@ comments:
 
 exclude:
   - assets/images/**/original/**
+  - vendor
